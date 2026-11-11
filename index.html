@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DaumBridge – Daum-Ergometer als Smart-Trainer</title>
-<meta name="description" content="DaumBridge macht den Daum 8008 zum Bluetooth-Smart-Trainer für Zwift, MyWhoosh, Rouvy und Co. Android-App, kostenlos.">
+<meta name="description" content="DaumBridge macht den Daum 8008 zum Bluetooth-Smart-Trainer für Zwift, MyWhoosh, Rouvy und Co. Nur Handy und Bluetooth-Adapter – kein Kabel, kein Raspberry Pi. Android-App, kostenlos.">
 <style>
   :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
   @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
@@ -26,6 +26,12 @@
   ul.f{padding-left:20px;margin:6px 0} ul.f li{margin:3px 0}
   ol{padding-left:22px} ol li{margin:4px 0}
   .flow{font-family:ui-monospace,Consolas,monospace;font-size:13px;background:var(--bg);border-radius:10px;padding:10px;overflow-x:auto;white-space:nowrap}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:12px}
+  .pills span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+  table{border-collapse:collapse;width:100%;font-size:15px}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  td.hi{color:var(--green);font-weight:600}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
   .grid a{display:block;background:var(--bg);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--text)}
   .grid a b{color:var(--green)}
@@ -36,7 +42,8 @@
 <header>
   <img src="logo.png" alt="DaumBridge by Wing-Art">
   <div class="tag">Dein Daum-Ergometer als Smart-Trainer für Zwift, MyWhoosh &amp; Co.</div>
-  <div class="sub">Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto</div>
+  <div class="pills"><span>📱 Nur Handy + Bluetooth-Adapter</span><span>🔌 Kein Kabel</span><span>🧰 Kein Raspberry Pi</span></div>
+  <div class="sub" style="margin-top:10px">Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto</div>
 </header>
 <main>
 <section class="center">
@@ -58,6 +65,20 @@
     <img src="bilder/03_drehrad.png" alt="Auswahl per Drehrad" loading="lazy">
     <img src="bilder/07_start_hell.png" alt="Startseite hell" loading="lazy">
   </div>
+</section>
+
+<section>
+  <h2>Warum DaumBridge?</h2>
+  <p>Andere Lösungen für ältere Daum-Ergometer brauchen ein <b>USB-Seriell-Kabel</b> am Handy oder einen <b>Raspberry Pi</b> mit Bastelarbeit. DaumBridge nicht – das Handy spricht <b>kabellos</b> mit dem Bluetooth-Adapter am Daum.</p>
+  <table>
+    <tr><th></th><th>DaumBridge</th><th>übliche Alternativen</th></tr>
+    <tr><td>Verbindung zum Daum</td><td class="hi">kabellos per Bluetooth-Adapter</td><td>USB-RS232-Kabel, oft mit OTG-Adapter</td></tr>
+    <tr><td>Zusätzliche Hardware</td><td class="hi">keine – nur der Adapter am Daum</td><td>Kabel, teils Raspberry Pi</td></tr>
+    <tr><td>Einrichtung</td><td class="hi">installieren, koppeln, Start</td><td>Kabel, Treiber, teils Linux</td></tr>
+    <tr><td>Handy</td><td class="hi">frei platzierbar</td><td>hängt am Kabel</td></tr>
+    <tr><td>Kosten</td><td class="hi">kostenlos</td><td>unterschiedlich</td></tr>
+  </table>
+  <p class="muted">Originaler Daum-Adapter vergriffen? Ein handelsüblicher <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/ADAPTER.md">Bluetooth-RS232-Adapter</a> tut es auch.</p>
 </section>
 
 <section>

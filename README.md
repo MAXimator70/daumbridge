@@ -2,6 +2,8 @@
 
 <p align="center"><b>Dein Daum-Ergometer als Smart-Trainer für Zwift, MyWhoosh, Rouvy &amp; Co.</b></p>
 
+<p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
+
 <p align="center">
 <b>Aktuelle Version: 0.8.0 (Build 24)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
@@ -19,6 +21,20 @@ DaumBridge läuft auf einem Android-Handy, verbindet sich über den **blauen Dau
 ```
 Daum 8008  ──(Daum-Bluetooth-Adapter)──▶  Android-Handy mit DaumBridge  ──(Bluetooth FTMS)──▶  Zwift / MyWhoosh / Apple TV / PC
 ```
+
+## Warum DaumBridge?
+
+Andere Lösungen für ältere Daum-Ergometer brauchen ein **USB-Seriell-Kabel** am Handy oder einen **Raspberry Pi** mit Bastelarbeit. DaumBridge nicht:
+
+| | DaumBridge | übliche Alternativen |
+|---|---|---|
+| Verbindung zum Daum | **kabellos per Bluetooth-Adapter** | USB-RS232-Kabel, oft mit OTG-Adapter |
+| Zusätzliche Hardware | **keine** – nur der Bluetooth-Adapter am Daum | Kabel, teils Raspberry Pi |
+| Einrichtung | App installieren, Adapter koppeln, Start | Kabel, Treiber, teils Linux-Kenntnisse |
+| Handy am Ergometer | **frei platzierbar**, z. B. am Lenker oder auf dem Tisch | hängt am Kabel |
+| Kosten | **kostenlos** | unterschiedlich |
+
+Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232-Adapter](docs/ADAPTER.md) tut es auch – weiterhin ohne Kabel zum Handy.
 
 <p align="center">
 <img src="bilder/01_start_dunkel.png" width="240" alt="Startseite dunkel">
