@@ -1,6 +1,6 @@
 {
-  "version": "0.7.1",
-  "build": 22,
+  "version": "0.7.2",
+  "build": 23,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk",
-  "notes": "- Pulszonen: Ruhepuls und Maximalpuls mittig, mit Trennlinie"
+  "notes": "- Streifen Zeit in Pulszonen immer sichtbar, fuellt sich in der ersten Stunde\n- Neue graue Zone: Puls unter Erholung"
 }

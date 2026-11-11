@@ -2,7 +2,7 @@
 
 # DaumBridge – Download (Android)
 
-**Aktuelle Version: 0.7.1 (Build 22)** – Testversion
+**Aktuelle Version: 0.7.2 (Build 23)** – Testversion
 
 Verbindet einen **Daum 8008** (über den blauen Daum-Bluetooth-Adapter) mit Zwift, MyWhoosh, Rouvy & Co.
 Das Handy wird zum Smart-Trainer – per **Bluetooth FTMS**.

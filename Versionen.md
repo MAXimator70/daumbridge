@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.7.2 (Build 23) - 11.11.2026
+- Streifen Zeit in Pulszonen immer sichtbar, fuellt sich in der ersten Stunde
+- Neue graue Zone: Puls unter Erholung
+
 ## 0.7.1 (Build 22) - 11.11.2026
 - Pulszonen: Ruhepuls und Maximalpuls mittig, mit Trennlinie
 
