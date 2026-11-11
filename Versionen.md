@@ -1,5 +1,14 @@
 # Versionen
 
+## 0.7.0 (Build 21) - 11.11.2026
+- Fahrerprofile (Geburtsdatum, Gewicht, FTP, Pulsgurt, Pulszonen)
+- Pulszonen selbst einstellbar oder automatisch berechnet
+- Puls- und Leistungskachel in Zonenfarben, Balken Zeit in Pulszonen
+- Zusammenfassung nach dem Training
+- Verbindet sich bei Abbruch selbst neu (Daum und Pulsgurt)
+- Neues Einstellungsmenue mit Drehraedern, SIM-Staerke heisst jetzt Simulatorstaerke
+- Stopp-Knopf grau
+
 ## 0.6.1 (Build 20) - 11.11.2026
 - Smart-Knopf farbig: gruen = EIN, rot = AUS
 
