@@ -1,6 +1,6 @@
 {
-  "version": "0.8.0",
-  "build": 24,
+  "version": "0.8.1",
+  "build": 25,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk",
-  "notes": "- Neue Kopfzeile ohne graue Leiste: runde Knoepfe fuer Hell/Dunkel und Menue\n- Rundes Menue mit Symbolen\n- Einstellungen und Pulszonen mit Zurueck-Knopf, neuer Bereich App (Update, Info)\n- Alle Auswahlfenster als runde Karten\n- Hinweis zur PIN: manche Adapter koppeln ohne PIN"
+  "notes": "- Entwicklername in der App durch das Pseudonym Wing-Art ersetzt"
 }

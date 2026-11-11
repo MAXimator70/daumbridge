@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.8.1 (Build 25) - 12.11.2026
+- Entwicklername in der App durch das Pseudonym Wing-Art ersetzt
+
 ## 0.8.0 (Build 24) - 11.11.2026
 - Neue Kopfzeile ohne graue Leiste: runde Knoepfe fuer Hell/Dunkel und Menue
 - Rundes Menue mit Symbolen
