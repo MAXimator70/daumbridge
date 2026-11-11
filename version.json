@@ -1,0 +1,6 @@
+{
+  "version": "0.6.0",
+  "build": 19,
+  "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk",
+  "notes": "- Umschalter Hell/Dunkel auf der Startseite\n- ANT+ entfernt (nur noch Bluetooth)"
+}
