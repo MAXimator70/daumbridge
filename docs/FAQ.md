@@ -10,6 +10,9 @@ Nein. Der blaue Daum-Adapter nutzt klassisches Bluetooth (serielle Verbindung). 
 **Welche Daum-Ergometer werden unterstützt?**
 Entwickelt und getestet mit dem **Daum 8008 TRS 3**. Andere Daum-Modelle mit demselben seriellen Protokoll können funktionieren – Rückmeldungen sind willkommen.
 
+**Der originale Daum-Bluetooth-Adapter ist vergriffen – was nun?**
+Ein handelsüblicher Bluetooth-RS232-Adapter mit **klassischem Bluetooth (SPP)** und **DB9-Stecker** funktioniert auch. Worauf es ankommt (keine BLE-Variante, 9600 Baud, Stecker, Nullmodem): [Bluetooth-Adapter](ADAPTER.md).
+
 **Kostet DaumBridge etwas?**
 Nein. Kein Abo, keine Werbung, kein Konto.
 

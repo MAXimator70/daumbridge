@@ -51,7 +51,7 @@ Daum 8008  ──(Daum-Bluetooth-Adapter)──▶  Android-Handy mit DaumBridge
 | | |
 |---|---|
 | Ergometer | Daum 8008 TRS 3 (andere Daum-Ergometer mit gleichem Protokoll können funktionieren, sind aber nicht getestet) |
-| Adapter | blauer Daum-Bluetooth-Adapter (klassisches Bluetooth, seriell) |
+| Adapter | blauer Daum-Bluetooth-Adapter – oder ein handelsüblicher Bluetooth-RS232-Adapter (klassisches Bluetooth/SPP, DB9), siehe [Adapter](docs/ADAPTER.md) |
 | Handy | Android 7 oder neuer mit Bluetooth Low Energy |
 | Trainings-App | jede App, die Bluetooth-FTMS-Trainer unterstützt: Zwift, MyWhoosh, Rouvy, TrainerRoad, Kinomap … – auf PC, Mac, Tablet oder Apple TV |
 
@@ -70,6 +70,7 @@ Ausführlich mit Pulsgurt, Fahrerprofilen und Pulszonen: **[Anleitung](docs/ANLE
 ## Dokumentation
 
 - 📖 [Anleitung](docs/ANLEITUNG.md) – Einrichtung Schritt für Schritt
+- 🔌 [Bluetooth-Adapter](docs/ADAPTER.md) – Ersatz für den vergriffenen Daum-Adapter
 - ❓ [Häufige Fragen und Fehlerbehebung](docs/FAQ.md)
 - 🔒 [Datenschutz](docs/DATENSCHUTZ.md)
 - 📝 [Alle Versionen](Versionen.md)

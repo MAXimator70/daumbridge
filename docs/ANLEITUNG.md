@@ -12,6 +12,8 @@ Spätere Versionen meldet DaumBridge selbst (oder Menü ☰ → *Nach Update suc
 
 ## 2. Daum-Adapter koppeln (einmalig)
 
+Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht auch – siehe [Bluetooth-Adapter](ADAPTER.md).
+
 1. Den Daum einschalten – der blaue Bluetooth-Adapter muss am Daum stecken.
 2. Am Handy **Android-Einstellungen → Bluetooth** öffnen (oder in DaumBridge: *Einstellungen → Geräte → Neues Gerät koppeln*).
 3. Den Adapter in der Liste antippen (meist ein Name wie `Daum_BT_…`).
