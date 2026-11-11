@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.6.1 (Build 20) - 11.11.2026
+- Smart-Knopf farbig: gruen = EIN, rot = AUS
+
 ## 0.6.0 (Build 19) - 11.11.2026
 - ANT+ entfernt, DaumBridge sendet nur noch per Bluetooth
 - Umschalter Hell/Dunkel auf der Startseite
