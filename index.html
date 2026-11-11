@@ -4,45 +4,99 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DaumBridge – Daum-Ergometer als Smart-Trainer</title>
+<meta name="description" content="DaumBridge macht den Daum 8008 zum Bluetooth-Smart-Trainer für Zwift, MyWhoosh, Rouvy und Co. Android-App, kostenlos.">
 <style>
-  :root{--bg:#f3f6f8;--card:#fff;--text:#1a2028;--muted:#5b6673;--head:#ffffff;--green:#1f9e66}
-  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--head:#ffffff;--green:#3ddc97}}
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-  header{background:var(--head);color:#1a2028;text-align:center;padding:20px 16px;border-bottom:4px solid #6cc21e}
-  header h1{margin:0;font-size:30px;letter-spacing:.5px}
-  header h1 span{color:#3ddc97}
-  main{max-width:760px;margin:0 auto;padding:16px}
-  section{background:var(--card);border-radius:14px;padding:4px 18px 12px;margin:14px 0}
-  h2{font-size:18px;margin:16px 0 4px}
+  header{text-align:center;padding:28px 16px 8px}
+  header img{width:520px;max-width:100%;background:#e6eaee;border:3px solid #3ddc97;border-radius:20px;padding:8px}
+  .tag{font-size:19px;margin:14px 0 4px}
+  .sub{color:var(--muted);font-size:14px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  section{background:var(--card);border-radius:18px;padding:6px 20px 16px;margin:16px 0}
+  h2{font-size:19px;margin:16px 0 6px}
   a{color:var(--green)}
-  .btn{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:600}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:13px 26px;border-radius:14px;font-weight:600;font-size:17px}
+  .center{text-align:center}
   .muted{color:var(--muted);font-size:14px}
-  ol{padding-left:20px}
+  .shots{display:flex;gap:12px;overflow-x:auto;padding:8px 2px 4px;scroll-snap-type:x mandatory}
+  .shots img{height:420px;max-width:none;border-radius:16px;border:1px solid var(--line);scroll-snap-align:start}
+  ul.f{padding-left:20px;margin:6px 0} ul.f li{margin:3px 0}
+  ol{padding-left:22px} ol li{margin:4px 0}
+  .flow{font-family:ui-monospace,Consolas,monospace;font-size:13px;background:var(--bg);border-radius:10px;padding:10px;overflow-x:auto;white-space:nowrap}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+  .grid a{display:block;background:var(--bg);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--text)}
+  .grid a b{color:var(--green)}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
 </style>
 </head>
 <body>
 <header>
-  <img src="logo.png" alt="DaumBridge by Wing-Art" style="width:520px;max-width:94%">
-  <div style="margin-top:8px;font-size:17px">Dein Daum 8008 als Smart-Trainer für Zwift, MyWhoosh &amp; Co.</div>
+  <img src="logo.png" alt="DaumBridge by Wing-Art">
+  <div class="tag">Dein Daum-Ergometer als Smart-Trainer für Zwift, MyWhoosh &amp; Co.</div>
+  <div class="sub">Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto</div>
 </header>
 <main>
-<section>
-  <h2>DaumBridge</h2>
-  <p>Das Android-Handy verbindet sich über den Daum-Bluetooth-Adapter mit dem Ergometer und meldet sich
-  bei der Trainings-App als Smart-Trainer – mit ERG-Modus und Steigungssimulation.
-  Übertragung per Bluetooth (FTMS).</p>
+<section class="center">
+  <p><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk">⬇ DaumBridge herunterladen</a></p>
+  <p class="muted">Version 0.8.0 – Vorabversion (Beta) · <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/Versionen.md">Alle Versionen</a></p>
 </section>
+
 <section>
-  <h2>Android</h2>
-  <p><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk">DaumBridge herunterladen</a></p>
-  <ol class="muted">
-    <li>Datei auf dem Handy öffnen und installieren (Installieren aus dem Browser erlauben).</li>
-    <li>Daum-Bluetooth-Adapter in den Android-Bluetooth-Einstellungen koppeln – PIN ist die 4-stellige Nummer des Adapters.</li>
-    <li>DaumBridge → Menü → Einstellungen → Ergometer → Adapter wählen → <b>Start</b>.</li>
+  <h2>Was ist DaumBridge?</h2>
+  <p>Ältere Daum-Ergometer wie der <b>Daum 8008 TRS 3</b> kennen Zwift und MyWhoosh nicht. DaumBridge läuft auf einem Android-Handy,
+  verbindet sich über den <b>blauen Daum-Bluetooth-Adapter</b> mit dem Ergometer und meldet sich bei der Trainings-App als
+  ganz normaler <b>Bluetooth-Smart-Trainer (FTMS)</b> – mit ERG-Modus und Steigungssimulation.</p>
+  <div class="flow">Daum 8008 → Daum-Bluetooth-Adapter → Android-Handy mit DaumBridge → Bluetooth FTMS → Zwift / MyWhoosh / Apple TV / PC</div>
+  <div class="shots">
+    <img src="bilder/01_start_dunkel.png" alt="Startseite dunkel" loading="lazy">
+    <img src="bilder/06_menue.png" alt="Menü" loading="lazy">
+    <img src="bilder/02_einstellungen.png" alt="Einstellungen" loading="lazy">
+    <img src="bilder/04_pulszonen.png" alt="Pulszonen" loading="lazy">
+    <img src="bilder/03_drehrad.png" alt="Auswahl per Drehrad" loading="lazy">
+    <img src="bilder/07_start_hell.png" alt="Startseite hell" loading="lazy">
+  </div>
+</section>
+
+<section>
+  <h2>Funktionen</h2>
+  <ul class="f">
+    <li>Smart-Trainer per Bluetooth FTMS: ERG, Steigungssimulation, Widerstand</li>
+    <li>Sendet Leistung, Trittfrequenz, Tempo und Puls</li>
+    <li>Bluetooth-Pulsgurt (z. B. Polar H9) – Puls wird weitergereicht</li>
+    <li>Fahrerprofile mit Pulszonen, Zonenfarben und Streifen „Zeit in Pulszonen“</li>
+    <li>Zusammenfassung nach dem Training</li>
+    <li>Verbindet sich selbst neu, wenn Adapter oder Gurt kurz weg sind</li>
+    <li>Hell und dunkel, Bedienung mit Drehrädern, Updates in der App</li>
+  </ul>
+</section>
+
+<section>
+  <h2>In 5 Minuten startklar</h2>
+  <ol>
+    <li><b>Installieren:</b> APK oben herunterladen, öffnen, installieren (Installieren aus dem Browser erlauben).</li>
+    <li><b>Adapter koppeln:</b> Daum einschalten, am Handy Bluetooth-Einstellungen öffnen, Daum-Adapter koppeln. Fragt Android nach einer PIN, ist es die 4-stellige Nummer auf dem Adapter – manche koppeln auch ohne.</li>
+    <li><b>In DaumBridge wählen:</b> Menü ☰ → Einstellungen → Geräte → Daum-Adapter.</li>
+    <li><b>Start</b> tippen.</li>
+    <li>In der Trainings-App den Trainer <b>„DaumBridge“</b> wählen.</li>
   </ol>
-  <p class="muted"><a href="https://github.com/MAXimator70/daumbridge-download/blob/main/Versionen.md">Alle Versionen</a></p>
+  <p class="muted">iPhone geht leider nicht: Der Daum-Adapter nutzt klassisches Bluetooth, das iPhones nicht ansprechen dürfen. Die Trainings-App darf aber auf iPhone, iPad, Apple TV, Mac oder PC laufen.</p>
 </section>
-<p class="muted">DaumBridge – privates Projekt. Testversion.</p>
+
+<section>
+  <h2>Hilfe</h2>
+  <div class="grid">
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/ANLEITUNG.md"><b>Anleitung</b><br><span class="muted">Einrichtung Schritt für Schritt</span></a>
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/FAQ.md"><b>Häufige Fragen</b><br><span class="muted">und Fehlerbehebung</span></a>
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/DATENSCHUTZ.md"><b>Datenschutz</b><br><span class="muted">Alles bleibt auf dem Handy</span></a>
+  </div>
+</section>
+
+<p class="muted">Privates Freizeitprojekt, Vorabversion – Nutzung auf eigene Gefahr. Pulszonen und Kalorien sind Schätzungen, keine medizinische Beratung.
+DaumBridge ist kein offizielles Produkt und steht in keiner Verbindung zu Daum Electronic, Zwift, MyWhoosh oder anderen genannten Firmen.</p>
 </main>
+<footer>DaumBridge by Wing-Art</footer>
 </body>
 </html>

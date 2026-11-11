@@ -1,5 +1,12 @@
 # Versionen
 
+## 0.8.0 (Build 24) - 11.11.2026
+- Neue Kopfzeile ohne graue Leiste: runde Knoepfe fuer Hell/Dunkel und Menue
+- Rundes Menue mit Symbolen
+- Einstellungen und Pulszonen mit Zurueck-Knopf, neuer Bereich App (Update, Info)
+- Alle Auswahlfenster als runde Karten
+- Hinweis zur PIN: manche Adapter koppeln ohne PIN
+
 ## 0.7.2 (Build 23) - 11.11.2026
 - Streifen Zeit in Pulszonen immer sichtbar, fuellt sich in der ersten Stunde
 - Neue graue Zone: Puls unter Erholung
