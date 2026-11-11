@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.7.1 (Build 22) - 11.11.2026
+- Pulszonen: Ruhepuls und Maximalpuls mittig, mit Trennlinie
+
 ## 0.7.0 (Build 21) - 11.11.2026
 - Fahrerprofile (Geburtsdatum, Gewicht, FTP, Pulsgurt, Pulszonen)
 - Pulszonen selbst einstellbar oder automatisch berechnet

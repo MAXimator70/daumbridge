@@ -1,6 +1,6 @@
 {
-  "version": "0.7.0",
-  "build": 21,
+  "version": "0.7.1",
+  "build": 22,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk",
-  "notes": "- Fahrerprofile (Geburtsdatum, Gewicht, FTP, Pulsgurt, Pulszonen)\n- Pulszonen selbst einstellbar oder automatisch berechnet\n- Puls- und Leistungskachel in Zonenfarben, Balken Zeit in Pulszonen\n- Zusammenfassung nach dem Training\n- Verbindet sich bei Abbruch selbst neu (Daum und Pulsgurt)\n- Neues Einstellungsmenue mit Drehraedern, SIM-Staerke heisst jetzt Simulatorstaerke\n- Stopp-Knopf grau"
+  "notes": "- Pulszonen: Ruhepuls und Maximalpuls mittig, mit Trennlinie"
 }
