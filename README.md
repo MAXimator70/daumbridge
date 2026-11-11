@@ -1,3 +1,5 @@
+<p align="center"><b>Deutsch</b> | <a href="README.en.md">English</a></p>
+
 <p align="center"><img src="logo.png" alt="DaumBridge by Wing-Art" width="520"></p>
 
 <p align="center"><b>Dein Daum-Ergometer als Smart-Trainer für Zwift, MyWhoosh, Rouvy &amp; Co.</b></p>

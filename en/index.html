@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DaumBridge – Daum ergometer as a smart trainer</title>
+<meta name="description" content="DaumBridge turns the Daum 8008 into a Bluetooth smart trainer for Zwift, MyWhoosh, Rouvy and co. Just a phone and a Bluetooth adapter – no cables, no Raspberry Pi. Free Android app.">
+<style>
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  header{text-align:center;padding:28px 16px 8px}
+  header img{width:520px;max-width:100%;background:#e6eaee;border:3px solid #3ddc97;border-radius:20px;padding:8px}
+  .tag{font-size:19px;margin:14px 0 4px}
+  .sub{color:var(--muted);font-size:14px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  section{background:var(--card);border-radius:18px;padding:6px 20px 16px;margin:16px 0}
+  h2{font-size:19px;margin:16px 0 6px}
+  a{color:var(--green)}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:13px 26px;border-radius:14px;font-weight:600;font-size:17px}
+  .center{text-align:center}
+  .muted{color:var(--muted);font-size:14px}
+  .shots{display:flex;gap:12px;overflow-x:auto;padding:8px 2px 4px;scroll-snap-type:x mandatory}
+  .shots img{height:420px;max-width:none;border-radius:16px;border:1px solid var(--line);scroll-snap-align:start}
+  ul.f{padding-left:20px;margin:6px 0} ul.f li{margin:3px 0}
+  ol{padding-left:22px} ol li{margin:4px 0}
+  .flow{font-family:ui-monospace,Consolas,monospace;font-size:13px;background:var(--bg);border-radius:10px;padding:10px;overflow-x:auto;white-space:nowrap}
+  .lang{text-align:right;max-width:880px;margin:0 auto;padding:10px 16px 0;font-size:14px}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:12px}
+  .pills span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+  table{border-collapse:collapse;width:100%;font-size:15px}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  td.hi{color:var(--green);font-weight:600}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+  .grid a{display:block;background:var(--bg);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--text)}
+  .grid a b{color:var(--green)}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<div class="lang"><a href="../">Deutsch</a> · <b>English</b></div>
+<header>
+  <img src="../logo.png" alt="DaumBridge by Wing-Art">
+  <div class="tag">Turn your Daum ergometer into a smart trainer for Zwift, MyWhoosh &amp; co.</div>
+  <div class="pills"><span>📱 Just a phone + Bluetooth adapter</span><span>🔌 No cables</span><span>🧰 No Raspberry Pi</span></div>
+  <div class="sub" style="margin-top:10px">Android 7 or newer · free · no ads · no account</div>
+</header>
+<main>
+<section class="center">
+  <p><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk">⬇ Download DaumBridge</a></p>
+  <p class="muted">Version 0.8.1 – pre-release (beta) · <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/Versionen.md">Version history</a> (German)</p>
+  <p class="muted">The app itself is in German – the <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/GUIDE.md">English guide</a> explains every menu.</p>
+</section>
+
+<section>
+  <h2>What is DaumBridge?</h2>
+  <p>Older Daum ergometers such as the <b>Daum 8008 TRS 3</b> are unknown to Zwift and MyWhoosh. DaumBridge runs on an Android phone,
+  connects to the ergometer through the <b>blue Daum Bluetooth adapter</b> (or a <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/ADAPTER.md">standard Bluetooth RS232 adapter</a>) and shows up in your training app as
+  a regular <b>Bluetooth smart trainer (FTMS)</b> – with ERG mode and slope simulation.</p>
+  <div class="flow">Daum 8008 → Daum Bluetooth adapter → Android phone with DaumBridge → Bluetooth FTMS → Zwift / MyWhoosh / Apple TV / PC</div>
+  <div class="shots">
+    <img src="../bilder/01_start_dunkel.png" alt="Main screen, dark" loading="lazy">
+    <img src="../bilder/06_menue.png" alt="Menu" loading="lazy">
+    <img src="../bilder/02_einstellungen.png" alt="Settings" loading="lazy">
+    <img src="../bilder/04_pulszonen.png" alt="Heart rate zones" loading="lazy">
+    <img src="../bilder/03_drehrad.png" alt="Scroll wheel picker" loading="lazy">
+    <img src="../bilder/07_start_hell.png" alt="Main screen, light" loading="lazy">
+  </div>
+</section>
+
+<section>
+  <h2>Why DaumBridge?</h2>
+  <p>Other solutions for older Daum ergometers need a <b>USB serial cable</b> on the phone or a <b>Raspberry Pi</b> and some tinkering. DaumBridge doesn't – the phone talks <b>wirelessly</b> to the Bluetooth adapter on the Daum.</p>
+  <table>
+    <tr><th></th><th>DaumBridge</th><th>typical alternatives</th></tr>
+    <tr><td>Connection to the Daum</td><td class="hi">wireless via Bluetooth adapter</td><td>USB-RS232 cable, often with OTG adapter</td></tr>
+    <tr><td>Extra hardware</td><td class="hi">none – just the adapter on the Daum</td><td>cable, sometimes a Raspberry Pi</td></tr>
+    <tr><td>Setup</td><td class="hi">install, pair, start</td><td>cable, drivers, sometimes Linux</td></tr>
+    <tr><td>Phone</td><td class="hi">place it anywhere</td><td>tied to the cable</td></tr>
+    <tr><td>Cost</td><td class="hi">free</td><td>varies</td></tr>
+  </table>
+  <p class="muted">Original Daum adapter sold out? A standard <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/ADAPTER.md">Bluetooth RS232 adapter</a> works too.</p>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <ul class="f">
+    <li>Smart trainer via Bluetooth FTMS: ERG, slope simulation, resistance</li>
+    <li>Sends power, cadence, speed and heart rate</li>
+    <li>Bluetooth heart rate strap (e.g. Polar H9) – heart rate is passed on</li>
+    <li>Rider profiles with heart rate zones, zone colours and a "time in zones" bar</li>
+    <li>Summary after each ride</li>
+    <li>Reconnects automatically if the adapter or strap drops out</li>
+    <li>Light and dark mode, scroll wheel input, in-app updates</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Up and running in 5 minutes</h2>
+  <ol>
+    <li><b>Install:</b> download the APK above, open it, install (allow installing from the browser).</li>
+    <li><b>Pair the adapter:</b> switch on the Daum, open the phone's Bluetooth settings, pair the Daum adapter. If Android asks for a PIN, it's the 4-digit number on the adapter – some pair without one.</li>
+    <li><b>Select it in DaumBridge:</b> menu ☰ → <i>Einstellungen</i> (Settings) → <i>Geräte</i> (Devices) → <i>Daum-Adapter</i>.</li>
+    <li>Tap <b>Start</b>.</li>
+    <li>In your training app, choose the trainer <b>"DaumBridge"</b>.</li>
+  </ol>
+  <p class="muted">iPhone is unfortunately not possible: the Daum adapter uses classic Bluetooth, which iPhones may not access. The training app itself can run on iPhone, iPad, Apple TV, Mac or PC.</p>
+</section>
+
+<section>
+  <h2>Help</h2>
+  <div class="grid">
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/GUIDE.md"><b>Guide</b><br><span class="muted">Step-by-step setup</span></a>
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/ADAPTER.md"><b>Bluetooth adapters</b><br><span class="muted">Replacing the Daum adapter</span></a>
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/FAQ.md"><b>FAQ</b><br><span class="muted">and troubleshooting</span></a>
+    <a href="https://github.com/MAXimator70/daumbridge-download/blob/main/docs/en/PRIVACY.md"><b>Privacy</b><br><span class="muted">Everything stays on your phone</span></a>
+  </div>
+</section>
+
+<p class="muted">Private hobby project, pre-release – use at your own risk. Heart rate zones and calories are estimates, not medical advice.
+DaumBridge is not an official product and is not affiliated with Daum Electronic, Zwift, MyWhoosh or any other company mentioned.</p>
+</main>
+<footer>DaumBridge by Wing-Art</footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # DaumBridge – Bluetooth-Adapter
 
-[← Zurück zur Übersicht](../README.md)
+**Deutsch** | [English](en/ADAPTER.md) · [← Zurück zur Übersicht](../README.md)
 
 DaumBridge braucht am Daum einen **Bluetooth-Seriell-Adapter**. Der originale blaue Daum-Bluetooth-Adapter ist kaum noch zu bekommen – zum Glück funktioniert auch ein gewöhnlicher **Bluetooth-RS232-Adapter**, wie es ihn für wenig Geld im Elektronikhandel gibt.
 
