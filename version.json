@@ -1,6 +1,6 @@
 {
-  "version": "0.8.1",
-  "build": 25,
+  "version": "0.9.0",
+  "build": 26,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk",
-  "notes": "- Entwicklername in der App durch das Pseudonym Wing-Art ersetzt"
+  "notes": "- Logo antippen: dreht sich wie ein Schild und zeigt ein Diagramm (Leistung, Kadenz, Puls)\n- Diagramm mit dem Finger zurueckblaettern, Doppeltipp springt wieder auf live\n- Beim Start wird automatisch das Diagramm gezeigt"
 }

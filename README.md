@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.8.1 (Build 25)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.0 (Build 26)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
@@ -52,6 +52,7 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 - **Fahrerprofile** – Geburtsdatum, Gewicht, FTP, Pulsgurt und Pulszonen pro Person
 - **Pulszonen** – automatisch aus dem Maximalpuls berechnet oder selbst eingestellt
 - **Zonenfarben** – Puls- und Leistungskachel färben sich nach Zone, ein Streifen zeigt die Zeit in den Pulszonen
+- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live
 - **Zusammenfassung** nach dem Training (Dauer, Strecke, Leistung, Normalized Power, kJ, Puls, Zonen)
 - **Verbindet sich selbst neu**, wenn der Daum-Adapter oder der Pulsgurt kurz weg ist
 - **Simulatorstärke** – Steigungen auf Wunsch abschwächen

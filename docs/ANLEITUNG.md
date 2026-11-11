@@ -24,7 +24,8 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 
 1. Auf der Startseite **Start** tippen. Der Chip **Daum** oben wird grün, sobald die Verbindung steht.
 2. Der Chip **BT** wird grün, sobald DaumBridge sendet; die Zahl daneben zeigt, wie viele Apps verbunden sind.
-3. Fertig? **Stopp** tippen – danach erscheint die Zusammenfassung.
+3. Beim Start dreht sich das Logo automatisch um und zeigt das **Diagramm** (Leistung, Kadenz, Puls der letzten 10 Minuten). Mit dem Finger nach rechts wischen blättert zurück, **Doppeltipp** springt wieder auf live, einfaches Antippen dreht zurück zum Logo.
+4. Fertig? **Stopp** tippen – danach erscheint die Zusammenfassung.
 
 Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** orange und DaumBridge verbindet sich selbst neu.
 
