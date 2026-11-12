@@ -7,11 +7,11 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.0 (Build 26)</b> – pre-release (beta)<br>
+<b>Current version: 0.9.1 (Build 27)</b> – pre-release (beta)<br>
 Android 7 or newer · free · no ads · no account
 </p>
 
-<p align="center"><a href="https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk"><b>⬇ Download DaumBridge</b></a></p>
+<p align="center"><a href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk"><b>⬇ Download DaumBridge</b></a></p>
 
 > **Note:** The app itself is currently in **German**. This documentation explains every step in English and gives the German menu names in *italics* (with translation).
 
@@ -80,7 +80,7 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 
 ## Up and running in 5 minutes
 
-1. **Install:** On your phone, [download DaumBridge.apk](https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk), open it and install. Android asks once whether your browser may install apps – allow it.
+1. **Install:** On your phone, [download DaumBridge.apk](https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk), open it and install. Android asks once whether your browser may install apps – allow it.
 2. **Pair the adapter:** Switch on the Daum, open *Settings → Bluetooth* on the phone and pair the Daum adapter. If Android asks for a PIN, it's the 4-digit number printed on the adapter – some adapters pair without a PIN.
 3. **Select it in DaumBridge:** menu ☰ → *Einstellungen* (Settings) → *Geräte* (Devices) → *Daum-Adapter*.
 4. Tap **Start**.

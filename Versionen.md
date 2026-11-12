@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.1 (Build 27) - 12.11.2026
+- Neue Download-Adresse: github.com/MAXimator70/daumbridge (Update-Pruefung angepasst)
+
 ## 0.9.0 (Build 26) - 12.11.2026
 - Logo antippen: dreht sich wie ein Schild und zeigt ein Diagramm (Leistung, Kadenz, Puls)
 - Diagramm mit dem Finger zurueckblaettern, Doppeltipp springt wieder auf live

@@ -6,7 +6,7 @@ The app is in German. German menu names are shown in *italics* with the English 
 
 ## 1. Install
 
-1. On your Android phone, [download DaumBridge.apk](https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk) (or from [Releases](https://github.com/MAXimator70/daumbridge-download/releases)).
+1. On your Android phone, [download DaumBridge.apk](https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk) (or from [Releases](https://github.com/MAXimator70/daumbridge/releases)).
 2. Open the file. The first time, Android asks whether your browser (or file manager) may install apps → **allow**, go back, **Install**.
 3. On first start, DaumBridge asks for **Bluetooth** ("Nearby devices") and **notifications** → allow both. Nothing works without Bluetooth; the notification shows that a ride is running.
 

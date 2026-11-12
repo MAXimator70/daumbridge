@@ -4,7 +4,7 @@
 
 ## 1. Installieren
 
-1. Auf dem Android-Handy [DaumBridge.apk herunterladen](https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk) (oder unter [Releases](https://github.com/MAXimator70/daumbridge-download/releases)).
+1. Auf dem Android-Handy [DaumBridge.apk herunterladen](https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk) (oder unter [Releases](https://github.com/MAXimator70/daumbridge/releases)).
 2. Die Datei öffnen. Beim ersten Mal fragt Android, ob der Browser (oder Dateimanager) Apps installieren darf → **erlauben**, zurück, **Installieren**.
 3. Beim ersten Start fragt DaumBridge nach **Bluetooth** („Geräte in der Nähe“) und **Benachrichtigungen** → beides erlauben. Ohne Bluetooth geht nichts; die Benachrichtigung zeigt, dass ein Training läuft.
 
