@@ -1,4 +1,4 @@
-<p align="center"><a href="README.md">Deutsch</a> | <b>English</b></p>
+<p align="right"><a href="README.md"><b>🇩🇪 Deutsche Version</b></a></p>
 
 <p align="center"><img src="logo.png" alt="DaumBridge by Wing-Art" width="520"></p>
 

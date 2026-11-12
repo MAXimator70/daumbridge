@@ -1,6 +1,6 @@
 # DaumBridge – FAQ and troubleshooting
 
-[Deutsch](../FAQ.md) | **English** · [← Back to overview](../../README.en.md)
+🇩🇪 **[Deutsche Version](../FAQ.md)** · [← Back to overview](../../README.en.md)
 
 ## General
 

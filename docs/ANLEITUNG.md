@@ -1,6 +1,6 @@
 # DaumBridge – Anleitung
 
-**Deutsch** | [English](en/GUIDE.md) · [← Zurück zur Übersicht](../README.md)
+🇬🇧 **[English version](en/GUIDE.md)** · [← Zurück zur Übersicht](../README.md)
 
 ## 1. Installieren
 

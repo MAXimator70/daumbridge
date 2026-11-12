@@ -1,6 +1,6 @@
 # DaumBridge – Häufige Fragen und Fehlerbehebung
 
-**Deutsch** | [English](en/FAQ.md) · [← Zurück zur Übersicht](../README.md)
+🇬🇧 **[English version](en/FAQ.md)** · [← Zurück zur Übersicht](../README.md)
 
 ## Allgemein
 

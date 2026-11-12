@@ -1,6 +1,6 @@
 # DaumBridge – Guide
 
-[Deutsch](../ANLEITUNG.md) | **English** · [← Back to overview](../../README.en.md)
+🇩🇪 **[Deutsche Version](../ANLEITUNG.md)** · [← Back to overview](../../README.en.md)
 
 The app is in German. German menu names are shown in *italics* with the English meaning in brackets.
 

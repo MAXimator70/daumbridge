@@ -1,6 +1,6 @@
 # DaumBridge – Privacy
 
-[Deutsch](../DATENSCHUTZ.md) | **English** · [← Back to overview](../../README.en.md)
+🇩🇪 **[Deutsche Version](../DATENSCHUTZ.md)** · [← Back to overview](../../README.en.md)
 
 **In short:** DaumBridge stores everything on your phone only and doesn't send personal data anywhere.
 

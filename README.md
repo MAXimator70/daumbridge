@@ -1,4 +1,4 @@
-<p align="center"><b>Deutsch</b> | <a href="README.en.md">English</a></p>
+<p align="right"><a href="README.en.md"><b>🇬🇧 English version</b></a></p>
 
 <p align="center"><img src="logo.png" alt="DaumBridge by Wing-Art" width="520"></p>
 
@@ -12,6 +12,8 @@ Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
 <p align="center"><a href="https://raw.githubusercontent.com/MAXimator70/daumbridge-download/main/DaumBridge.apk"><b>⬇ DaumBridge herunterladen</b></a></p>
+
+<p align="center">🇬🇧 <b>English?</b> → <a href="README.en.md"><b>English version</b></a> · <a href="docs/en/GUIDE.md">English guide</a></p>
 
 ---
 
