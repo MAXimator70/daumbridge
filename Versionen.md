@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.9.4 (Build 30) - 13.11.2026
+- Neu: Training teilen als FIT-Datei - Knopf in der Zusammenfassung oeffnet das Teilen-Menue (Telegram, Google Drive, Dropbox, Synology, MaxUp ...); die Zusammenfassung bleibt dabei offen
+- Neu: Menue > Trainings - alle Trainings ab 30 s bleiben auf dem Handy gespeichert und lassen sich jederzeit teilen oder loeschen
+
 ## 0.9.3 (Build 29) - 13.11.2026
 - Neu: Pulsgurt suchen – findet Gurte direkt, ohne Kopplung in den Android-Einstellungen (viele Gurte lehnen die Kopplung ab)
 - Nicht gekoppelte Gurte werden beim Start automatisch gesucht und verbunden

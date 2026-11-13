@@ -28,6 +28,9 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 2. The **BT** chip turns green once DaumBridge is broadcasting; the number next to it shows how many apps are connected.
 3. On start, the logo flips over automatically and shows the **chart** (power, cadence, heart rate of the last 10 minutes). Swipe right to scroll back, **double-tap** to jump back to live, single tap flips back to the logo.
 4. Done? Tap **Stopp** (stop) – the summary appears.
+5. **Training teilen (FIT)** (share ride) opens the share menu: Telegram, Google Drive, Dropbox, Synology Drive, e-mail, MaxUp … The summary stays open – closed the share menu by accident? Just tap again.
+
+Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 
 If the connection to the Daum drops (adapter switched off, out of range), the chip turns orange (**Daum …**) and DaumBridge reconnects by itself.
 

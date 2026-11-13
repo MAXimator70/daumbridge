@@ -26,6 +26,9 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 2. Der Chip **BT** wird grün, sobald DaumBridge sendet; die Zahl daneben zeigt, wie viele Apps verbunden sind.
 3. Beim Start dreht sich das Logo automatisch um und zeigt das **Diagramm** (Leistung, Kadenz, Puls der letzten 10 Minuten). Mit dem Finger nach rechts wischen blättert zurück, **Doppeltipp** springt wieder auf live, einfaches Antippen dreht zurück zum Logo.
 4. Fertig? **Stopp** tippen – danach erscheint die Zusammenfassung.
+5. **Training teilen (FIT)** öffnet das Teilen-Menü: Telegram, Google Drive, Dropbox, Synology Drive, Mail, MaxUp … Die Zusammenfassung bleibt offen – versehentlich geschlossen? Einfach nochmal tippen.
+
+Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
 
 Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** orange und DaumBridge verbindet sich selbst neu.
 

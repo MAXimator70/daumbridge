@@ -1,6 +1,6 @@
 {
-  "version": "0.9.3",
-  "build": 29,
+  "version": "0.9.4",
+  "build": 30,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Pulsgurt suchen: findet Gurte auch ohne Kopplung in Android (wenn Android 'Kopplung abgelehnt' meldet)"
+  "notes": "- Training teilen als FIT-Datei (Telegram, Google Drive, Dropbox, Synology, MaxUp ...)\n- Alle Trainings bleiben gespeichert: Menue > Trainings\n- Pulsgurt suchen ohne Kopplung (seit 0.9.3)"
 }

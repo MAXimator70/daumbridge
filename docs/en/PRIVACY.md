@@ -12,7 +12,7 @@ Only on the phone, in the app settings:
 - the selected Bluetooth devices (Daum adapter, heart rate strap)
 - other app settings
 
-Ride data (power, heart rate etc.) is only kept in memory during the ride and is not stored permanently. The log is also kept in memory only.
+Every ride of 30 seconds or more is saved as a FIT file (time, power, cadence, speed, distance, heart rate) in the app's private storage when you stop – so you can share it later. Other apps can't access it. Delete single rides under menu ☰ → *Trainings*. The log is kept in memory only.
 
 Uninstalling the app deletes everything.
 
@@ -20,7 +20,7 @@ Uninstalling the app deletes everything.
 
 - **Via Bluetooth to your training app:** power, cadence, speed, heart rate – that's the purpose of the app. The training app may send your weight; DaumBridge only uses it for its calculations.
 - **Update check:** On start, DaumBridge requests the file `version.json` from GitHub to find new versions. Like any web request, GitHub sees your IP address. No data about you is sent.
-- **Log and crash reports** only leave the phone if you send them yourself via *Teilen* (share).
+- **Rides, log and crash reports** only leave the phone if you send them yourself via *Teilen* (share).
 
 No ads, no analytics or tracking services, no account.
 

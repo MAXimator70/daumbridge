@@ -12,7 +12,7 @@ Nur auf dem Handy, in den App-Einstellungen:
 - die gewählten Bluetooth-Geräte (Daum-Adapter, Pulsgurt)
 - weitere Einstellungen der App
 
-Trainingswerte (Leistung, Puls usw.) werden nur während des Trainings im Arbeitsspeicher gehalten und nicht dauerhaft gespeichert. Das Protokoll liegt ebenfalls nur im Arbeitsspeicher.
+Jedes Training ab 30 Sekunden wird beim Stopp als FIT-Datei (Zeit, Leistung, Trittfrequenz, Tempo, Strecke, Puls) im App-Speicher abgelegt – damit du es später teilen kannst. Andere Apps haben darauf keinen Zugriff. Einzelne Trainings löschst du unter Menü ☰ → *Trainings*. Das Protokoll liegt nur im Arbeitsspeicher.
 
 Beim Deinstallieren der App wird alles gelöscht.
 
@@ -20,7 +20,7 @@ Beim Deinstallieren der App wird alles gelöscht.
 
 - **Per Bluetooth an deine Trainings-App:** Leistung, Trittfrequenz, Tempo, Puls – das ist der Zweck der App. Die Trainings-App kann das Gewicht senden; DaumBridge nutzt es nur für die Berechnung.
 - **Update-Prüfung:** Beim Start fragt DaumBridge bei GitHub die Datei `version.json` ab, um neue Versionen zu finden. Dabei sieht GitHub wie bei jedem Webseitenaufruf die IP-Adresse. Es werden keine Daten über dich mitgeschickt.
-- **Protokoll und Absturzberichte** verlassen das Handy nur, wenn du sie selbst über *Teilen* verschickst.
+- **Trainings, Protokoll und Absturzberichte** verlassen das Handy nur, wenn du sie selbst über *Teilen* verschickst.
 
 Keine Werbung, keine Analyse- oder Tracking-Dienste, kein Konto.
 

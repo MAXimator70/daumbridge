@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.9.3 (Build 29)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.4 (Build 30)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
@@ -56,6 +56,7 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 - **Zonenfarben** – Puls- und Leistungskachel färben sich nach Zone, ein Streifen zeigt die Zeit in den Pulszonen
 - **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live
 - **Zusammenfassung** nach dem Training (Dauer, Strecke, Leistung, Normalized Power, kJ, Puls, Zonen)
+- **Training teilen als FIT-Datei** – an Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …; alle Trainings bleiben auf dem Handy gespeichert (Menü ☰ → Trainings)
 - **Verbindet sich selbst neu**, wenn der Daum-Adapter oder der Pulsgurt kurz weg ist
 - **Simulatorstärke** – Steigungen auf Wunsch abschwächen
 - **Hell und dunkel**, Bedienung mit Drehrädern statt Tastatur
