@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.9.3 (Build 29) - 13.11.2026
+- Neu: Pulsgurt suchen – findet Gurte direkt, ohne Kopplung in den Android-Einstellungen (viele Gurte lehnen die Kopplung ab)
+- Nicht gekoppelte Gurte werden beim Start automatisch gesucht und verbunden
+
 ## 0.9.1 (Build 27) - 12.11.2026
 - Neue Download-Adresse: github.com/MAXimator70/daumbridge (Update-Pruefung angepasst)
 

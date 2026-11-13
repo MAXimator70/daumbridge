@@ -50,10 +50,13 @@ Ja, aber nur während des Trainings – Android meldet den Trainer unter dem Nam
 **DaumBridge zeigt einen viel zu hohen Puls an.**
 Der Pulsempfänger im Daum ist oft ungenau. Mit einem Bluetooth-Pulsgurt (*Einstellungen → Geräte → Pulsgurt*) nimmt DaumBridge nur noch den Wert vom Gurt.
 
+**Android meldet beim Koppeln des Pulsgurts „Kopplung abgelehnt“.**
+Das ist normal – viele Gurte lassen sich nicht koppeln. Stattdessen in DaumBridge *Pulsgurt suchen* verwenden.
+
 **Der Pulsgurt verbindet sich nicht.**
 - Gurt anlegen und Kontakte befeuchten – ohne Hautkontakt sendet er nicht.
 - Viele Gurte (z. B. Polar H9) erlauben nur **eine** Verbindung. Ist er mit Laptop, Uhr oder Trainings-App verbunden, dort trennen.
-- Erst in den Android-Bluetooth-Einstellungen koppeln, dann in DaumBridge wählen.
+- In DaumBridge unter *Einstellungen → Geräte → Pulsgurt* auf **Pulsgurt suchen** tippen – Koppeln in Android ist nicht nötig.
 - Kommen 20 Sekunden keine Werte, verbindet sich DaumBridge selbst neu.
 
 **Der Streifen „Zeit in Pulszonen“ bleibt leer.**

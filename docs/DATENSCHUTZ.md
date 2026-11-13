@@ -29,6 +29,7 @@ Keine Werbung, keine Analyse- oder Tracking-Dienste, kein Konto.
 | Berechtigung | Wofür |
 |---|---|
 | Bluetooth (Geräte in der Nähe) | Verbindung zum Daum-Adapter und Pulsgurt, Senden an die Trainings-App |
+| Standort (nur bis Android 11) | Android verlangt ihn für die Suche nach dem Pulsgurt. DaumBridge liest den Standort nie aus. |
 | Benachrichtigungen | Anzeige „Training läuft“, damit Android die App nicht beendet |
 | Vordergrunddienst, Wach halten | Training läuft weiter, auch wenn der Bildschirm aus ist |
 | Internet | nur für die Update-Prüfung und den Download neuer Versionen |

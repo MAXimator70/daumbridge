@@ -50,10 +50,13 @@ Yes, but only during a ride – Android advertises the trainer under the phone's
 **DaumBridge shows a far too high heart rate.**
 The Daum's built-in heart rate receiver is often inaccurate. With a Bluetooth heart rate strap (*Einstellungen → Geräte → Pulsgurt*) DaumBridge only uses the strap's value.
 
+**Android says "pairing rejected" for the heart rate strap.**
+That's normal – many straps can't be paired. Use *Pulsgurt suchen* (search strap) in DaumBridge instead.
+
 **The heart rate strap doesn't connect.**
 - Put on the strap and moisten the contacts – without skin contact it doesn't send.
 - Many straps (e.g. Polar H9) allow only **one** connection. If it's connected to a laptop, watch or training app, disconnect it there.
-- Pair it in the Android Bluetooth settings first, then select it in DaumBridge.
+- In DaumBridge go to *Einstellungen → Geräte → Pulsgurt* and tap **Pulsgurt suchen** (search strap) – pairing in Android is not needed.
 - If no values arrive for 20 seconds, DaumBridge reconnects by itself.
 
 **The "Zeit in Pulszonen" bar stays empty.**

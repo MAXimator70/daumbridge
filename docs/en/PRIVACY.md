@@ -29,6 +29,7 @@ No ads, no analytics or tracking services, no account.
 | Permission | What for |
 |---|---|
 | Bluetooth (nearby devices) | connection to the Daum adapter and heart rate strap, broadcasting to the training app |
+| Location (Android 11 and older only) | required by Android to search for the heart rate strap. DaumBridge never reads your location. |
 | Notifications | "ride running" notification so Android doesn't stop the app |
 | Foreground service, wake lock | the ride keeps running when the screen is off |
 | Internet | only for the update check and downloading new versions |

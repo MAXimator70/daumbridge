@@ -52,8 +52,9 @@ If the heart rate comes through DaumBridge, also choose **DaumBridge** as **Hear
 DaumBridge can connect to a Bluetooth heart rate strap itself, show your heart rate and pass it on to the training app. This is more accurate than the Daum's built-in receiver.
 
 1. Put on the strap (moisten the contacts) so it starts sending.
-2. Pair it in the Android Bluetooth settings.
-3. DaumBridge → *Einstellungen → Geräte → Pulsgurt* [heart rate strap] → select the strap.
+2. DaumBridge → *Einstellungen → Geräte → Pulsgurt* [heart rate strap] → **Pulsgurt suchen** [search strap] → tap the strap.
+
+Pairing in the Android settings is not needed – many straps even refuse it ("pairing rejected"). Up to Android 11, Android asks once for **location** permission for the search and location must be switched on; DaumBridge doesn't use it.
 
 Important: many straps (e.g. **Polar H9**) allow only **one** Bluetooth connection. If the strap is already connected to a laptop, watch or the training app, DaumBridge gets no data. Disconnect it there.
 

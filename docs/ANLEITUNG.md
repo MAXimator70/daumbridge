@@ -50,8 +50,9 @@ Kommt der Puls über DaumBridge, in der Trainings-App bei **Herzfrequenz** ebenf
 DaumBridge kann sich selbst mit einem Bluetooth-Pulsgurt verbinden, den Puls anzeigen und an die Trainings-App weitergeben. Das ist genauer als der Pulsempfänger im Daum.
 
 1. Den Gurt anlegen (Kontakte leicht befeuchten), damit er sendet.
-2. In den Android-Bluetooth-Einstellungen koppeln.
-3. DaumBridge → *Einstellungen → Geräte → Pulsgurt* → Gurt wählen.
+2. DaumBridge → *Einstellungen → Geräte → Pulsgurt* → **Pulsgurt suchen** → Gurt antippen.
+
+Koppeln in den Android-Einstellungen ist nicht nötig – viele Gurte lehnen das sogar ab („Kopplung abgelehnt“). Bis Android 11 fragt Android für die Suche einmal nach dem **Standort** und der Standort muss eingeschaltet sein; DaumBridge nutzt ihn nicht.
 
 Wichtig: Viele Gurte (z. B. **Polar H9**) erlauben nur **eine** Bluetooth-Verbindung. Ist der Gurt schon mit dem Laptop, der Uhr oder der Trainings-App verbunden, bekommt DaumBridge keine Werte. Dort also trennen.
 

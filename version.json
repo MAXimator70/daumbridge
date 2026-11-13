@@ -1,6 +1,6 @@
 {
-  "version": "0.9.1",
-  "build": 27,
+  "version": "0.9.3",
+  "build": 29,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Neue Download-Adresse: github.com/MAXimator70/daumbridge\n- Logo antippen: Diagramm mit Leistung, Kadenz und Puls (seit 0.9.0)"
+  "notes": "- Pulsgurt suchen: findet Gurte auch ohne Kopplung in Android (wenn Android 'Kopplung abgelehnt' meldet)"
 }

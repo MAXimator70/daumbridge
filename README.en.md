@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.1 (Build 27)</b> – pre-release (beta)<br>
+<b>Current version: 0.9.3 (Build 29)</b> – pre-release (beta)<br>
 Android 7 or newer · free · no ads · no account
 </p>
 
