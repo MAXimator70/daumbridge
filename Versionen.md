@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.9 (Build 35) - 13.11.2026
+- Chips Puls und Daum: gruen = verbunden, gelb = Verbindung wird gesucht bzw. aufgebaut
+- Herz neben bpm: gelb beim Suchen, rot und schlaegt im Takt des Pulses, sobald Werte kommen
+- Ueberschrift PULS neutral statt rot
+
 ## 0.9.8 (Build 34) - 13.11.2026
 - Update-Suche und Update-Download funktionieren jetzt auch auf Android 7.0 (z. B. Galaxy S6): die App kennt die Let's-Encrypt-Stammzertifizierung, die GitHub verwendet
 

@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.9.8 (Build 34)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.9 (Build 35)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 

@@ -30,7 +30,7 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 
 Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
 
-Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** orange und DaumBridge verbindet sich selbst neu.
+Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** gelb und DaumBridge verbindet sich selbst neu.
 
 ## 4. Mit der Trainings-App verbinden
 
@@ -57,7 +57,7 @@ DaumBridge kann sich selbst mit einem Bluetooth-Pulsgurt verbinden, den Puls anz
 
 Koppeln in den Android-Einstellungen ist nicht nötig – viele Gurte lehnen das sogar ab („Kopplung abgelehnt“). Bis Android 11 fragt Android für die Suche einmal nach dem **Standort** und der Standort muss eingeschaltet sein; DaumBridge nutzt ihn nicht.
 
-Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht schon **vor dem Start** in der Kachel. Das **♥** neben „bpm“ ist **grün**, wenn Werte vom Gurt kommen, **orange**, solange noch keine kommen. Auch der Chip **Puls** oben wird grün. Ist die App im Hintergrund und läuft kein Training, trennt sie den Gurt nach 20 Sekunden wieder.
+Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht schon **vor dem Start** in der Kachel. Der Chip **Puls** oben ist **grün**, wenn Werte vom Gurt kommen, und **gelb**, solange der Gurt gesucht wird. Das **♥** neben „bpm“ ist dann gelb bzw. **rot und schlägt im Takt deines Pulses**. Ist die App im Hintergrund und läuft kein Training, trennt sie den Gurt nach 20 Sekunden wieder.
 
 Offensichtliche Messfehler (z. B. 199 bpm im Sitzen bei schlechtem Hautkontakt oder sprunghafte Ausreißer) filtert DaumBridge heraus. Springt der Puls trotzdem stark: Elektroden anfeuchten, Gurt enger stellen, Batterie prüfen.
 

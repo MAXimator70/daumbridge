@@ -1,6 +1,6 @@
 {
-  "version": "0.9.8",
-  "build": 34,
+  "version": "0.9.9",
+  "build": 35,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Update-Suche und Download funktionieren jetzt auch auf Android 7.0 (z. B. Galaxy S6)\n- Puls vor dem Start, Puls-Filter, Profil-Seite (seit 0.9.7)"
+  "notes": "- Chips Puls und Daum: gruen = verbunden, gelb = Verbindung wird gesucht\n- Herz in der Puls-Kachel schlaegt rot im Takt des Pulses\n- Update-Suche auf Android 7.0 (seit 0.9.8)"
 }

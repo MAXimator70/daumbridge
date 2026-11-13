@@ -32,7 +32,7 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 
 Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 
-If the connection to the Daum drops (adapter switched off, out of range), the chip turns orange (**Daum …**) and DaumBridge reconnects by itself.
+If the connection to the Daum drops (adapter switched off, out of range), the chip turns yellow (**Daum …**) and DaumBridge reconnects by itself.
 
 ## 4. Connect your training app
 
@@ -59,7 +59,7 @@ DaumBridge can connect to a Bluetooth heart rate strap itself, show your heart r
 
 Pairing in the Android settings is not needed – many straps even refuse it ("pairing rejected"). Up to Android 11, Android asks once for **location** permission for the search and location must be switched on; DaumBridge doesn't use it.
 
-As soon as the app is open it connects to the strap – the heart rate shows **before you start**. The **♥** next to "bpm" is **green** when values arrive from the strap, **orange** while none arrive yet. The **Puls** chip at the top turns green too. If the app is in the background and no ride is running, it disconnects the strap after 20 seconds.
+As soon as the app is open it connects to the strap – the heart rate shows **before you start**. The **Puls** chip at the top is **green** when values arrive from the strap and **yellow** while the strap is being searched. The **♥** next to "bpm" is yellow then, or **red and beating in time with your heart rate**. If the app is in the background and no ride is running, it disconnects the strap after 20 seconds.
 
 DaumBridge filters obvious measuring errors (e.g. 199 bpm while sitting due to poor skin contact, or sudden spikes). If the heart rate still jumps a lot: moisten the electrodes, tighten the strap, check the battery.
 
