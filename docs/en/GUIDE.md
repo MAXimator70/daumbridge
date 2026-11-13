@@ -25,7 +25,7 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 ## 3. Start a ride
 
 1. Tap **Start** on the main screen. The **Daum** chip at the top turns green once the connection is up.
-2. The **BT** chip turns green once DaumBridge is broadcasting; the number next to it shows how many apps are connected.
+2. The **BT** chip turns green once DaumBridge is broadcasting; the number next to it shows how many apps are connected. Tapping any chip (Daum, BT, Puls) shows all connections at a glance.
 3. On start, the logo flips over automatically and shows the **chart** (power, cadence, heart rate of the last 10 minutes). Swipe right to scroll back, **double-tap** to jump back to live, single tap flips back to the logo.
 4. Done? Tap **Stopp** (stop) – the summary appears.
 5. **Training teilen (FIT)** (share ride) opens the share menu: Telegram, Google Drive, Dropbox, Synology Drive, e-mail, MaxUp … The summary stays open – closed the share menu by accident? Just tap again.

@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.10 (Build 36) - 13.11.2026
+- Menue: Eintrag Verbindungen entfernt - das Fenster oeffnet sich per Tipp auf die Chips Daum, BT oder Puls
+
 ## 0.9.9 (Build 35) - 13.11.2026
 - Chips Puls und Daum: gruen = verbunden, gelb = Verbindung wird gesucht bzw. aufgebaut
 - Herz neben bpm: gelb beim Suchen, rot und schlaegt im Takt des Pulses, sobald Werte kommen

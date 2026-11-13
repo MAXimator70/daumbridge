@@ -1,6 +1,6 @@
 {
-  "version": "0.9.9",
-  "build": 35,
+  "version": "0.9.10",
+  "build": 36,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Chips Puls und Daum: gruen = verbunden, gelb = Verbindung wird gesucht\n- Herz in der Puls-Kachel schlaegt rot im Takt des Pulses\n- Update-Suche auf Android 7.0 (seit 0.9.8)"
+  "notes": "- Menue aufgeraeumt: Verbindungen gibt es per Tipp auf die Chips oben\n- Chips gruen/gelb, Herz schlaegt im Pulstakt (seit 0.9.9)"
 }
