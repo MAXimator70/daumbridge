@@ -7,8 +7,8 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.2 (Build 28)</b> – pre-release (beta)<br>
-Android 5 or newer · free · no ads · no account
+<b>Current version: 0.9.1 (Build 27)</b> – pre-release (beta)<br>
+Android 7 or newer · free · no ads · no account
 </p>
 
 <p align="center"><a href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk"><b>⬇ Download DaumBridge</b></a></p>
@@ -73,7 +73,7 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 |---|---|
 | Ergometer | Daum 8008 TRS 3 (other Daum ergometers with the same protocol may work but are untested) |
 | Adapter | blue Daum Bluetooth adapter – or a standard Bluetooth RS232 adapter (classic Bluetooth/SPP, DB9), see [Adapters](docs/en/ADAPTER.md) |
-| Phone | Android 5 or newer with Bluetooth Low Energy |
+| Phone | Android 7 or newer with Bluetooth Low Energy |
 | Training app | any app that supports Bluetooth FTMS trainers: Zwift, MyWhoosh, Rouvy, TrainerRoad, Kinomap … – on PC, Mac, tablet or Apple TV |
 
 > **iPhone:** unfortunately not possible. The Daum adapter uses classic Bluetooth, which iPhones may only access for Apple-certified (MFi) devices. More in the [FAQ](docs/en/FAQ.md).
