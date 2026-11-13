@@ -1,6 +1,6 @@
 {
-  "version": "0.9.4",
-  "build": 30,
+  "version": "0.9.5",
+  "build": 31,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Training teilen als FIT-Datei (Telegram, Google Drive, Dropbox, Synology, MaxUp ...)\n- Alle Trainings bleiben gespeichert: Menue > Trainings\n- Pulsgurt suchen ohne Kopplung (seit 0.9.3)"
+  "notes": "- Trainings: Haken fuer bereits geteilte Trainings (mit Ziel-App)\n- Aufraeumen: aelter als 3 Monate / 1 Jahr / alle geteilten / alle loeschen\n- Training teilen als FIT-Datei (seit 0.9.4)"
 }

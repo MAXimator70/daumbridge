@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.9.5 (Build 31) - 13.11.2026
+- Trainings-Liste: Haken bei bereits geteilten Trainings, mit der App, an die geteilt wurde
+- Neu: Aufraeumen - aelter als 3 Monate, aelter als 1 Jahr, alle bereits geteilten oder alle loeschen (mit Rueckfrage und Anzahl)
+
 ## 0.9.4 (Build 30) - 13.11.2026
 - Neu: Training teilen als FIT-Datei - Knopf in der Zusammenfassung oeffnet das Teilen-Menue (Telegram, Google Drive, Dropbox, Synology, MaxUp ...); die Zusammenfassung bleibt dabei offen
 - Neu: Menue > Trainings - alle Trainings ab 30 s bleiben auf dem Handy gespeichert und lassen sich jederzeit teilen oder loeschen

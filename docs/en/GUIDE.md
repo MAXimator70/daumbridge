@@ -30,7 +30,7 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 4. Done? Tap **Stopp** (stop) – the summary appears.
 5. **Training teilen (FIT)** (share ride) opens the share menu: Telegram, Google Drive, Dropbox, Synology Drive, e-mail, MaxUp … The summary stays open – closed the share menu by accident? Just tap again.
 
-Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
+Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 
 If the connection to the Daum drops (adapter switched off, out of range), the chip turns orange (**Daum …**) and DaumBridge reconnects by itself.
 
