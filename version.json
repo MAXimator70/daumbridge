@@ -1,6 +1,6 @@
 {
-  "version": "0.9.7",
-  "build": 33,
+  "version": "0.9.8",
+  "build": 34,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Puls schon vor dem Start, Herz gruen wenn der Gurt verbunden ist\n- Filter gegen Puls-Ausreisser, Schalter 'Puls vom Daum verwenden'\n- Eigene Seite 'Profil' in den Einstellungen"
+  "notes": "- Update-Suche und Download funktionieren jetzt auch auf Android 7.0 (z. B. Galaxy S6)\n- Puls vor dem Start, Puls-Filter, Profil-Seite (seit 0.9.7)"
 }

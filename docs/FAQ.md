@@ -19,6 +19,9 @@ Nein. Kein Abo, keine Werbung, kein Konto.
 **Warum steht „Smart“ statt „ERG“?**
 Smart ist der Oberbegriff: Bei *Smart EIN* darf die Trainings-App den Daum steuern – je nach Training im ERG-Modus (feste Watt) oder SIM-Modus (Steigung). Welcher Modus gerade läuft, zeigt die Kachel **Modus**.
 
+**„Nach Update suchen“ geht auf einem älteren Handy (Android 7.0) nicht.**
+Bis Version 0.9.7 kannte DaumBridge auf Android 7.0 (z. B. Galaxy S6) das Zertifikat von GitHub nicht. Ab 0.9.8 behoben – einmalig die neue Version per Browser oder vom PC installieren, danach klappt die Update-Suche wieder.
+
 ## Verbinden
 
 **Android fragt beim Koppeln keine PIN ab – ist das falsch?**

@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.8 (Build 34) - 13.11.2026
+- Update-Suche und Update-Download funktionieren jetzt auch auf Android 7.0 (z. B. Galaxy S6): die App kennt die Let's-Encrypt-Stammzertifizierung, die GitHub verwendet
+
 ## 0.9.7 (Build 33) - 13.11.2026
 - Pulsgurt verbindet sich schon, wenn die App offen ist: Puls vor dem Start sichtbar, Herz neben bpm gruen (Werte kommen) bzw. orange, Chip Puls gruen
 - Filter gegen Puls-Ausreisser (ueber Maximalpuls, sprunghafte Spitzen) fuer Gurt und Daum

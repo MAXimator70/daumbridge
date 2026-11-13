@@ -22,6 +22,9 @@ Not yet – the app is in German. This documentation explains all menus in Engli
 **Why does it say "Smart" and not "ERG"?**
 Smart is the umbrella term: with *Smart ist EIN* (smart on) the training app may control the Daum – in ERG mode (fixed watts) or SIM mode (slope), depending on the workout. The **Modus** (mode) tile shows which one is active.
 
+**"Nach Update suchen" (check for update) doesn't work on an older phone (Android 7.0).**
+Up to version 0.9.7, DaumBridge on Android 7.0 (e.g. Galaxy S6) didn't trust GitHub's certificate. Fixed in 0.9.8 – install the new version once via browser or from a PC, after that the update check works again.
+
 ## Connecting
 
 **Android didn't ask for a PIN when pairing – is that wrong?**
