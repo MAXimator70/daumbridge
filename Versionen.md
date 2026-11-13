@@ -1,5 +1,11 @@
 # Versionen
 
+## 0.9.7 (Build 33) - 13.11.2026
+- Pulsgurt verbindet sich schon, wenn die App offen ist: Puls vor dem Start sichtbar, Herz neben bpm gruen (Werte kommen) bzw. orange, Chip Puls gruen
+- Filter gegen Puls-Ausreisser (ueber Maximalpuls, sprunghafte Spitzen) fuer Gurt und Daum
+- Neu: Erweitert > Puls vom Daum verwenden (aus = kein Puls statt ungenauer Werte)
+- Einstellungen: eigene Seite Profil (Name, Geburtsdatum, Geschlecht, Gewicht, FTP, Fahrer loeschen)
+
 ## 0.9.6 (Build 32) - 13.11.2026
 - Pulszonen: zwei Berechnungsmethoden wie in MaxUp - mit Ruhepuls (Karvonen) oder % vom Maximalpuls; Umschalten rechnet sofort neu, Erklaerung unter "Welche Methode?"
 - Aenderung von Ruhe- oder Maximalpuls rechnet die Zonen nach der gewaehlten Methode neu

@@ -1,6 +1,6 @@
 {
-  "version": "0.9.6",
-  "build": 32,
+  "version": "0.9.7",
+  "build": 33,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Pulszonen: zwei Methoden wie in MaxUp - mit Ruhepuls (Karvonen) oder % vom Maximalpuls, umschaltbar\n- Trainings aufraeumen und geteilte markiert (seit 0.9.5)"
+  "notes": "- Puls schon vor dem Start, Herz gruen wenn der Gurt verbunden ist\n- Filter gegen Puls-Ausreisser, Schalter 'Puls vom Daum verwenden'\n- Eigene Seite 'Profil' in den Einstellungen"
 }

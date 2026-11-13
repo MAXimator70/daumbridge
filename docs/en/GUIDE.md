@@ -59,6 +59,10 @@ DaumBridge can connect to a Bluetooth heart rate strap itself, show your heart r
 
 Pairing in the Android settings is not needed – many straps even refuse it ("pairing rejected"). Up to Android 11, Android asks once for **location** permission for the search and location must be switched on; DaumBridge doesn't use it.
 
+As soon as the app is open it connects to the strap – the heart rate shows **before you start**. The **♥** next to "bpm" is **green** when values arrive from the strap, **orange** while none arrive yet. The **Puls** chip at the top turns green too. If the app is in the background and no ride is running, it disconnects the strap after 20 seconds.
+
+DaumBridge filters obvious measuring errors (e.g. 199 bpm while sitting due to poor skin contact, or sudden spikes). If the heart rate still jumps a lot: moisten the electrodes, tighten the strap, check the battery.
+
 Important: many straps (e.g. **Polar H9**) allow only **one** Bluetooth connection. If the strap is already connected to a laptop, watch or the training app, DaumBridge gets no data. Disconnect it there.
 
 ## 6. Rider profiles
@@ -67,6 +71,7 @@ If several people ride, each gets their own profile with date of birth, weight, 
 
 - *Einstellungen → Fahrer* [Settings → Rider] → **+ Neu** [new] creates a profile.
 - Tap a profile to select it; tap the active profile again to rename (*Umbenennen*) or delete (*Löschen*) it.
+- **Profil ›** (profile) opens its own page with name, date of birth, sex, weight and FTP (and *Fahrer löschen* – delete rider).
 - On the main screen the active rider is shown next to **Dauer** (duration). Tap it to switch riders (when no ride is running).
 
 Values are set with **scroll wheels** – no keyboard needed.
@@ -103,7 +108,7 @@ Power zones are based on the **FTP** in the profile.
 
 ## 9. Advanced settings
 
-Under *Einstellungen → Erweitert* [Settings → Advanced]: simulator strength, maximum and minimum power, bike weight, wheel circumference, Bluetooth name, old Daum firmware, keep screen on, polling interval, log (*Protokoll*) and *Auf Standard zurücksetzen* (reset to defaults – profiles and devices are kept).
+Under *Einstellungen → Erweitert* [Settings → Advanced]: simulator strength, maximum and minimum power, bike weight, wheel circumference, Bluetooth name, old Daum firmware, *Puls vom Daum verwenden* (use the Daum's heart rate when no strap is set; off = no heart rate instead of inaccurate values), keep screen on, polling interval, log (*Protokoll*) and *Auf Standard zurücksetzen* (reset to defaults – profiles and devices are kept).
 
 ---
 Problems? → [FAQ and troubleshooting](FAQ.md)

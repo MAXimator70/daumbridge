@@ -48,7 +48,10 @@ Yes, but only during a ride – Android advertises the trainer under the phone's
 ## Heart rate
 
 **DaumBridge shows a far too high heart rate.**
-The Daum's built-in heart rate receiver is often inaccurate. With a Bluetooth heart rate strap (*Einstellungen → Geräte → Pulsgurt*) DaumBridge only uses the strap's value.
+The Daum's built-in heart rate receiver is often inaccurate. With a Bluetooth heart rate strap (*Einstellungen → Geräte → Pulsgurt*) DaumBridge only uses the strap's value. Without a strap you can switch off the Daum's heart rate under *Einstellungen → Erweitert → Puls vom Daum verwenden*.
+
+**The heart rate jumps up and down although I'm sitting still.**
+Usually poor skin contact of the strap: moisten the electrodes, wear the strap tighter right below the chest, avoid synthetic shirts, check the battery. Since 0.9.7 DaumBridge filters gross outliers (above max heart rate, sudden spikes).
 
 **Android says "pairing rejected" for the heart rate strap.**
 That's normal – many straps can't be paired. Use *Pulsgurt suchen* (search strap) in DaumBridge instead.

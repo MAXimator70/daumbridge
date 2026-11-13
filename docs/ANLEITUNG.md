@@ -57,6 +57,10 @@ DaumBridge kann sich selbst mit einem Bluetooth-Pulsgurt verbinden, den Puls anz
 
 Koppeln in den Android-Einstellungen ist nicht nötig – viele Gurte lehnen das sogar ab („Kopplung abgelehnt“). Bis Android 11 fragt Android für die Suche einmal nach dem **Standort** und der Standort muss eingeschaltet sein; DaumBridge nutzt ihn nicht.
 
+Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht schon **vor dem Start** in der Kachel. Das **♥** neben „bpm“ ist **grün**, wenn Werte vom Gurt kommen, **orange**, solange noch keine kommen. Auch der Chip **Puls** oben wird grün. Ist die App im Hintergrund und läuft kein Training, trennt sie den Gurt nach 20 Sekunden wieder.
+
+Offensichtliche Messfehler (z. B. 199 bpm im Sitzen bei schlechtem Hautkontakt oder sprunghafte Ausreißer) filtert DaumBridge heraus. Springt der Puls trotzdem stark: Elektroden anfeuchten, Gurt enger stellen, Batterie prüfen.
+
 Wichtig: Viele Gurte (z. B. **Polar H9**) erlauben nur **eine** Bluetooth-Verbindung. Ist der Gurt schon mit dem Laptop, der Uhr oder der Trainings-App verbunden, bekommt DaumBridge keine Werte. Dort also trennen.
 
 ## 6. Fahrerprofile
@@ -65,6 +69,7 @@ Fahren mehrere Personen, bekommt jede ein eigenes Profil mit Geburtsdatum, Gewic
 
 - *Einstellungen → Fahrer* → **+ Neu** legt ein Profil an.
 - Auf ein Profil tippen wählt es aus; das aktive Profil nochmal antippen → umbenennen oder löschen.
+- **Profil ›** öffnet eine eigene Seite mit Name, Geburtsdatum, Geschlecht, Gewicht und FTP (und *Fahrer löschen*).
 - Auf der Startseite steht der aktive Fahrer bei der **Dauer**. Antippen wechselt den Fahrer (wenn kein Training läuft).
 
 Werte stellst du mit **Drehrädern** ein – keine Tastatur nötig.
@@ -101,7 +106,7 @@ Die Leistungszonen richten sich nach der **FTP** im Profil.
 
 ## 9. Erweiterte Einstellungen
 
-Unter *Einstellungen → Erweitert*: Simulatorstärke, maximale und minimale Leistung, Fahrradgewicht, Radumfang, Bluetooth-Name, alte Daum-Firmware, Bildschirm anlassen, Abfrage-Intervall, Protokoll und *Auf Standard zurücksetzen* (Profile und Geräte bleiben erhalten).
+Unter *Einstellungen → Erweitert*: Simulatorstärke, maximale und minimale Leistung, Fahrradgewicht, Radumfang, Bluetooth-Name, alte Daum-Firmware, *Puls vom Daum verwenden* (ohne Gurt; aus = kein Puls statt ungenauer Werte), Bildschirm anlassen, Abfrage-Intervall, Protokoll und *Auf Standard zurücksetzen* (Profile und Geräte bleiben erhalten).
 
 ---
 Probleme? → [Häufige Fragen und Fehlerbehebung](FAQ.md)
