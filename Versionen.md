@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.9.6 (Build 32) - 13.11.2026
+- Pulszonen: zwei Berechnungsmethoden wie in MaxUp - mit Ruhepuls (Karvonen) oder % vom Maximalpuls; Umschalten rechnet sofort neu, Erklaerung unter "Welche Methode?"
+- Aenderung von Ruhe- oder Maximalpuls rechnet die Zonen nach der gewaehlten Methode neu
+
 ## 0.9.5 (Build 31) - 13.11.2026
 - Trainings-Liste: Haken bei bereits geteilten Trainings, mit der App, an die geteilt wurde
 - Neu: Aufraeumen - aelter als 3 Monate, aelter als 1 Jahr, alle bereits geteilten oder alle loeschen (mit Rueckfrage und Anzahl)

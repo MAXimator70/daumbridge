@@ -83,7 +83,12 @@ Values are set with **scroll wheels** – no keyboard needed.
 | Anaerob | yellow | anaerobic, high intensity, intervals |
 | Roter Bereich | red | red zone, maximum effort, very short only |
 
-- ***Automatisch berechnen*** [calculate automatically]: the zone limits are calculated from your max heart rate. If a date of birth is set, DaumBridge suggests a max heart rate based on age.
+- ***Berechnung*** [calculation] – **two methods** (switchable, zones are recalculated immediately):
+  - ***Mit Ruhepuls*** (with resting heart rate, Karvonen): lower limits = resting HR + 50 / 60 / 70 / 80 / 90 % of the heart rate reserve (max − resting). Takes your fitness into account – best if you know your resting heart rate (measure it in the morning lying down).
+  - ***% vom Max.*** (% of max): lower limits = 70.5 / 76.5 / 82 / 88 / 94 % of max heart rate. Simple, only needs the max heart rate.
+  - *Welche Methode? ›* (which method?) on the zones page explains both.
+- Changing resting or max heart rate recalculates the zones with the selected method.
+- ***Automatisch berechnen*** [calculate automatically]: calculates the zones with the selected method. If a date of birth is set, DaumBridge suggests a max heart rate based on age.
 - **Set manually:** tap any value and change it with the scroll wheel. A measured max heart rate (fitness test, sports watch) is more accurate than the estimate.
 
 While riding, the **Puls** (heart rate) and **Leistung** (power) tiles change colour by zone. The bar ***Zeit in Pulszonen*** (time in heart rate zones) fills up during the first hour; grey is time below the recovery zone.

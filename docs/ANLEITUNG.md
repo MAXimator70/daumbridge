@@ -81,7 +81,12 @@ Werte stellst du mit **Drehrädern** ein – keine Tastatur nötig.
 | Anaerob | gelb | hohe Intensität, Intervalle |
 | Roter Bereich | rot | Maximalbelastung, nur sehr kurz |
 
-- **Automatisch berechnen:** Die Grenzen werden aus dem Maximalpuls berechnet. Ist ein Geburtsdatum hinterlegt, schlägt DaumBridge einen Maximalpuls aus dem Alter vor.
+- **Berechnung – zwei Methoden** (umschaltbar, die Zonen rechnen sofort neu):
+  - **Mit Ruhepuls (Karvonen):** Untergrenzen = Ruhepuls + 50 / 60 / 70 / 80 / 90 % der Pulsreserve (Maximalpuls − Ruhepuls). Berücksichtigt die Fitness – am besten, wenn du deinen Ruhepuls kennst (morgens im Liegen messen).
+  - **% vom Max.:** Untergrenzen = 70,5 / 76,5 / 82 / 88 / 94 % vom Maximalpuls. Einfach, braucht nur den Maximalpuls.
+  - *Welche Methode? ›* auf der Zonen-Seite erklärt beide.
+- Änderst du Ruhe- oder Maximalpuls, werden die Zonen nach der gewählten Methode neu berechnet.
+- **Automatisch berechnen:** berechnet die Zonen nach der gewählten Methode. Ist ein Geburtsdatum hinterlegt, schlägt DaumBridge einen Maximalpuls aus dem Alter vor.
 - **Selbst einstellen:** Jeden Wert antippen und per Drehrad ändern. Ein gemessener Maximalpuls (Leistungstest, Pulsuhr) ist genauer als die Schätzung.
 
 Beim Fahren färben sich die Kacheln **Puls** und **Leistung** nach Zone. Der Streifen **Zeit in Pulszonen** füllt sich während der ersten Stunde; grau ist die Zeit unterhalb der Erholungszone.
