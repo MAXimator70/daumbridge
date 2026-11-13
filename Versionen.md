@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.2 (Build 28) - 13.11.2026
+- Laeuft jetzt auch auf aelteren Handys ab Android 5 (z. B. Samsung Galaxy S6 mit Android 5 oder 6)
+
 ## 0.9.1 (Build 27) - 12.11.2026
 - Neue Download-Adresse: github.com/MAXimator70/daumbridge (Update-Pruefung angepasst)
 
