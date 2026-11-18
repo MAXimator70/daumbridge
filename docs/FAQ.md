@@ -95,6 +95,9 @@ Am einfachsten mit **LocalSend**: auf dem iPhone die kostenlose App LocalSend in
 **LocalSend findet mein iPhone nicht.**
 LocalSend muss am iPhone geöffnet sein, „Lokales Netzwerk“ muss erlaubt sein (iPhone-Einstellungen → LocalSend), und beide Geräte müssen im selben WLAN sein. Gast-WLANs und Router mit „Geräte voneinander abschirmen“ verhindern, dass sich die Geräte sehen.
 
+**LocalSend findet das iPhone, aber es kommt nichts an („Handshake failed“ im Protokoll).**
+Ältere Android-Handys bekommen die verschlüsselte Verbindung zu LocalSend auf dem iPhone manchmal nicht aufgebaut. Abhilfe: am iPhone in LocalSend unter **Einstellungen** die **Verschlüsselung** ausschalten. DaumBridge erkennt das selbst und sendet dann unverschlüsselt – im eigenen WLAN unbedenklich. Am iPhone erscheint beim Empfang eine Frage, ob du die Datei annehmen willst.
+
 **Warum zeigt die Dauer 0:00:00, obwohl ich Start gedrückt habe?**
 Die Uhr startet erst mit dem ersten Tritt. Mit **Auto-Pause** (Schild oben rechts in der Dauer-Karte) hält sie außerdem an, wenn du länger als 5 Sekunden nicht trittst.
 

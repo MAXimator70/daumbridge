@@ -1,6 +1,6 @@
 {
-  "version": "0.9.16",
-  "build": 42,
+  "version": "0.9.17",
+  "build": 43,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Knopf \"Verbinden\" statt \"Start\""
+  "notes": "- LocalSend ans iPhone repariert (Verschluesselung/Wechsel)\n- Loeschen und Aufraeumen in Rot"
 }

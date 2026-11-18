@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.17 (Build 43) - 18.11.2026
+- LocalSend: kam am iPhone nichts an ("Handshake failed"), wird die verschluesselte Verbindung jetzt mehrfach versucht; DaumBridge erkennt selbst, ob das iPhone verschluesselt oder unverschluesselt empfaengt, und wechselt automatisch
+- LocalSend: klare Meldung mit Abhilfe (am iPhone in LocalSend die Verschluesselung ausschalten)
+- Loeschen und Aufraeumen in Rot, Bestaetigungsknopf zum Loeschen rot
+
 ## 0.9.16 (Build 42) - 18.11.2026
 - Knopf rechts unten heisst jetzt "Verbinden" statt "Start" (die Uhr laeuft ohnehin erst mit dem ersten Tritt); waehrend des Trainings weiter "Stopp"
 

@@ -95,6 +95,9 @@ Easiest with **LocalSend**: install the free LocalSend app on the iPhone and ope
 **LocalSend can't find my iPhone.**
 LocalSend has to be open on the iPhone, “Local Network” must be allowed (iPhone Settings → LocalSend), and both devices must be on the same Wi-Fi. Guest networks and routers that isolate devices from each other stop them from seeing each other.
 
+**LocalSend finds the iPhone but nothing arrives (“Handshake failed” in the log).**
+Older Android phones sometimes can't set up the encrypted connection to LocalSend on the iPhone. Fix: on the iPhone, in LocalSend under **Settings**, turn **Encryption** off. DaumBridge detects this by itself and then sends unencrypted – fine on your own Wi-Fi. The iPhone asks whether to accept the file.
+
 **Why does the duration show 0:00:00 although I pressed Start?**
 The clock only starts with your first pedal stroke. With **auto-pause** (pill at the top right of the duration card) it also stops when you don't pedal for more than 5 seconds.
 
