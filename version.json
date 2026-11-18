@@ -1,6 +1,6 @@
 {
-  "version": "0.9.13",
-  "build": 39,
+  "version": "0.9.14",
+  "build": 40,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Querformat: grosse Knoepfe, Puls-Kachel in Zonenfarbe\n- Herz rot/gelb/grau im Pulstakt\n- Akkustand des Pulsgurts"
+  "notes": "- Querformat: schmale Werte-Spalte, Diagramm 80 % breit\n- Herz jetzt auch auf Samsung grau/gelb/rot"
 }

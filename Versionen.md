@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.14 (Build 40) - 18.11.2026
+- Querformat: Werte-Spalte deutlich schmaler (20 %), das Diagramm bekommt 80 % der Breite
+- Querformat: Zahlen passen sich der Spalte an, Knoepfe schmaler, Batterie ohne Zahl
+- Herz wird selbst gezeichnet: auf manchen Handys (z. B. Samsung) war es als Emoji immer rot, jetzt wirklich grau/gelb/rot
+
 ## 0.9.13 (Build 39) - 18.11.2026
 - Querformat: Auto-Pause und Zonen als grosse Knoepfe ueber die ganze Kachelhoehe
 - Querformat: Puls-Kachel in der Farbe der aktuellen Pulszone, Zonenname ausgeschrieben
