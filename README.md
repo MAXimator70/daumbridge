@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.9.15 (Build 41)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.16 (Build 42)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
@@ -87,7 +87,7 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 1. **Installieren:** Auf dem Handy [DaumBridge.apk herunterladen](https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk), öffnen und installieren. Android fragt einmal, ob der Browser Apps installieren darf – erlauben.
 2. **Adapter koppeln:** Daum einschalten, am Handy *Einstellungen → Bluetooth* öffnen und den Daum-Adapter koppeln. Fragt Android nach einer PIN, ist es die 4-stellige Nummer auf dem Adapter – manche Adapter koppeln auch ohne PIN.
 3. **In DaumBridge wählen:** Menü ☰ → *Einstellungen* → *Geräte* → *Daum-Adapter*.
-4. **Start** tippen.
+4. **Verbinden** tippen.
 5. **In der Trainings-App** nach einem Trainer suchen und **„DaumBridge“** wählen – für Leistung, Trittfrequenz und Steuerung.
 
 Ausführlich mit Pulsgurt, Fahrerprofilen und Pulszonen: **[Anleitung](docs/ANLEITUNG.md)**

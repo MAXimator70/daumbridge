@@ -34,7 +34,7 @@ No. Some adapters pair without a PIN. If Android asks, it's the 4-digit number o
 - Is the Daum switched on and the adapter plugged in?
 - Is the adapter paired in the Android Bluetooth settings and selected in DaumBridge under *Geräte* (devices)?
 - Is the adapter still connected to another device (old phone, PC)? Disconnect it there.
-- Switch the phone's Bluetooth off and on, then tap **Start** again.
+- Switch the phone's Bluetooth off and on, then tap **Verbinden** (connect) again.
 
 **The training app can't find "DaumBridge".**
 - Is a ride running in DaumBridge (stop button visible)? DaumBridge only broadcasts while a ride is running.

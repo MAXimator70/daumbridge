@@ -31,7 +31,7 @@ Nein. Manche Adapter koppeln ohne PIN. Fragt Android danach, ist es die 4-stelli
 - Ist der Daum eingeschaltet und steckt der Adapter?
 - Ist der Adapter in den Android-Bluetooth-Einstellungen gekoppelt und in DaumBridge unter *Geräte* gewählt?
 - Ist der Adapter noch mit einem anderen Gerät (z. B. altem Handy, PC) verbunden? Dort trennen.
-- Handy-Bluetooth einmal aus- und einschalten, dann erneut **Start**.
+- Handy-Bluetooth einmal aus- und einschalten, dann erneut **Verbinden**.
 
 **Die Trainings-App findet „DaumBridge“ nicht.**
 - Läuft das Training in DaumBridge (Stopp-Knopf sichtbar)? Gesendet wird nur, solange ein Training läuft.

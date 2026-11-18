@@ -24,7 +24,7 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 
 ## 3. Start a ride
 
-1. Tap **Start** on the main screen. The **Daum** chip at the top turns green once the connection is up.
+1. Tap **Verbinden** (connect) on the main screen. The **Daum** chip at the top turns green once the connection is up.
 2. The **BT** chip turns green once DaumBridge is broadcasting; the number next to it shows how many apps are connected. Tapping any chip (Daum, BT, Puls) shows all connections at a glance.
 3. On start, the logo flips over automatically and shows the **chart** (power, cadence, heart rate of the last 10 minutes). Swipe right to scroll back, **double-tap** to jump back to live, single tap flips back to the logo.
 4. The **clock starts with your first pedal stroke** – until then DAUER (duration) shows “wartet auf den ersten Tritt” (waiting for the first pedal stroke) and nothing is recorded. So you can tap Start and get going later.

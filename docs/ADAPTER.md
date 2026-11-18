@@ -33,7 +33,7 @@ Beim Kauf auf den Namen achten: Varianten mit **„BLE“** im Namen (z. B. *SH-
 1. Adapter an den Daum stecken (ggf. mit Gender-Changer / Nullmodem) und mit Strom versorgen.
 2. Am Handy in den **Android-Bluetooth-Einstellungen** koppeln. Die PIN steht in der Anleitung des Adapters – häufig **1234** oder **0000**. Der originale Daum-Adapter koppelt teils ohne PIN.
 3. In DaumBridge: **Menü ☰ → Einstellungen → Geräte → Daum-Adapter** → den neuen Adapter wählen.
-4. **Start** – der Chip **Daum** wird grün, sobald der Daum antwortet.
+4. **Verbinden** – der Chip **Daum** wird grün, sobald der Daum antwortet.
 
 Wird der Chip nicht grün: Baudrate (9600) prüfen, dann den Nullmodem-Adapter probieren. Das **Protokoll** (Menü ☰ → Protokoll) zeigt, ob der Daum antwortet.
 

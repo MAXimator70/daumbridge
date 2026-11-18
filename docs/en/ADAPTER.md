@@ -33,7 +33,7 @@ Check the name when buying: versions with **"BLE"** in the name (e.g. *SH-B30-BL
 1. Plug the adapter into the Daum (with gender changer / null modem if needed) and power it.
 2. Pair it in the **Android Bluetooth settings**. The PIN is in the adapter's manual – often **1234** or **0000**. The original Daum adapter sometimes pairs without a PIN.
 3. In DaumBridge: **menu ☰ → *Einstellungen* → *Geräte* → *Daum-Adapter*** [Settings → Devices → Daum adapter] → select the new adapter.
-4. **Start** – the **Daum** chip turns green as soon as the Daum responds.
+4. **Verbinden** (connect) – the **Daum** chip turns green as soon as the Daum responds.
 
 If the chip doesn't turn green: check the baud rate (9600), then try a null modem adapter. The log (menu ☰ → *Protokoll*) shows whether the Daum responds.
 

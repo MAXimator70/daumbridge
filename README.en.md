@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.15 (Build 41)</b> – pre-release (beta)<br>
+<b>Current version: 0.9.16 (Build 42)</b> – pre-release (beta)<br>
 Android 7 or newer · free · no ads · no account
 </p>
 
@@ -87,7 +87,7 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 1. **Install:** On your phone, [download DaumBridge.apk](https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk), open it and install. Android asks once whether your browser may install apps – allow it.
 2. **Pair the adapter:** Switch on the Daum, open *Settings → Bluetooth* on the phone and pair the Daum adapter. If Android asks for a PIN, it's the 4-digit number printed on the adapter – some adapters pair without a PIN.
 3. **Select it in DaumBridge:** menu ☰ → *Einstellungen* (Settings) → *Geräte* (Devices) → *Daum-Adapter*.
-4. Tap **Start**.
+4. Tap **Verbinden** (connect).
 5. **In your training app**, search for a trainer and choose **"DaumBridge"** – for power, cadence and control.
 
 Full guide with heart rate strap, rider profiles and zones: **[Guide](docs/en/GUIDE.md)**

@@ -22,7 +22,7 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 
 ## 3. Training starten
 
-1. Auf der Startseite **Start** tippen. Der Chip **Daum** oben wird grün, sobald die Verbindung steht.
+1. Auf der Startseite **Verbinden** tippen. Der Chip **Daum** oben wird grün, sobald die Verbindung steht.
 2. Der Chip **BT** wird grün, sobald DaumBridge sendet; die Zahl daneben zeigt, wie viele Apps verbunden sind. Antippen eines Chips (Daum, BT, Puls) zeigt alle Verbindungen auf einen Blick.
 3. Beim Start dreht sich das Logo automatisch um und zeigt das **Diagramm** (Leistung, Kadenz, Puls der letzten 10 Minuten). Mit dem Finger nach rechts wischen blättert zurück, **Doppeltipp** springt wieder auf live, einfaches Antippen dreht zurück zum Logo.
 4. Die **Uhr startet mit dem ersten Tritt** – vorher steht unter DAUER „wartet auf den ersten Tritt“ und es wird noch nichts aufgezeichnet. Du kannst also in Ruhe Start tippen und erst später losfahren.

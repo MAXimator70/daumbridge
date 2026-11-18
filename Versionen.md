@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.16 (Build 42) - 18.11.2026
+- Knopf rechts unten heisst jetzt "Verbinden" statt "Start" (die Uhr laeuft ohnehin erst mit dem ersten Tritt); waehrend des Trainings weiter "Stopp"
+
 ## 0.9.15 (Build 41) - 18.11.2026
 - Querformat: Zahlen groesser und extra fett
 - Querformat: Knoepfe Pause und Zonen quadratisch, Beschriftung mittig und in fester Groesse

@@ -1,6 +1,6 @@
 {
-  "version": "0.9.15",
-  "build": 41,
+  "version": "0.9.16",
+  "build": 42,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Querformat: grosse, fette Zahlen\n- Quadratische Knoepfe Pause/Zonen\n- Puls unter Leistung, ohne bpm"
+  "notes": "- Knopf \"Verbinden\" statt \"Start\""
 }
