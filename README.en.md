@@ -54,7 +54,8 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 - **Rider profiles** – date of birth, weight, FTP, heart rate strap and heart rate zones per person
 - **Heart rate zones** – calculated from your max heart rate or set manually
 - **Zone colours** – heart rate and power tiles change colour by zone, a bar shows your time in each heart rate zone
-- **Live chart** – tap the logo, it flips over and shows power, cadence and heart rate; swipe to scroll back, double-tap = live. Turn the phone sideways = all values on the left, large chart with heart-rate zones, pinch to zoom
+- **Live chart** – tap the logo, it flips over and shows power, cadence and heart rate; swipe to scroll back, double-tap = live
+- **Landscape** – turn the phone sideways: on the left a narrow column with duration, power, heart rate, cadence, speed and distance in large bold numbers; on the right the large chart (four fifths of the width) with heart-rate zones as coloured bands and a moving dot. Pinch to zoom, swipe to scroll back, double-tap = live. The heart-rate tile takes on the colour of the current zone and shows its name, next to it the heart and the strap battery. Square buttons for **auto-pause** and the **time in heart-rate zones** bar. Turn upright = back, the ride keeps going
 - **Clock starts with the first pedal stroke, auto-pause** – pauses don't count, toggle right in the duration card
 - **Rides to your iPhone** – via LocalSend over Wi-Fi (automatically after every ride) or by e-mail
 - **Summary** after each ride (duration, distance, power, Normalized Power, kJ, heart rate, zones)

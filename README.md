@@ -54,7 +54,8 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 - **Fahrerprofile** – Geburtsdatum, Gewicht, FTP, Pulsgurt und Pulszonen pro Person
 - **Pulszonen** – automatisch aus dem Maximalpuls berechnet oder selbst eingestellt
 - **Zonenfarben** – Puls- und Leistungskachel färben sich nach Zone, ein Streifen zeigt die Zeit in den Pulszonen
-- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live. Handy quer drehen = alle Werte links, großes Diagramm mit Pulszonen, Zoomen mit zwei Fingern
+- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live
+- **Querformat** – Handy quer drehen: links eine schmale Spalte mit Dauer, Leistung, Puls, Kadenz, Tempo und Strecke in großen, fetten Zahlen; rechts das große Diagramm (vier Fünftel der Breite) mit Pulszonen als Farbbändern und mitlaufendem Punkt. Zoomen mit zwei Fingern, Wischen blättert zurück, Doppeltipp = live. Die Puls-Kachel färbt sich in der aktuellen Zone und zeigt ihren Namen, daneben Herz und Akku des Gurts. Quadratische Knöpfe für **Auto-Pause** und den Streifen **Zeit in Pulszonen**. Hochkant drehen = zurück, das Training läuft weiter
 - **Uhr ab dem ersten Tritt, Auto-Pause** – Pausen zählen nicht mit, Schalter direkt in der Dauer-Karte
 - **Trainings ans iPhone** – per LocalSend übers WLAN (automatisch nach jedem Training) oder per E-Mail
 - **Zusammenfassung** nach dem Training (Dauer, Strecke, Leistung, Normalized Power, kJ, Puls, Zonen)
