@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.15 (Build 41) - 18.11.2026
+- Querformat: Zahlen groesser und extra fett
+- Querformat: Knoepfe Pause und Zonen quadratisch, Beschriftung mittig und in fester Groesse
+- Querformat: Puls direkt unter Leistung, Kadenz darunter; Puls ohne "bpm", damit die Zahl Platz hat
+
 ## 0.9.14 (Build 40) - 18.11.2026
 - Querformat: Werte-Spalte deutlich schmaler (20 %), das Diagramm bekommt 80 % der Breite
 - Querformat: Zahlen passen sich der Spalte an, Knoepfe schmaler, Batterie ohne Zahl

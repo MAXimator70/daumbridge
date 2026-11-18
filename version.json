@@ -1,6 +1,6 @@
 {
-  "version": "0.9.14",
-  "build": 40,
+  "version": "0.9.15",
+  "build": 41,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Querformat: schmale Werte-Spalte, Diagramm 80 % breit\n- Herz jetzt auch auf Samsung grau/gelb/rot"
+  "notes": "- Querformat: grosse, fette Zahlen\n- Quadratische Knoepfe Pause/Zonen\n- Puls unter Leistung, ohne bpm"
 }

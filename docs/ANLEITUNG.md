@@ -32,11 +32,11 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 
 ### Querformat
 
-Handy quer drehen: Links stehen in einer schmalen Spalte alle Werte übereinander (Dauer mit Auto-Pause, Leistung, Kadenz, Puls mit aktueller Zone, Tempo, Strecke), rechts nimmt das große Diagramm vier Fünftel der Breite ein, mit den Pulszonen als farbigen Bändern. Ein Punkt markiert die aktuelle Position, das Diagramm läuft mit.
+Handy quer drehen: Links stehen in einer schmalen Spalte alle Werte übereinander (Dauer mit Auto-Pause, Leistung, Puls mit aktueller Zone, Kadenz, Tempo, Strecke) in großen, fetten Zahlen, rechts nimmt das große Diagramm vier Fünftel der Breite ein, mit den Pulszonen als farbigen Bändern. Ein Punkt markiert die aktuelle Position, das Diagramm läuft mit.
 
 - **Zoomen** mit zwei Fingern (1 bis 30 Minuten), **wischen** blättert zurück, **Doppeltipp** beendet Zoom und Zurückblättern.
 - Unten der Streifen **Zeit in Pulszonen** fürs ganze Training – bleibt beim Zoomen unverändert. Der Knopf **Zonen** in der Puls-Kachel blendet ihn aus, dann wird das Diagramm größer.
-- Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Pause** (Auto-Pause) und **Zonen** sind Knöpfe über die ganze Kachelhöhe. Die Gurt-Batterie zeigt im Querformat nur die Farbe, ohne Zahl.
+- Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Pause** (Auto-Pause) und **Zonen** sind quadratische Knöpfe über die ganze Kachelhöhe. Der Puls steht im Querformat ohne „bpm“, damit die Zahl groß bleibt. Die Gurt-Batterie zeigt im Querformat nur die Farbe, ohne Zahl.
 - Hochkant drehen = zurück zur normalen Ansicht, das Training läuft weiter.
 
 ### Trainings ans iPhone schicken (LocalSend)

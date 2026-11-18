@@ -34,11 +34,11 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 
 ### Landscape
 
-Turn the phone sideways: on the left a narrow column with all values stacked (duration with auto-pause, power, cadence, heart rate with current zone, speed, distance), on the right the large chart takes four fifths of the width, with the heart-rate zones as coloured bands. A dot marks the current position and the chart moves along.
+Turn the phone sideways: on the left a narrow column with all values stacked (duration with auto-pause, power, heart rate with current zone, cadence, speed, distance) in large bold numbers, on the right the large chart takes four fifths of the width, with the heart-rate zones as coloured bands. A dot marks the current position and the chart moves along.
 
 - **Zoom** with two fingers (1 to 30 minutes), **swipe** to scroll back, **double-tap** ends zoom and scrolling.
 - At the bottom the **time in heart-rate zones** bar for the whole ride – it stays the same when zooming. The **Zonen** button in the heart-rate tile hides it to make the chart bigger.
-- The heart-rate tile takes on the colour of the current zone and shows its name in full (e.g. “Z2 · FETTVERBRENNUNG”). **Pause** (auto-pause) and **Zonen** are buttons spanning the full tile height. In landscape the strap battery shows its colour only, without the number.
+- The heart-rate tile takes on the colour of the current zone and shows its name in full (e.g. “Z2 · FETTVERBRENNUNG”). **Pause** (auto-pause) and **Zonen** are square buttons spanning the full tile height. In landscape the heart rate is shown without “bpm” so the number stays large. In landscape the strap battery shows its colour only, without the number.
 - Turn upright = back to the normal view, the ride keeps going.
 
 ### Sending rides to an iPhone (LocalSend)
