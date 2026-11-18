@@ -1,6 +1,6 @@
 {
-  "version": "0.9.12",
-  "build": 38,
+  "version": "0.9.13",
+  "build": 39,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Uhr ab erstem Tritt, Auto-Pause\n- Querformat mit Werte-Spalte und Zoom\n- Trainings per LocalSend ans iPhone oder per E-Mail"
+  "notes": "- Querformat: grosse Knoepfe, Puls-Kachel in Zonenfarbe\n- Herz rot/gelb/grau im Pulstakt\n- Akkustand des Pulsgurts"
 }

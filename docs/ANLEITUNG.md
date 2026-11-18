@@ -36,6 +36,7 @@ Handy quer drehen: Links stehen alle Werte übereinander (Dauer mit Auto-Pause, 
 
 - **Zoomen** mit zwei Fingern (1 bis 30 Minuten), **wischen** blättert zurück, **Doppeltipp** beendet Zoom und Zurückblättern.
 - Unten der Streifen **Zeit in Pulszonen** fürs ganze Training – bleibt beim Zoomen unverändert. Der Knopf **Zonen** in der Puls-Kachel blendet ihn aus, dann wird das Diagramm größer.
+- Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Auto-Pause** und **Zonen** sind große Knöpfe über die ganze Kachelhöhe.
 - Hochkant drehen = zurück zur normalen Ansicht, das Training läuft weiter.
 
 ### Trainings ans iPhone schicken (LocalSend)
@@ -87,6 +88,8 @@ Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht sch
 Offensichtliche Messfehler (z. B. 199 bpm im Sitzen bei schlechtem Hautkontakt oder sprunghafte Ausreißer) filtert DaumBridge heraus. Springt der Puls trotzdem stark: Elektroden anfeuchten, Gurt enger stellen, Batterie prüfen.
 
 Wichtig: Viele Gurte (z. B. **Polar H9**) erlauben nur **eine** Bluetooth-Verbindung. Ist der Gurt schon mit dem Laptop, der Uhr oder der Trainings-App verbunden, bekommt DaumBridge keine Werte. Dort also trennen.
+
+**Herz und Akku:** Das ♥ in der Puls-Kachel ist **rot** und schlägt im Takt deines Pulses, sobald Werte kommen, **gelb**, solange der Gurt gesucht wird, und **grau**, wenn kein Gurt verbunden ist. Daneben zeigt eine senkrechte **Batterie** den Akkustand des Gurts – grün, unter 20 % gelb, unter 10 % rot; unter 15 % erscheint beim Verbinden einmal ein Hinweis. Gurte, die keinen Akkustand melden, zeigen keine Batterie.
 
 ## 6. Fahrerprofile
 

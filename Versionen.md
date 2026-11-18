@@ -1,5 +1,11 @@
 # Versionen
 
+## 0.9.13 (Build 39) - 18.11.2026
+- Querformat: Auto-Pause und Zonen als grosse Knoepfe ueber die ganze Kachelhoehe
+- Querformat: Puls-Kachel in der Farbe der aktuellen Pulszone, Zonenname ausgeschrieben
+- Grosses Herz, schlaegt im Pulstakt; rot = Werte kommen, gelb = Gurt wird gesucht, grau = kein Gurt verbunden
+- Akkustand des Pulsgurts: senkrechte Batterie in der Puls-Kachel (gruen, gelb unter 20 %, rot unter 10 %), im Verbindungsfenster und Hinweis unter 15 %
+
 ## 0.9.12 (Build 38) - 18.11.2026
 - Uhr startet erst mit dem ersten Tritt (vorher wird nichts aufgezeichnet)
 - Auto-Pause: Uhr haelt an, wenn 5 s nicht getreten wird; Schalter klein in der Dauer-Karte (Hauptseite und Querformat), gelb PAUSE waehrend der Pause
