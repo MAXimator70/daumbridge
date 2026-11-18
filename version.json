@@ -1,6 +1,6 @@
 {
-  "version": "0.9.17",
-  "build": 43,
+  "version": "0.9.18",
+  "build": 44,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- LocalSend ans iPhone repariert (Verschluesselung/Wechsel)\n- Loeschen und Aufraeumen in Rot"
+  "notes": "- Pulsgurt trennen (Einstellungen und Verbindungen)"
 }

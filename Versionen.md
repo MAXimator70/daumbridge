@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.18 (Build 44) - 19.11.2026
+- Pulsgurt trennen: roter Knopf in Einstellungen -> Pulsgurt und im Fenster Verbindungen (Chips oben antippen); trennt sofort, der Gurt ist frei fuer andere Geraete
+
 ## 0.9.17 (Build 43) - 18.11.2026
 - LocalSend: kam am iPhone nichts an ("Handshake failed"), wird die verschluesselte Verbindung jetzt mehrfach versucht; DaumBridge erkennt selbst, ob das iPhone verschluesselt oder unverschluesselt empfaengt, und wechselt automatisch
 - LocalSend: klare Meldung mit Abhilfe (am iPhone in LocalSend die Verschluesselung ausschalten)

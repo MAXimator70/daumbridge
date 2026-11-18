@@ -81,6 +81,8 @@ DaumBridge kann sich selbst mit einem Bluetooth-Pulsgurt verbinden, den Puls anz
 1. Den Gurt anlegen (Kontakte leicht befeuchten), damit er sendet.
 2. DaumBridge → *Einstellungen → Geräte → Pulsgurt* → **Pulsgurt suchen** → Gurt antippen.
 
+**Trennen:** *Einstellungen → Geräte → Pulsgurt* → **Pulsgurt trennen** (roter Knopf) oder oben auf die Chips tippen → *Verbindungen* → **Pulsgurt trennen**. Der Gurt ist dann sofort frei für Uhr oder andere Geräte.
+
 Koppeln in den Android-Einstellungen ist nicht nötig – viele Gurte lehnen das sogar ab („Kopplung abgelehnt“). Bis Android 11 fragt Android für die Suche einmal nach dem **Standort** und der Standort muss eingeschaltet sein; DaumBridge nutzt ihn nicht.
 
 Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht schon **vor dem Start** in der Kachel. Der Chip **Puls** oben ist **grün**, wenn Werte vom Gurt kommen, und **gelb**, solange der Gurt gesucht wird. Das **♥** neben „bpm“ ist dann gelb bzw. **rot und schlägt im Takt deines Pulses**. Ist die App im Hintergrund und läuft kein Training, trennt sie den Gurt nach 20 Sekunden wieder.
