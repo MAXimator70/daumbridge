@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.10 (Build 36)</b> – pre-release (beta)<br>
+<b>Current version: 0.9.11 (Build 37)</b> – pre-release (beta)<br>
 Android 7 or newer · free · no ads · no account
 </p>
 
@@ -54,7 +54,7 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 - **Rider profiles** – date of birth, weight, FTP, heart rate strap and heart rate zones per person
 - **Heart rate zones** – calculated from your max heart rate or set manually
 - **Zone colours** – heart rate and power tiles change colour by zone, a bar shows your time in each heart rate zone
-- **Live chart** – tap the logo, it flips over and shows power, cadence and heart rate; swipe to scroll back, double-tap = live
+- **Live chart** – tap the logo, it flips over and shows power, cadence and heart rate; swipe to scroll back, double-tap = live. Turn the phone sideways = full-screen chart with current values and coloured heart-rate zones
 - **Summary** after each ride (duration, distance, power, Normalized Power, kJ, heart rate, zones)
 - **Share rides as FIT files** – to Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …; all rides stay saved on the phone (menu ☰ → Trainings)
 - **Reconnects automatically** if the Daum adapter or the heart rate strap drops out

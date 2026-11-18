@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.11 (Build 37) - 18.11.2026
+- Handy quer drehen: Diagramm ueber den ganzen Bildschirm, ohne Tasten und ohne Statusleiste; aktuelle Leistung, Kadenz, Puls und Dauer gross in der Kopfzeile
+- Pulszonen als farbige Baender hinter der Pulskurve, aktuelle Zone als farbiges Schild neben dem Puls
+- Hochkant drehen = zurueck zur normalen Ansicht, das Training laeuft weiter
+
 ## 0.9.10 (Build 36) - 13.11.2026
 - Menue: Eintrag Verbindungen entfernt - das Fenster oeffnet sich per Tipp auf die Chips Daum, BT oder Puls
 

@@ -1,6 +1,6 @@
 {
-  "version": "0.9.10",
-  "build": 36,
+  "version": "0.9.11",
+  "build": 37,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Menue aufgeraeumt: Verbindungen gibt es per Tipp auf die Chips oben\n- Chips gruen/gelb, Herz schlaegt im Pulstakt (seit 0.9.9)"
+  "notes": "- Handy quer = Diagramm im Vollbild mit Pulszonen\n- Hochkant = normale Ansicht"
 }
