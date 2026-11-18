@@ -21,6 +21,8 @@ Uninstalling the app deletes everything.
 - **Via Bluetooth to your training app:** power, cadence, speed, heart rate – that's the purpose of the app. The training app may send your weight; DaumBridge only uses it for its calculations.
 - **Update check:** On start, DaumBridge requests the file `version.json` from GitHub to find new versions. Like any web request, GitHub sees your IP address. No data about you is sent.
 - **Rides, log and crash reports** only leave the phone if you send them yourself via *Teilen* (share).
+- **LocalSend (only if set up):** the FIT file goes straight over your own Wi-Fi to the chosen device, without internet or any server. To be found, DaumBridge announces itself on the Wi-Fi with the configured device name (default “DaumBridge”).
+- **E-mail (only if set up):** DaumBridge opens your mail app with a ready message – nothing is sent until you tap Send there, using your own mail account. The address is stored on the phone only.
 
 No ads, no analytics or tracking services, no account.
 
@@ -32,7 +34,8 @@ No ads, no analytics or tracking services, no account.
 | Location (Android 11 and older only) | required by Android to search for the heart rate strap. DaumBridge never reads your location. |
 | Notifications | "ride running" notification so Android doesn't stop the app |
 | Foreground service, wake lock | the ride keeps running when the screen is off |
-| Internet | only for the update check and downloading new versions |
+| Internet | update check, downloading new versions, LocalSend on your own Wi-Fi |
+| Wi-Fi state, multicast | only for LocalSend: finding devices on your own Wi-Fi |
 | Install apps | to install a downloaded update (asks every time) |
 
 During a ride, DaumBridge temporarily changes the phone's Bluetooth name (e.g. to "DaumBridge") and restores it afterwards.

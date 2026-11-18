@@ -88,3 +88,13 @@ Switch on *Einstellungen → Erweitert → Bildschirm anlassen* (keep screen on)
 2. Briefly describe what happened and which phone and training app you used.
 
 If DaumBridge crashes, it shows a crash report on the next start, which you can share too.
+
+**How do I get my rides onto an iPhone (e.g. into MaxUp)?**
+Easiest with **LocalSend**: install the free LocalSend app on the iPhone and open it, then pick the iPhone in DaumBridge under Settings → *An das iPhone (LocalSend)*. From then on every ride goes to the iPhone over Wi-Fi automatically when you stop (Files app → LocalSend). Alternatively **by e-mail** (Settings → *Per E-Mail*). Bluetooth won't work – iPhones don't accept files from Android phones over Bluetooth.
+
+**LocalSend can't find my iPhone.**
+LocalSend has to be open on the iPhone, “Local Network” must be allowed (iPhone Settings → LocalSend), and both devices must be on the same Wi-Fi. Guest networks and routers that isolate devices from each other stop them from seeing each other.
+
+**Why does the duration show 0:00:00 although I pressed Start?**
+The clock only starts with your first pedal stroke. With **auto-pause** (pill at the top right of the duration card) it also stops when you don't pedal for more than 5 seconds.
+

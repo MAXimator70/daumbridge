@@ -25,8 +25,33 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 1. Auf der Startseite **Start** tippen. Der Chip **Daum** oben wird grün, sobald die Verbindung steht.
 2. Der Chip **BT** wird grün, sobald DaumBridge sendet; die Zahl daneben zeigt, wie viele Apps verbunden sind. Antippen eines Chips (Daum, BT, Puls) zeigt alle Verbindungen auf einen Blick.
 3. Beim Start dreht sich das Logo automatisch um und zeigt das **Diagramm** (Leistung, Kadenz, Puls der letzten 10 Minuten). Mit dem Finger nach rechts wischen blättert zurück, **Doppeltipp** springt wieder auf live, einfaches Antippen dreht zurück zum Logo.
-4. Fertig? **Stopp** tippen – danach erscheint die Zusammenfassung.
-5. **Training teilen (FIT)** öffnet das Teilen-Menü: Telegram, Google Drive, Dropbox, Synology Drive, Mail, MaxUp … Die Zusammenfassung bleibt offen – versehentlich geschlossen? Einfach nochmal tippen.
+4. Die **Uhr startet mit dem ersten Tritt** – vorher steht unter DAUER „wartet auf den ersten Tritt“ und es wird noch nichts aufgezeichnet. Du kannst also in Ruhe Start tippen und erst später losfahren.
+5. **Auto-Pause:** Das kleine Schild **⏸ Auto-Pause** oben rechts in der Dauer-Karte schaltet sie ein (grün) oder aus (grau). Eingeschaltet hält die Uhr an, wenn du länger als 5 Sekunden nicht trittst – das Schild zeigt dann gelb **PAUSE**, die Zeit wird gelb. Pausen zählen nicht in Dauer, Durchschnitte, Zonenzeit und FIT-Datei.
+6. Fertig? **Stopp** tippen – danach erscheint die Zusammenfassung.
+7. **Training teilen (FIT)** öffnet das Teilen-Menü: Telegram, Google Drive, Dropbox, Synology Drive, Mail, MaxUp … Die Zusammenfassung bleibt offen – versehentlich geschlossen? Einfach nochmal tippen. Ist ein LocalSend-Gerät oder eine E-Mail-Adresse eingestellt (siehe unten), gibt es dafür eigene Knöpfe.
+
+### Querformat
+
+Handy quer drehen: Links stehen alle Werte übereinander (Dauer mit Auto-Pause, Leistung, Kadenz, Puls mit aktueller Zone, Tempo, Strecke), rechts das große Diagramm mit den Pulszonen als farbigen Bändern. Ein Punkt markiert die aktuelle Position, das Diagramm läuft mit.
+
+- **Zoomen** mit zwei Fingern (1 bis 30 Minuten), **wischen** blättert zurück, **Doppeltipp** beendet Zoom und Zurückblättern.
+- Unten der Streifen **Zeit in Pulszonen** fürs ganze Training – bleibt beim Zoomen unverändert. Der Knopf **Zonen** in der Puls-Kachel blendet ihn aus, dann wird das Diagramm größer.
+- Hochkant drehen = zurück zur normalen Ansicht, das Training läuft weiter.
+
+### Trainings ans iPhone schicken (LocalSend)
+
+DaumBridge kann jedes Training direkt an ein Gerät im selben WLAN schicken, auf dem die kostenlose App **LocalSend** läuft – z. B. ein iPhone. Auf dem Android-Handy ist dafür keine zusätzliche App nötig.
+
+1. Auf dem iPhone **LocalSend** aus dem App Store installieren, öffnen und „Lokales Netzwerk“ erlauben. Tipp: in LocalSend **Schnellspeichern** einschalten, dann ist kein Annehmen nötig.
+2. In DaumBridge: **Einstellungen → An das iPhone (LocalSend) → Ziel-Gerät** – DaumBridge sucht im WLAN, iPhone antippen.
+3. **Nach dem Training senden** eingeschaltet: Beim Stopp geht die FIT-Datei automatisch ans iPhone. Die Zusammenfassung zeigt „Sende …“, „✓ gesendet“ oder einen Hinweis, falls das iPhone nicht erreichbar war (LocalSend öffnen, dann **An … senden** tippen).
+4. Auf dem iPhone liegt die Datei in der **Dateien**-App im Ordner LocalSend – antippen, teilen, z. B. an MaxUp.
+
+LocalSend muss auf dem Empfänger geöffnet sein, wenn gesendet wird. Ältere Trainings schickst du über Menü ☰ → *Trainings* → Training antippen → **An … senden**.
+
+### Trainings per E-Mail
+
+**Einstellungen → Per E-Mail → E-Mail-Adresse** eintragen. Dann gibt es in der Zusammenfassung und unter Menü ☰ → *Trainings* den Knopf **Per E-Mail**: Die Mail-App öffnet sich mit Empfänger, Betreff, Kennzahlen und der FIT-Datei im Anhang – nur noch **Senden** tippen. Mit **Nach dem Training öffnen** geht die fertige Mail beim Stopp von selbst auf.
 
 Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
 

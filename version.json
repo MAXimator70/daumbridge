@@ -1,6 +1,6 @@
 {
-  "version": "0.9.11",
-  "build": 37,
+  "version": "0.9.12",
+  "build": 38,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Handy quer = Diagramm im Vollbild mit Pulszonen\n- Hochkant = normale Ansicht"
+  "notes": "- Uhr ab erstem Tritt, Auto-Pause\n- Querformat mit Werte-Spalte und Zoom\n- Trainings per LocalSend ans iPhone oder per E-Mail"
 }

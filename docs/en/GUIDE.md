@@ -27,8 +27,33 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 1. Tap **Start** on the main screen. The **Daum** chip at the top turns green once the connection is up.
 2. The **BT** chip turns green once DaumBridge is broadcasting; the number next to it shows how many apps are connected. Tapping any chip (Daum, BT, Puls) shows all connections at a glance.
 3. On start, the logo flips over automatically and shows the **chart** (power, cadence, heart rate of the last 10 minutes). Swipe right to scroll back, **double-tap** to jump back to live, single tap flips back to the logo.
-4. Done? Tap **Stopp** (stop) – the summary appears.
-5. **Training teilen (FIT)** (share ride) opens the share menu: Telegram, Google Drive, Dropbox, Synology Drive, e-mail, MaxUp … The summary stays open – closed the share menu by accident? Just tap again.
+4. The **clock starts with your first pedal stroke** – until then DAUER (duration) shows “wartet auf den ersten Tritt” (waiting for the first pedal stroke) and nothing is recorded. So you can tap Start and get going later.
+5. **Auto-pause:** the small **⏸ Auto-Pause** pill at the top right of the duration card turns it on (green) or off (grey). When on, the clock stops if you don't pedal for more than 5 seconds – the pill shows yellow **PAUSE** and the time turns yellow. Pauses don't count towards duration, averages, zone time or the FIT file.
+6. Done? Tap **Stopp** (stop) – the summary appears.
+7. **Training teilen (FIT)** (share ride) opens the share menu: Telegram, Google Drive, Dropbox, Synology Drive, e-mail, MaxUp … The summary stays open – closed the share menu by accident? Just tap again. If a LocalSend device or an e-mail address is set up (see below), there are dedicated buttons for them.
+
+### Landscape
+
+Turn the phone sideways: on the left all values stacked (duration with auto-pause, power, cadence, heart rate with current zone, speed, distance), on the right the large chart with the heart-rate zones as coloured bands. A dot marks the current position and the chart moves along.
+
+- **Zoom** with two fingers (1 to 30 minutes), **swipe** to scroll back, **double-tap** ends zoom and scrolling.
+- At the bottom the **time in heart-rate zones** bar for the whole ride – it stays the same when zooming. The **Zonen** button in the heart-rate tile hides it to make the chart bigger.
+- Turn upright = back to the normal view, the ride keeps going.
+
+### Sending rides to an iPhone (LocalSend)
+
+DaumBridge can send every ride straight to a device on the same Wi-Fi running the free app **LocalSend** – e.g. an iPhone. No extra app is needed on the Android phone.
+
+1. On the iPhone install **LocalSend** from the App Store, open it and allow “Local Network”. Tip: turn on **Quick Save** in LocalSend so no accepting is needed.
+2. In DaumBridge: **Settings → An das iPhone (LocalSend) → Ziel-Gerät** (target device) – DaumBridge searches the Wi-Fi, tap your iPhone.
+3. With **Nach dem Training senden** (send after the ride) on, the FIT file goes to the iPhone automatically on stop. The summary shows sending, “✓ gesendet” (sent) or a hint if the iPhone wasn't reachable (open LocalSend, then tap **An … senden**).
+4. On the iPhone the file is in the **Files** app in the LocalSend folder – tap it, share, e.g. to MaxUp.
+
+LocalSend has to be open on the receiving device while sending. Older rides: menu ☰ → *Trainings* → tap the ride → **An … senden**.
+
+### Rides by e-mail
+
+Enter an address under **Settings → Per E-Mail → E-Mail-Adresse**. The summary and menu ☰ → *Trainings* then offer **Per E-Mail**: your mail app opens with recipient, subject, key figures and the FIT file attached – just tap **Send**. With **Nach dem Training öffnen** (open after the ride) the mail opens by itself on stop.
 
 Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 

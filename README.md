@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.9.11 (Build 37)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.12 (Build 38)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
@@ -54,7 +54,9 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 - **Fahrerprofile** – Geburtsdatum, Gewicht, FTP, Pulsgurt und Pulszonen pro Person
 - **Pulszonen** – automatisch aus dem Maximalpuls berechnet oder selbst eingestellt
 - **Zonenfarben** – Puls- und Leistungskachel färben sich nach Zone, ein Streifen zeigt die Zeit in den Pulszonen
-- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live. Handy quer drehen = Diagramm im Vollbild mit aktuellen Werten und farbigen Pulszonen
+- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live. Handy quer drehen = alle Werte links, großes Diagramm mit Pulszonen, Zoomen mit zwei Fingern
+- **Uhr ab dem ersten Tritt, Auto-Pause** – Pausen zählen nicht mit, Schalter direkt in der Dauer-Karte
+- **Trainings ans iPhone** – per LocalSend übers WLAN (automatisch nach jedem Training) oder per E-Mail
 - **Zusammenfassung** nach dem Training (Dauer, Strecke, Leistung, Normalized Power, kJ, Puls, Zonen)
 - **Training teilen als FIT-Datei** – an Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …; alle Trainings bleiben auf dem Handy gespeichert (Menü ☰ → Trainings)
 - **Verbindet sich selbst neu**, wenn der Daum-Adapter oder der Pulsgurt kurz weg ist

@@ -1,5 +1,12 @@
 # Versionen
 
+## 0.9.12 (Build 38) - 18.11.2026
+- Uhr startet erst mit dem ersten Tritt (vorher wird nichts aufgezeichnet)
+- Auto-Pause: Uhr haelt an, wenn 5 s nicht getreten wird; Schalter klein in der Dauer-Karte (Hauptseite und Querformat), gelb PAUSE waehrend der Pause
+- Querformat neu: links alle Werte uebereinander, rechts das Diagramm mit Pulszonen, Zoomen mit zwei Fingern (1-30 min), Punkt an der aktuellen Position, Streifen Zeit in Pulszonen (Knopf Zonen blendet ihn aus)
+- Trainings per LocalSend direkt ans iPhone (oder andere Geraete) im WLAN, auf Wunsch automatisch nach jedem Training
+- Trainings per E-Mail: Adresse in den Einstellungen, fertige Mail mit FIT-Anhang
+
 ## 0.9.11 (Build 37) - 18.11.2026
 - Handy quer drehen: Diagramm ueber den ganzen Bildschirm, ohne Tasten und ohne Statusleiste; aktuelle Leistung, Kadenz, Puls und Dauer gross in der Kopfzeile
 - Pulszonen als farbige Baender hinter der Pulskurve, aktuelle Zone als farbiges Schild neben dem Puls

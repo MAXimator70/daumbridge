@@ -21,6 +21,8 @@ Beim Deinstallieren der App wird alles gelöscht.
 - **Per Bluetooth an deine Trainings-App:** Leistung, Trittfrequenz, Tempo, Puls – das ist der Zweck der App. Die Trainings-App kann das Gewicht senden; DaumBridge nutzt es nur für die Berechnung.
 - **Update-Prüfung:** Beim Start fragt DaumBridge bei GitHub die Datei `version.json` ab, um neue Versionen zu finden. Dabei sieht GitHub wie bei jedem Webseitenaufruf die IP-Adresse. Es werden keine Daten über dich mitgeschickt.
 - **Trainings, Protokoll und Absturzberichte** verlassen das Handy nur, wenn du sie selbst über *Teilen* verschickst.
+- **LocalSend (nur wenn eingerichtet):** Die FIT-Datei geht direkt übers eigene WLAN an das gewählte Gerät, ohne Internet und ohne Server. Für die Suche kündigt sich DaumBridge im WLAN mit dem eingestellten Gerätenamen an (Standard „DaumBridge“).
+- **E-Mail (nur wenn eingerichtet):** DaumBridge öffnet deine Mail-App mit fertiger Nachricht – gesendet wird erst, wenn du dort auf Senden tippst, über dein eigenes Mailkonto. Die Adresse bleibt nur auf dem Handy gespeichert.
 
 Keine Werbung, keine Analyse- oder Tracking-Dienste, kein Konto.
 
@@ -32,7 +34,8 @@ Keine Werbung, keine Analyse- oder Tracking-Dienste, kein Konto.
 | Standort (nur bis Android 11) | Android verlangt ihn für die Suche nach dem Pulsgurt. DaumBridge liest den Standort nie aus. |
 | Benachrichtigungen | Anzeige „Training läuft“, damit Android die App nicht beendet |
 | Vordergrunddienst, Wach halten | Training läuft weiter, auch wenn der Bildschirm aus ist |
-| Internet | nur für die Update-Prüfung und den Download neuer Versionen |
+| Internet | Update-Prüfung, Download neuer Versionen, LocalSend im eigenen WLAN |
+| WLAN-Status, Multicast | nur für LocalSend: Geräte im eigenen WLAN finden |
 | Apps installieren | um ein heruntergeladenes Update zu installieren (fragt jedes Mal nach) |
 
 Während des Trainings ändert DaumBridge vorübergehend den Bluetooth-Namen des Handys (z. B. auf „DaumBridge“) und stellt ihn danach wieder her.

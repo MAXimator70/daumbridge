@@ -88,3 +88,13 @@ Bei *Smart EIN* steuert die Trainings-App den Daum und überstimmt den Drehknopf
 2. Kurz beschreiben, was passiert ist und welches Handy und welche Trainings-App genutzt wurden.
 
 Stürzt DaumBridge ab, zeigt die App beim nächsten Start einen Absturzbericht, der sich ebenfalls teilen lässt.
+
+**Wie kommen meine Trainings aufs iPhone (z. B. in MaxUp)?**
+Am einfachsten mit **LocalSend**: auf dem iPhone die kostenlose App LocalSend installieren und öffnen, in DaumBridge unter Einstellungen → *An das iPhone (LocalSend)* das iPhone wählen. Danach geht jedes Training beim Stopp automatisch übers WLAN ans iPhone (Dateien-App → LocalSend). Alternativ **per E-Mail** (Einstellungen → *Per E-Mail*). Per Bluetooth geht es nicht – das iPhone nimmt von Android-Handys keine Dateien per Bluetooth an.
+
+**LocalSend findet mein iPhone nicht.**
+LocalSend muss am iPhone geöffnet sein, „Lokales Netzwerk“ muss erlaubt sein (iPhone-Einstellungen → LocalSend), und beide Geräte müssen im selben WLAN sein. Gast-WLANs und Router mit „Geräte voneinander abschirmen“ verhindern, dass sich die Geräte sehen.
+
+**Warum zeigt die Dauer 0:00:00, obwohl ich Start gedrückt habe?**
+Die Uhr startet erst mit dem ersten Tritt. Mit **Auto-Pause** (Schild oben rechts in der Dauer-Karte) hält sie außerdem an, wenn du länger als 5 Sekunden nicht trittst.
+
