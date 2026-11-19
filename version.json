@@ -1,6 +1,6 @@
 {
-  "version": "0.9.18",
-  "build": 44,
+  "version": "0.9.19",
+  "build": 45,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Pulsgurt trennen (Einstellungen und Verbindungen)"
+  "notes": "- Querformat: Knopf \"Auto-Pause\" zweizeilig beschriftet"
 }

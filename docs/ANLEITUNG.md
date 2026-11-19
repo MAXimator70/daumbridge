@@ -36,7 +36,7 @@ Handy quer drehen: Links stehen in einer schmalen Spalte alle Werte übereinande
 
 - **Zoomen** mit zwei Fingern (1 bis 30 Minuten), **wischen** blättert zurück, **Doppeltipp** beendet Zoom und Zurückblättern.
 - Unten der Streifen **Zeit in Pulszonen** fürs ganze Training – bleibt beim Zoomen unverändert. Der Knopf **Zonen** in der Puls-Kachel blendet ihn aus, dann wird das Diagramm größer.
-- Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Pause** (Auto-Pause) und **Zonen** sind quadratische Knöpfe über die ganze Kachelhöhe. Der Puls steht im Querformat ohne „bpm“, damit die Zahl groß bleibt. Die Gurt-Batterie zeigt im Querformat nur die Farbe, ohne Zahl.
+- Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Auto-Pause** (zweizeilig beschriftet) und **Zonen** sind quadratische Knöpfe über die ganze Kachelhöhe. Der Puls steht im Querformat ohne „bpm“, damit die Zahl groß bleibt. Die Gurt-Batterie zeigt im Querformat nur die Farbe, ohne Zahl.
 - Hochkant drehen = zurück zur normalen Ansicht, das Training läuft weiter.
 
 ### Trainings ans iPhone schicken (LocalSend)

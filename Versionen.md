@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.19 (Build 45) - 19.11.2026
+- Querformat: Knopf heisst wieder "Auto-Pause", zweizeilig beschriftet
+
 ## 0.9.18 (Build 44) - 19.11.2026
 - Pulsgurt trennen: roter Knopf in Einstellungen -> Pulsgurt und im Fenster Verbindungen (Chips oben antippen); trennt sofort, der Gurt ist frei fuer andere Geraete
 
