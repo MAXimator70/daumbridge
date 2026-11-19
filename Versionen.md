@@ -1,5 +1,8 @@
 # Versionen
 
+## 0.9.20 (Build 46) - 19.11.2026
+- Neuer Schalter "Puls nie vom Daum nehmen" unter Einstellungen > Geraete, ab Werk an: der Pulsempfaenger im Daum wird ignoriert, Puls nur vom Pulsgurt
+
 ## 0.9.19 (Build 45) - 19.11.2026
 - Querformat: Knopf heisst wieder "Auto-Pause", zweizeilig beschriftet
 

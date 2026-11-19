@@ -93,6 +93,8 @@ Wichtig: Viele Gurte (z. B. **Polar H9**) erlauben nur **eine** Bluetooth-Verbin
 
 **Herz und Akku:** Das ♥ in der Puls-Kachel ist **rot** und schlägt im Takt deines Pulses, sobald Werte kommen, **gelb**, solange der Gurt gesucht wird, und **grau**, wenn kein Gurt verbunden ist. Daneben zeigt eine senkrechte **Batterie** den Akkustand des Gurts – grün, unter 20 % gelb, unter 10 % rot; unter 15 % erscheint beim Verbinden einmal ein Hinweis. Gurte, die keinen Akkustand melden, zeigen keine Batterie.
 
+**Puls nie vom Daum nehmen:** Dieser Schalter unter *Einstellungen → Geräte* ist ab Werk an. Der ungenaue Pulsempfänger im Daum wird dann ignoriert, der Puls kommt nur vom Bluetooth-Gurt. Ohne Gurt bleibt die Puls-Kachel leer. Wer ohne Gurt trotzdem den Daum-Puls möchte, schaltet ihn aus.
+
 ## 6. Fahrerprofile
 
 Fahren mehrere Personen, bekommt jede ein eigenes Profil mit Geburtsdatum, Gewicht, FTP, Pulsgurt, Pulszonen und Simulatorstärke.
@@ -136,7 +138,7 @@ Die Leistungszonen richten sich nach der **FTP** im Profil.
 
 ## 9. Erweiterte Einstellungen
 
-Unter *Einstellungen → Erweitert*: Simulatorstärke, maximale und minimale Leistung, Fahrradgewicht, Radumfang, Bluetooth-Name, alte Daum-Firmware, *Puls vom Daum verwenden* (ohne Gurt; aus = kein Puls statt ungenauer Werte), Bildschirm anlassen, Abfrage-Intervall, Protokoll und *Auf Standard zurücksetzen* (Profile und Geräte bleiben erhalten).
+Unter *Einstellungen → Erweitert*: Simulatorstärke, maximale und minimale Leistung, Fahrradgewicht, Radumfang, Bluetooth-Name, alte Daum-Firmware, Bildschirm anlassen, Abfrage-Intervall, Protokoll und *Auf Standard zurücksetzen* (Profile und Geräte bleiben erhalten).
 
 ---
 Probleme? → [Häufige Fragen und Fehlerbehebung](FAQ.md)

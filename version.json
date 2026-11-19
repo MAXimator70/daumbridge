@@ -1,6 +1,6 @@
 {
-  "version": "0.9.19",
-  "build": 45,
+  "version": "0.9.20",
+  "build": 46,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Querformat: Knopf \"Auto-Pause\" zweizeilig beschriftet"
+  "notes": "- Puls nie vom Daum nehmen (ab Werk an): Puls nur noch vom Pulsgurt"
 }

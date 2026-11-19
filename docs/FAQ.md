@@ -51,7 +51,7 @@ Ja, aber nur während des Trainings – Android meldet den Trainer unter dem Nam
 ## Puls
 
 **DaumBridge zeigt einen viel zu hohen Puls an.**
-Der Pulsempfänger im Daum ist oft ungenau. Mit einem Bluetooth-Pulsgurt (*Einstellungen → Geräte → Pulsgurt*) nimmt DaumBridge nur noch den Wert vom Gurt. Ohne Gurt kannst du den Daum-Puls unter *Einstellungen → Erweitert → Puls vom Daum verwenden* abschalten.
+Der Pulsempfänger im Daum ist oft ungenau. Mit einem Bluetooth-Pulsgurt (*Einstellungen → Geräte → Pulsgurt*) nimmt DaumBridge nur noch den Wert vom Gurt. Den Puls vom Daum nimmt DaumBridge gar nicht: Der Schalter *Einstellungen → Geräte → Puls nie vom Daum nehmen* ist ab Werk an. Nur wer ohne Gurt trotzdem den Daum-Puls sehen will, schaltet ihn aus.
 
 **Der Puls springt stark auf und ab, obwohl ich ruhig sitze.**
 Meist schlechter Hautkontakt am Gurt: Elektroden anfeuchten, Gurt enger und direkt unter der Brust tragen, Kunstfaser-Shirt vermeiden, Batterie prüfen. Grobe Ausreißer (über dem Maximalpuls, sprunghafte Spitzen) filtert DaumBridge seit 0.9.7 heraus.

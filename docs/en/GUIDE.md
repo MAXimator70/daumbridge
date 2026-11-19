@@ -95,6 +95,8 @@ Important: many straps (e.g. **Polar H9**) allow only **one** Bluetooth connecti
 
 **Heart and battery:** the ♥ in the heart-rate tile is **red** and beats in time with your pulse once values arrive, **yellow** while the strap is being searched for, and **grey** when no strap is connected. Next to it a vertical **battery** shows the strap's charge – green, yellow below 20 %, red below 10 %; below 15 % a one-time hint appears on connecting. Straps that don't report their battery show no battery.
 
+**Puls nie vom Daum nehmen** (never take heart rate from the Daum): this switch under *Einstellungen → Geräte* is on by default. The Daum's inaccurate heart rate receiver is ignored and heart rate comes only from the Bluetooth strap. Without a strap the heart-rate tile stays empty. If you have no strap and still want the Daum's value, turn it off.
+
 ## 6. Rider profiles
 
 If several people ride, each gets their own profile with date of birth, weight, FTP, heart rate strap, heart rate zones and simulator strength.
@@ -138,7 +140,7 @@ Power zones are based on the **FTP** in the profile.
 
 ## 9. Advanced settings
 
-Under *Einstellungen → Erweitert* [Settings → Advanced]: simulator strength, maximum and minimum power, bike weight, wheel circumference, Bluetooth name, old Daum firmware, *Puls vom Daum verwenden* (use the Daum's heart rate when no strap is set; off = no heart rate instead of inaccurate values), keep screen on, polling interval, log (*Protokoll*) and *Auf Standard zurücksetzen* (reset to defaults – profiles and devices are kept).
+Under *Einstellungen → Erweitert* [Settings → Advanced]: simulator strength, maximum and minimum power, bike weight, wheel circumference, Bluetooth name, old Daum firmware, keep screen on, polling interval, log (*Protokoll*) and *Auf Standard zurücksetzen* (reset to defaults – profiles and devices are kept).
 
 ---
 Problems? → [FAQ and troubleshooting](FAQ.md)
