@@ -1,5 +1,10 @@
 # Versionen
 
+## 0.9.21 (Build 47) - 25.11.2026
+- Diagramm zoomt automatisch: Leistung, Kadenz und Puls fuellen je rund 80 % der Hoehe
+- Kadenz mit eigener blauer Skala rechts, halbtransparent vor der Leistung, ueber 5 s geglaettet
+- Neu: gespeicherte Trainings ansehen (Menue > Trainings > Training > Diagramm ansehen) mit Zusammenfassung und Zeit in Pulszonen
+
 ## 0.9.20 (Build 46) - 19.11.2026
 - Neuer Schalter "Puls nie vom Daum nehmen" unter Einstellungen > Geraete, ab Werk an: der Pulsempfaenger im Daum wird ignoriert, Puls nur vom Pulsgurt
 

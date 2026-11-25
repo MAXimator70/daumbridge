@@ -35,6 +35,7 @@ Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht 
 Handy quer drehen: Links stehen in einer schmalen Spalte alle Werte übereinander (Dauer mit Auto-Pause, Leistung, Puls mit aktueller Zone, Kadenz, Tempo, Strecke) in großen, fetten Zahlen, rechts nimmt das große Diagramm vier Fünftel der Breite ein, mit den Pulszonen als farbigen Bändern. Ein Punkt markiert die aktuelle Position, das Diagramm läuft mit.
 
 - **Zoomen** mit zwei Fingern (1 bis 30 Minuten), **wischen** blättert zurück, **Doppeltipp** beendet Zoom und Zurückblättern.
+- Die Skalen passen sich automatisch an: **Leistung** (Skala links), **Kadenz** (eigene blaue Skala rechts) und **Puls** füllen jeweils rund 80 % ihrer Fläche – so sieht man auch kleine Unterschiede. Die Kadenz liegt halbtransparent vor der Leistung und ist im Diagramm über 5 Sekunden geglättet.
 - Unten der Streifen **Zeit in Pulszonen** fürs ganze Training – bleibt beim Zoomen unverändert. Der Knopf **Zonen** in der Puls-Kachel blendet ihn aus, dann wird das Diagramm größer.
 - Die Puls-Kachel färbt sich in der aktuellen Pulszone und zeigt den Namen ausgeschrieben (z. B. „Z2 · FETTVERBRENNUNG“). **Auto-Pause** (zweizeilig beschriftet) und **Zonen** sind quadratische Knöpfe über die ganze Kachelhöhe. Der Puls steht im Querformat ohne „bpm“, damit die Zahl groß bleibt. Die Gurt-Batterie zeigt im Querformat nur die Farbe, ohne Zahl.
 - Hochkant drehen = zurück zur normalen Ansicht, das Training läuft weiter.
@@ -54,7 +55,7 @@ LocalSend muss auf dem Empfänger geöffnet sein, wenn gesendet wird. Ältere Tr
 
 **Einstellungen → Per E-Mail → E-Mail-Adresse** eintragen. Dann gibt es in der Zusammenfassung und unter Menü ☰ → *Trainings* den Knopf **Per E-Mail**: Die Mail-App öffnet sich mit Empfänger, Betreff, Kennzahlen und der FIT-Datei im Anhang – nur noch **Senden** tippen. Mit **Nach dem Training öffnen** geht die fertige Mail beim Stopp von selbst auf.
 
-Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
+Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später ansehen, teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. **Diagramm ansehen** zeigt Leistung, Kadenz und Puls über das ganze Training, dazu Dauer, Strecke, Durchschnitte und die Zeit in jeder Pulszone – zoomen mit zwei Fingern, wischen zum Blättern, Doppeltipp zeigt wieder alles. Das funktioniert auch mit älteren Trainings. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
 
 Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** gelb und DaumBridge verbindet sich selbst neu.
 

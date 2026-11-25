@@ -37,6 +37,7 @@ No original Daum adapter? A standard Bluetooth RS232 adapter works too – see [
 Turn the phone sideways: on the left a narrow column with all values stacked (duration with auto-pause, power, heart rate with current zone, cadence, speed, distance) in large bold numbers, on the right the large chart takes four fifths of the width, with the heart-rate zones as coloured bands. A dot marks the current position and the chart moves along.
 
 - **Zoom** with two fingers (1 to 30 minutes), **swipe** to scroll back, **double-tap** ends zoom and scrolling.
+- The scales adjust automatically: **power** (left scale), **cadence** (its own blue scale on the right) and **heart rate** each fill about 80 % of their area, so even small changes are visible. Cadence is drawn semi-transparent in front of power and smoothed over 5 seconds in the chart.
 - At the bottom the **time in heart-rate zones** bar for the whole ride – it stays the same when zooming. The **Zonen** button in the heart-rate tile hides it to make the chart bigger.
 - The heart-rate tile takes on the colour of the current zone and shows its name in full (e.g. “Z2 · FETTVERBRENNUNG”). **Auto-Pause** (two-line label) and **Zonen** are square buttons spanning the full tile height. In landscape the heart rate is shown without “bpm” so the number stays large. In landscape the strap battery shows its colour only, without the number.
 - Turn upright = back to the normal view, the ride keeps going.
@@ -56,7 +57,7 @@ LocalSend has to be open on the receiving device while sending. Older rides: men
 
 Enter an address under **Settings → Per E-Mail → E-Mail-Adresse**. The summary and menu ☰ → *Trainings* then offer **Per E-Mail**: your mail app opens with recipient, subject, key figures and the FIT file attached – just tap **Send**. With **Nach dem Training öffnen** (open after the ride) the mail opens by itself on stop.
 
-Every ride of 30 seconds or more stays saved on the phone. To share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
+Every ride of 30 seconds or more stays saved on the phone. To view, share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. **Diagramm ansehen** (view chart) shows power, cadence and heart rate over the whole ride, plus duration, distance, averages and the time in each heart-rate zone – zoom with two fingers, swipe to scroll, double-tap shows everything again. This also works for older rides. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 
 If the connection to the Daum drops (adapter switched off, out of range), the chip turns yellow (**Daum …**) and DaumBridge reconnects by itself.
 
