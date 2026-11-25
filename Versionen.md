@@ -1,5 +1,9 @@
 # Versionen
 
+## 0.9.22 (Build 48) - 25.11.2026
+- Gespeicherte Trainings oeffnen sich in der gewohnten Querformat-Ansicht (Werte links mit Durchschnitt und Maximum, Diagramm rechts, Zeit in Pulszonen unten)
+- Streifen "Zeit in Pulszonen" immer anteilig auf die bisher gefahrene Zeit statt fest auf 60 Minuten
+
 ## 0.9.21 (Build 47) - 25.11.2026
 - Diagramm zoomt automatisch: Leistung, Kadenz und Puls fuellen je rund 80 % der Hoehe
 - Kadenz mit eigener blauer Skala rechts, halbtransparent vor der Leistung, ueber 5 s geglaettet

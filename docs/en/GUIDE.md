@@ -57,7 +57,7 @@ LocalSend has to be open on the receiving device while sending. Older rides: men
 
 Enter an address under **Settings → Per E-Mail → E-Mail-Adresse**. The summary and menu ☰ → *Trainings* then offer **Per E-Mail**: your mail app opens with recipient, subject, key figures and the FIT file attached – just tap **Send**. With **Nach dem Training öffnen** (open after the ride) the mail opens by itself on stop.
 
-Every ride of 30 seconds or more stays saved on the phone. To view, share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. **Diagramm ansehen** (view chart) shows power, cadence and heart rate over the whole ride, plus duration, distance, averages and the time in each heart-rate zone – zoom with two fingers, swipe to scroll, double-tap shows everything again. This also works for older rides. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
+Every ride of 30 seconds or more stays saved on the phone. To view, share or delete it later: **menu ☰ → *Trainings*** (rides) → tap the ride. **Diagramm ansehen** (view chart) opens the ride in the familiar **landscape view**: on the left duration, average power, heart rate, cadence and speed (with maximums) and distance, on the right power, cadence and heart rate over the whole ride, below it the time in heart-rate zones. **◀ Zurück** (back) at the top left closes it – zoom with two fingers, swipe to scroll, double-tap shows everything again. This also works for older rides. Rides already shared show a **✓** (with the app they were shared to). **Aufräumen** (clean up) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first. The FIT file can be imported into MaxUp, Strava, Garmin Connect, TrainingPeaks and others.
 
 If the connection to the Daum drops (adapter switched off, out of range), the chip turns yellow (**Daum …**) and DaumBridge reconnects by itself.
 
@@ -129,7 +129,7 @@ Values are set with **scroll wheels** – no keyboard needed.
 - ***Automatisch berechnen*** [calculate automatically]: calculates the zones with the selected method. If a date of birth is set, DaumBridge suggests a max heart rate based on age.
 - **Set manually:** tap any value and change it with the scroll wheel. A measured max heart rate (fitness test, sports watch) is more accurate than the estimate.
 
-While riding, the **Puls** (heart rate) and **Leistung** (power) tiles change colour by zone. The bar ***Zeit in Pulszonen*** (time in heart rate zones) fills up during the first hour; grey is time below the recovery zone.
+While riding, the **Puls** (heart rate) and **Leistung** (power) tiles change colour by zone. The bar ***Zeit in Pulszonen*** (time in heart rate zones) always uses the full width and shows each zone's share of the time ridden so far; grey is time below the recovery zone.
 
 Power zones are based on the **FTP** in the profile.
 

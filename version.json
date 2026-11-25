@@ -1,6 +1,6 @@
 {
-  "version": "0.9.21",
-  "build": 47,
+  "version": "0.9.22",
+  "build": 48,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Diagramm zoomt automatisch (80 %)\n- Kadenz mit eigener Skala rechts\n- Gespeicherte Trainings als Diagramm ansehen"
+  "notes": "- Gespeicherte Trainings in der Querformat-Ansicht\n- Zeit in Pulszonen anteilig auf die gefahrene Zeit"
 }

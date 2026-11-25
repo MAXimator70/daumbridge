@@ -55,7 +55,7 @@ LocalSend muss auf dem Empfänger geöffnet sein, wenn gesendet wird. Ältere Tr
 
 **Einstellungen → Per E-Mail → E-Mail-Adresse** eintragen. Dann gibt es in der Zusammenfassung und unter Menü ☰ → *Trainings* den Knopf **Per E-Mail**: Die Mail-App öffnet sich mit Empfänger, Betreff, Kennzahlen und der FIT-Datei im Anhang – nur noch **Senden** tippen. Mit **Nach dem Training öffnen** geht die fertige Mail beim Stopp von selbst auf.
 
-Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später ansehen, teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. **Diagramm ansehen** zeigt Leistung, Kadenz und Puls über das ganze Training, dazu Dauer, Strecke, Durchschnitte und die Zeit in jeder Pulszone – zoomen mit zwei Fingern, wischen zum Blättern, Doppeltipp zeigt wieder alles. Das funktioniert auch mit älteren Trainings. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
+Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert. Später ansehen, teilen oder löschen: **Menü ☰ → *Trainings*** → Training antippen. **Diagramm ansehen** öffnet das Training in der gewohnten **Querformat-Ansicht**: links Dauer, Ø-Leistung, Ø-Puls, Ø-Kadenz, Ø-Tempo und Strecke (mit Maximalwerten), rechts Leistung, Kadenz und Puls über das ganze Training, darunter die Zeit in Pulszonen. **◀ Zurück** oben links schließt die Ansicht – zoomen mit zwei Fingern, wischen zum Blättern, Doppeltipp zeigt wieder alles. Das funktioniert auch mit älteren Trainings. Bereits geteilte Trainings haben ein **✓** (mit der App, an die geteilt wurde). Mit **Aufräumen** löschst du mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage. Die FIT-Datei lässt sich in MaxUp, Strava, Garmin Connect, TrainingPeaks & Co. importieren.
 
 Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip **Daum …** gelb und DaumBridge verbindet sich selbst neu.
 
@@ -127,7 +127,7 @@ Werte stellst du mit **Drehrädern** ein – keine Tastatur nötig.
 - **Automatisch berechnen:** berechnet die Zonen nach der gewählten Methode. Ist ein Geburtsdatum hinterlegt, schlägt DaumBridge einen Maximalpuls aus dem Alter vor.
 - **Selbst einstellen:** Jeden Wert antippen und per Drehrad ändern. Ein gemessener Maximalpuls (Leistungstest, Pulsuhr) ist genauer als die Schätzung.
 
-Beim Fahren färben sich die Kacheln **Puls** und **Leistung** nach Zone. Der Streifen **Zeit in Pulszonen** füllt sich während der ersten Stunde; grau ist die Zeit unterhalb der Erholungszone.
+Beim Fahren färben sich die Kacheln **Puls** und **Leistung** nach Zone. Der Streifen **Zeit in Pulszonen** nutzt immer die ganze Breite und zeigt die Anteile der Zonen an der bisher gefahrenen Zeit; grau ist die Zeit unterhalb der Erholungszone.
 
 Die Leistungszonen richten sich nach der **FTP** im Profil.
 
