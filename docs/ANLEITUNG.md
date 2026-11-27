@@ -94,10 +94,6 @@ Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert – bis du es lö
 
 ### Diagramm ansehen
 
-<p align="center">
-<img src="../bilder/10_quer_pulszonen.png" width="720" alt="Gespeichertes Training im Querformat">
-</p>
-
 Das Training öffnet sich in der gewohnten **Querformat-Ansicht** – das Handy dreht sich dafür automatisch quer:
 
 - **Links:** Dauer mit **◀ Zurück**, **Ø-Leistung**, **Ø-Puls**, **Ø-Kadenz**, **Ø-Tempo** jeweils mit Maximalwert, und die Strecke. Die Puls-Kachel hat die Farbe der Zone, in die der Durchschnittspuls fällt.

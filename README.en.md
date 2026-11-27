@@ -67,9 +67,6 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 <img src="bilder/09_quer_training.png" width="720" alt="Landscape">
 </p>
 <p align="center">
-<img src="bilder/10_quer_pulszonen.png" width="720" alt="Saved ride in landscape">
-</p>
-<p align="center">
 <img src="bilder/02_einstellungen.png" width="240" alt="Settings">
 <img src="bilder/04_pulszonen.png" width="240" alt="Heart rate zones">
 <img src="bilder/03_drehrad.png" width="240" alt="Scroll wheel picker">

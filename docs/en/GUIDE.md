@@ -94,10 +94,6 @@ Every ride of 30 seconds or more stays saved on the phone – until you delete i
 
 ### View chart
 
-<p align="center">
-<img src="../../bilder/10_quer_pulszonen.png" width="720" alt="Saved ride in landscape">
-</p>
-
 The ride opens in the familiar **landscape view** – the phone switches to landscape automatically:
 
 - **Left:** duration with **◀ Zurück** (back), **average power**, **heart rate**, **cadence** and **speed**, each with its maximum, and the distance. The heart-rate tile takes the colour of the zone the average falls into.

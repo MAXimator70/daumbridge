@@ -67,9 +67,6 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 <img src="bilder/09_quer_training.png" width="720" alt="Querformat">
 </p>
 <p align="center">
-<img src="bilder/10_quer_pulszonen.png" width="720" alt="Gespeichertes Training im Querformat">
-</p>
-<p align="center">
 <img src="bilder/02_einstellungen.png" width="240" alt="Einstellungen">
 <img src="bilder/04_pulszonen.png" width="240" alt="Pulszonen">
 <img src="bilder/03_drehrad.png" width="240" alt="Auswahl per Drehrad">
