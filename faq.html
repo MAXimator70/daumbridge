@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DaumBridge – Häufige Fragen</title>
+<meta name="description" content="Häufige Fragen zu DaumBridge.">
+<link rel="alternate" hreflang="en" href="en/faq.html">
+<style>
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .top{max-width:880px;margin:0 auto;padding:14px 16px 0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .top a.home{color:var(--text);text-decoration:none;font-weight:700;font-size:17px}
+  .top a.home span{color:var(--green)}
+  .lang a{display:inline-block;background:var(--card);border:2px solid var(--btn);color:var(--text);text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:600;font-size:15px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  article{background:var(--card);border-radius:18px;padding:8px 22px 20px;margin:12px 0}
+  h1{font-size:26px;margin:16px 0 4px}
+  h2{font-size:21px;margin:28px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:20px 0 6px}
+  a{color:var(--green)}
+  img{max-width:100%;height:auto;border-radius:14px;border:1px solid var(--line);vertical-align:top;margin:4px}
+  p[align=center]{text-align:center}
+  ul,ol{padding-left:22px} li{margin:3px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0;display:block;overflow-x:auto}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  blockquote{margin:10px 0;padding:8px 14px;border-left:4px solid var(--btn);background:var(--bg);border-radius:8px}
+  code{font-family:ui-monospace,Consolas,monospace;font-size:14px;background:var(--bg);padding:1px 5px;border-radius:5px}
+  hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+  .dl{text-align:center;margin:18px 0 4px}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:11px 22px;border-radius:14px;font-weight:600}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="home" href="index.html">← <span>DaumBridge</span></a>
+  <div class="lang"><a href="en/faq.html" lang="en">🇬🇧 English</a></div>
+</div>
+<main>
+<article>
+<h1 id="daumbridge--häufige-fragen-und-fehlerbehebung">DaumBridge – Häufige Fragen und Fehlerbehebung</h1>
+<h2 id="allgemein">Allgemein</h2>
+<p><strong>Läuft DaumBridge auf dem iPhone?</strong>
+Nein. Der blaue Daum-Adapter nutzt klassisches Bluetooth (serielle Verbindung). Apple erlaubt Apps diesen Zugriff nur bei Geräten mit Apple-Zertifizierung – der Daum-Adapter hat keine. DaumBridge braucht deshalb ein Android-Handy. Die Trainings-App selbst darf aber auf iPhone, iPad, Apple TV, Mac oder PC laufen.</p>
+<p><strong>Welche Daum-Ergometer werden unterstützt?</strong>
+Entwickelt und getestet mit dem <strong>Daum 8008 TRS 3</strong>. Andere Daum-Modelle mit demselben seriellen Protokoll können funktionieren – Rückmeldungen sind willkommen.</p>
+<p><strong>Der originale Daum-Bluetooth-Adapter ist vergriffen – was nun?</strong>
+Ein handelsüblicher Bluetooth-RS232-Adapter mit <strong>klassischem Bluetooth (SPP)</strong> und <strong>DB9-Stecker</strong> funktioniert auch. Worauf es ankommt (keine BLE-Variante, 9600 Baud, Stecker, Nullmodem): <a href="https://github.com/MAXimator70/daumbridge/blob/main/docs/ADAPTER.md" target="_blank" rel="noopener">Bluetooth-Adapter</a>.</p>
+<p><strong>Kostet DaumBridge etwas?</strong>
+Nein. Kein Abo, keine Werbung, kein Konto.</p>
+<p><strong>Warum steht „Smart“ statt „ERG“?</strong>
+Smart ist der Oberbegriff: Bei <em>Smart EIN</em> darf die Trainings-App den Daum steuern – je nach Training im ERG-Modus (feste Watt) oder SIM-Modus (Steigung). Welcher Modus gerade läuft, zeigt die Kachel <strong>Modus</strong>.</p>
+<p><strong>„Nach Update suchen“ geht auf einem älteren Handy (Android 7.0) nicht.</strong>
+Bis Version 0.9.7 kannte DaumBridge auf Android 7.0 (z. B. Galaxy S6) das Zertifikat von GitHub nicht. Ab 0.9.8 behoben – einmalig die neue Version per Browser oder vom PC installieren, danach klappt die Update-Suche wieder.</p>
+<h2 id="installation">Installation</h2>
+<p><strong>Beim Installieren kommt „Google Play Store angehalten“.</strong>
+Das kommt nicht von DaumBridge: Beim Installieren einer APK prüft <em>Google Play Protect</em> (Teil des Play Stores) die Datei, und auf älteren Handys stürzt diese Prüfung manchmal ab. Meist läuft die Installation trotzdem durch – nach „App schließen“ unter Menü ☰ → <em>Nach Update suchen</em> die Version prüfen. Sonst nochmal installieren. Hilft das nicht: <em>Android-Einstellungen → Apps → Google Play Store → Speicher → Cache leeren</em>, oder – wenn der Play Store gar nicht genutzt wird – dort <strong>Deaktivieren</strong> (lässt sich jederzeit wieder <strong>Aktivieren</strong>, gelöscht wird nichts).</p>
+<p><strong>Gehen bei einem Update meine Einstellungen oder Trainings verloren?</strong>
+Nein. Ein Update überschreibt nur die App; Profile, Einstellungen und gespeicherte Trainings bleiben.</p>
+<h2 id="verbinden">Verbinden</h2>
+<p><strong>Android fragt beim Koppeln keine PIN ab – ist das falsch?</strong>
+Nein. Manche Adapter koppeln ohne PIN. Fragt Android danach, ist es die 4-stellige Nummer auf dem Adapter.</p>
+<p><strong>Der Chip „Daum“ wird nicht grün.</strong>
+- Ist der Daum eingeschaltet und steckt der Adapter?
+- Ist der Adapter in den Android-Bluetooth-Einstellungen gekoppelt und in DaumBridge unter <em>Geräte</em> gewählt?
+- Ist der Adapter noch mit einem anderen Gerät (z. B. altem Handy, PC) verbunden? Dort trennen.
+- Handy-Bluetooth einmal aus- und einschalten, dann erneut <strong>Verbinden</strong>.</p>
+<p><strong>Die Trainings-App findet „DaumBridge“ nicht.</strong>
+- Läuft das Training in DaumBridge (Stopp-Knopf sichtbar)? Gesendet wird nur, solange ein Training läuft.
+- Ist der Chip <strong>BT</strong> grün?
+- Im Trainings-Programm nach einem <strong>Smart-Trainer / steuerbaren Trainer</strong> suchen, nicht nach einem Leistungsmesser.
+- Laptop: Bluetooth am Laptop eingeschaltet? Manche PCs brauchen einen USB-Bluetooth-Stick.</p>
+<p><strong>In der Trainings-App heißt der Trainer „DaumBridge-4874“.</strong>
+Manche Apps (z. B. MyWhoosh) hängen eine eigene Nummer an. Das ist normal.</p>
+<p><strong>Hieß er früher „POWER-…“?</strong>
+Ältere Versionen hatten den Namen nur in einem Teil der Bluetooth-Meldung. Seit Version 0.4.0 heißt der Trainer überall „DaumBridge“.</p>
+<p><strong>Ändert DaumBridge den Bluetooth-Namen meines Handys?</strong>
+Ja, aber nur während des Trainings – Android meldet den Trainer unter dem Namen des Handys. Nach dem Training (und auch nach einem Absturz beim nächsten Start) bekommt das Handy seinen alten Namen zurück.</p>
+<h2 id="puls">Puls</h2>
+<p><strong>DaumBridge zeigt einen viel zu hohen Puls an.</strong>
+Der Pulsempfänger im Daum ist oft ungenau. Mit einem Bluetooth-Pulsgurt (<em>Einstellungen → Geräte → Pulsgurt</em>) nimmt DaumBridge nur noch den Wert vom Gurt. Den Puls vom Daum nimmt DaumBridge gar nicht: Der Schalter <em>Einstellungen → Geräte → Puls nie vom Daum nehmen</em> ist ab Werk an. Nur wer ohne Gurt trotzdem den Daum-Puls sehen will, schaltet ihn aus.</p>
+<p><strong>Der Puls springt stark auf und ab, obwohl ich ruhig sitze.</strong>
+Meist schlechter Hautkontakt am Gurt: Elektroden anfeuchten, Gurt enger und direkt unter der Brust tragen, Kunstfaser-Shirt vermeiden, Batterie prüfen. Grobe Ausreißer (über dem Maximalpuls, sprunghafte Spitzen) filtert DaumBridge seit 0.9.7 heraus.</p>
+<p><strong>Android meldet beim Koppeln des Pulsgurts „Kopplung abgelehnt“.</strong>
+Das ist normal – viele Gurte lassen sich nicht koppeln. Stattdessen in DaumBridge <em>Pulsgurt suchen</em> verwenden.</p>
+<p><strong>Der Pulsgurt verbindet sich nicht.</strong>
+- Gurt anlegen und Kontakte befeuchten – ohne Hautkontakt sendet er nicht.
+- Viele Gurte (z. B. Polar H9) erlauben nur <strong>eine</strong> Verbindung. Ist er mit Laptop, Uhr oder Trainings-App verbunden, dort trennen.
+- In DaumBridge unter <em>Einstellungen → Geräte → Pulsgurt</em> auf <strong>Pulsgurt suchen</strong> tippen – Koppeln in Android ist nicht nötig.
+- Kommen 20 Sekunden keine Werte, verbindet sich DaumBridge selbst neu.</p>
+<p><strong>Der Streifen „Zeit in Pulszonen“ bleibt leer.</strong>
+Er füllt sich erst beim Fahren und nur, wenn Pulswerte ankommen. Rechts daneben steht, warum er leer ist („kein Puls“ oder „füllt sich beim Fahren“).</p>
+<p><strong>Stimmen meine Pulszonen?</strong>
+Die automatische Berechnung schätzt den Maximalpuls aus dem Alter – bei vielen Menschen weicht der echte Wert um 10 Schläge oder mehr ab. Besser: den Maximalpuls messen (Leistungstest, Pulsuhr) und eintragen. Pulszonen sind keine medizinische Beratung.</p>
+<h2 id="training">Training</h2>
+<p><strong>Der Widerstand ändert sich nicht, wenn ich am Daum drehe.</strong>
+Bei <em>Smart EIN</em> steuert die Trainings-App den Daum und überstimmt den Drehknopf. Für freies Fahren <em>Smart AUS</em> wählen.</p>
+<p><strong>Die Steigungen sind zu hart.</strong>
+<em>Einstellungen → Erweitert → Simulatorstärke</em> herabsetzen (z. B. 50–70 %). Oder in Zwift die „Trainer-Schwierigkeit“ verringern – aber nicht beides stark, sonst wirkt es doppelt.</p>
+<p><strong>Das Handy geht während des Trainings aus.</strong>
+<em>Einstellungen → Erweitert → Bildschirm anlassen</em> einschalten. Bei manchen Herstellern zusätzlich in den Android-Akku-Einstellungen DaumBridge vom Energiesparen ausnehmen.</p>
+<h2 id="fehler-melden">Fehler melden</h2>
+<ol>
+<li>Menü ☰ → <strong>Protokoll</strong> → <strong>Teilen</strong> (z. B. per Mail oder Messenger).</li>
+<li>Kurz beschreiben, was passiert ist und welches Handy und welche Trainings-App genutzt wurden.</li>
+</ol>
+<p>Stürzt DaumBridge ab, zeigt die App beim nächsten Start einen Absturzbericht, der sich ebenfalls teilen lässt.</p>
+<p><strong>Wie kommen meine Trainings aufs iPhone (z. B. in MaxUp)?</strong>
+Am einfachsten mit <strong>LocalSend</strong>: auf dem iPhone die kostenlose App LocalSend installieren und öffnen, in DaumBridge unter Einstellungen → <em>An das iPhone (LocalSend)</em> das iPhone wählen. Danach geht jedes Training beim Stopp automatisch übers WLAN ans iPhone (Dateien-App → LocalSend). Alternativ <strong>per E-Mail</strong> (Einstellungen → <em>Per E-Mail</em>). Per Bluetooth geht es nicht – das iPhone nimmt von Android-Handys keine Dateien per Bluetooth an.</p>
+<p><strong>Bei einem Handy fehlt der Eintrag „An … senden“ / es steht „Ziel wählen“.</strong>
+Das Ziel-Gerät für LocalSend wird <strong>pro Handy</strong> gespeichert. Auf einem Handy, auf dem noch keins gewählt wurde, steht <strong>An iPhone senden – Ziel wählen</strong>: antippen, iPhone (mit geöffnetem LocalSend) auswählen – danach wird gesendet und das Ziel gemerkt. Oder vorab unter <em>Einstellungen → An das iPhone (LocalSend) → Ziel-Gerät</em>.</p>
+<p><strong>Kann ich ein altes Training nochmal ansehen?</strong>
+Ja: Menü ☰ → <em>Trainings</em> → Training antippen → <strong>Diagramm ansehen</strong>. Das Training öffnet sich im Querformat mit Durchschnitts- und Maximalwerten links, dem Diagramm über das ganze Training rechts und der Zeit in Pulszonen unten. Zoomen mit zwei Fingern, Doppeltipp zeigt wieder alles.</p>
+<p><strong>Wird das Diagramm in der FIT-Datei mitgeschickt?</strong>
+Die Daten ja – Leistung, Kadenz, Puls, Tempo und Strecke Sekunde für Sekunde. Das Bild selbst nicht: MaxUp, Strava, Garmin Connect &amp; Co. zeichnen ihre Diagramme beim Import selbst. Die Pulszonen rechnet die Ziel-App nach ihren eigenen Einstellungen.</p>
+<p><strong>LocalSend findet mein iPhone nicht.</strong>
+LocalSend muss am iPhone geöffnet sein, „Lokales Netzwerk“ muss erlaubt sein (iPhone-Einstellungen → LocalSend), und beide Geräte müssen im selben WLAN sein. Gast-WLANs und Router mit „Geräte voneinander abschirmen“ verhindern, dass sich die Geräte sehen.</p>
+<p><strong>LocalSend findet das iPhone, aber es kommt nichts an („Handshake failed“ im Protokoll).</strong>
+Ältere Android-Handys bekommen die verschlüsselte Verbindung zu LocalSend auf dem iPhone manchmal nicht aufgebaut. Abhilfe: am iPhone in LocalSend unter <strong>Einstellungen</strong> die <strong>Verschlüsselung</strong> ausschalten. DaumBridge erkennt das selbst und sendet dann unverschlüsselt – im eigenen WLAN unbedenklich. Am iPhone erscheint beim Empfang eine Frage, ob du die Datei annehmen willst.</p>
+<p><strong>Warum zeigt die Dauer 0:00:00, obwohl ich Verbinden getippt habe?</strong>
+Die Uhr startet erst mit dem ersten Tritt. Mit <strong>Auto-Pause</strong> (Schild oben rechts in der Dauer-Karte) hält sie außerdem an, wenn du länger als 5 Sekunden nicht trittst.</p>
+<p class="dl"><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ DaumBridge herunterladen</a></p>
+</article>
+</main>
+<footer>DaumBridge · Wing-Art · kostenlos, ohne Werbung, ohne Konto</footer>
+</body>
+</html>

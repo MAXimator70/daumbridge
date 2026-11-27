@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DaumBridge – Anleitung</title>
+<meta name="description" content="Anleitung für DaumBridge: Daum-Ergometer per Bluetooth mit Zwift, MyWhoosh und Co. verbinden.">
+<link rel="alternate" hreflang="en" href="en/guide.html">
+<style>
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .top{max-width:880px;margin:0 auto;padding:14px 16px 0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .top a.home{color:var(--text);text-decoration:none;font-weight:700;font-size:17px}
+  .top a.home span{color:var(--green)}
+  .lang a{display:inline-block;background:var(--card);border:2px solid var(--btn);color:var(--text);text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:600;font-size:15px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  article{background:var(--card);border-radius:18px;padding:8px 22px 20px;margin:12px 0}
+  h1{font-size:26px;margin:16px 0 4px}
+  h2{font-size:21px;margin:28px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:20px 0 6px}
+  a{color:var(--green)}
+  img{max-width:100%;height:auto;border-radius:14px;border:1px solid var(--line);vertical-align:top;margin:4px}
+  p[align=center]{text-align:center}
+  ul,ol{padding-left:22px} li{margin:3px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0;display:block;overflow-x:auto}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  blockquote{margin:10px 0;padding:8px 14px;border-left:4px solid var(--btn);background:var(--bg);border-radius:8px}
+  code{font-family:ui-monospace,Consolas,monospace;font-size:14px;background:var(--bg);padding:1px 5px;border-radius:5px}
+  hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+  .dl{text-align:center;margin:18px 0 4px}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:11px 22px;border-radius:14px;font-weight:600}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="home" href="index.html">← <span>DaumBridge</span></a>
+  <div class="lang"><a href="en/guide.html" lang="en">🇬🇧 English</a></div>
+</div>
+<main>
+<article>
+<h1 id="daumbridge--anleitung">DaumBridge – Anleitung</h1>
+<p>Stand: Version 0.9.23</p>
+<p><strong>Inhalt:</strong> <a href="#1-installieren">1. Installieren</a> · <a href="#2-daum-adapter-koppeln-einmalig">2. Daum-Adapter koppeln</a> · <a href="#3-die-startseite">3. Die Startseite</a> · <a href="#4-training">4. Training</a> · <a href="#5-querformat">5. Querformat</a> · <a href="#6-gespeicherte-trainings">6. Gespeicherte Trainings</a> · <a href="#7-trainings-weitergeben">7. Trainings weitergeben</a> · <a href="#8-mit-der-trainings-app-verbinden">8. Mit der Trainings-App verbinden</a> · <a href="#9-pulsgurt-optional">9. Pulsgurt</a> · <a href="#10-fahrerprofile">10. Fahrerprofile</a> · <a href="#11-pulszonen-und-zonenfarben">11. Pulszonen</a> · <a href="#12-smart-erg-und-sim">12. Smart, ERG und SIM</a> · <a href="#13-einstellungen-im-überblick">13. Einstellungen im Überblick</a></p>
+<h2 id="1-installieren">1. Installieren</h2>
+<ol>
+<li>Auf dem Android-Handy <a href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk" target="_blank" rel="noopener">DaumBridge.apk herunterladen</a> (oder unter <a href="https://github.com/MAXimator70/daumbridge/releases" target="_blank" rel="noopener">Releases</a>).</li>
+<li>Die Datei öffnen. Beim ersten Mal fragt Android, ob der Browser (oder Dateimanager) Apps installieren darf → <strong>erlauben</strong>, zurück, <strong>Installieren</strong>.</li>
+<li>Beim ersten Start fragt DaumBridge nach <strong>Bluetooth</strong> („Geräte in der Nähe“) und <strong>Benachrichtigungen</strong> → beides erlauben. Ohne Bluetooth geht nichts; die Benachrichtigung zeigt, dass ein Training läuft.</li>
+</ol>
+<p><strong>Updates:</strong> DaumBridge meldet neue Versionen selbst. Von Hand: Menü ☰ → <strong>Nach Update suchen</strong>. Einstellungen, Profile und Trainings bleiben bei einem Update erhalten.</p>
+<blockquote>
+<p>Kommt beim Installieren auf älteren Handys die Meldung „Google Play Store angehalten“, ist das die Sicherheitsprüfung des Play Stores, nicht DaumBridge – siehe <a href="faq.html#installation">FAQ</a>.</p>
+</blockquote>
+<h2 id="2-daum-adapter-koppeln-einmalig">2. Daum-Adapter koppeln (einmalig)</h2>
+<p>Kein originaler Daum-Adapter? Ein handelsüblicher Bluetooth-RS232-Adapter geht auch – siehe <a href="https://github.com/MAXimator70/daumbridge/blob/main/docs/ADAPTER.md" target="_blank" rel="noopener">Bluetooth-Adapter</a>.</p>
+<ol>
+<li>Den Daum einschalten – der Bluetooth-Adapter muss am Daum stecken.</li>
+<li>Am Handy <strong>Android-Einstellungen → Bluetooth</strong> öffnen (oder in DaumBridge: <em>Einstellungen → Geräte → Neues Gerät koppeln</em>).</li>
+<li>Den Adapter in der Liste antippen (meist ein Name wie <code>Daum_BT_…</code>).</li>
+<li><strong>PIN:</strong> Fragt Android danach, ist es die 4-stellige Nummer, die auf dem Adapter steht. Manche Adapter koppeln ohne PIN – das ist normal.</li>
+<li>Zurück in DaumBridge: <strong>Menü ☰ → Einstellungen → Geräte → Daum-Adapter</strong> und den Adapter auswählen.</li>
+</ol>
+<h2 id="3-die-startseite">3. Die Startseite</h2>
+<p align="center">
+<img src="bilder/01_start_dunkel.png" width="230" alt="Startseite dunkel">
+<img src="bilder/07_start_hell.png" width="230" alt="Startseite hell">
+<img src="bilder/06_menue.png" width="230" alt="Menü">
+</p>
+
+<ul>
+<li><strong>Oben links ☾ / ☀</strong> schaltet zwischen dunkel und hell.</li>
+<li><strong>Chips in der Mitte:</strong> <strong>Daum</strong> (Verbindung zum Ergometer), <strong>BT</strong> (Trainings-Apps, die verbunden sind; die Zahl zeigt wie viele) und <strong>Puls</strong> (Pulsgurt). Grau = aus, gelb = wird gesucht/aufgebaut, grün = verbunden. Antippen zeigt das Fenster <strong>Verbindungen</strong> mit allen Details.</li>
+<li><strong>Menü ☰ oben rechts:</strong> Einstellungen, <strong>Trainings</strong> (gespeicherte Fahrten), Protokoll, Nach Update suchen, Info.</li>
+<li><strong>Diagramm-Karte:</strong> zeigt beim Fahren Leistung, Kadenz und Puls der letzten 10 Minuten (siehe <a href="#4-training">Training</a>). Einfaches Antippen dreht die Karte zum Logo und zurück.</li>
+<li><strong>Dauer-Karte:</strong> Fahrzeit, dahinter der aktive Fahrer („DAUER · FAHRER“) – antippen wechselt den Fahrer, solange kein Training läuft. Rechts oben der Schalter <strong>⏸ Auto-Pause</strong>.</li>
+<li><strong>Kacheln:</strong> Steigung, Modus (frei/ERG/SIM), Kadenz, Tempo, Strecke, Puls und Leistung, jeweils mit Ø und Max.</li>
+<li><strong>Zeit in Pulszonen:</strong> Streifen mit den Anteilen der Pulszonen an der bisher gefahrenen Zeit.</li>
+<li><strong>Unten:</strong> <strong>Smart ist EIN/AUS</strong> (siehe <a href="#12-smart-erg-und-sim">Smart, ERG und SIM</a>) und <strong>Verbinden</strong> bzw. während des Trainings <strong>Stopp</strong>.</li>
+</ul>
+<h2 id="4-training">4. Training</h2>
+<ol>
+<li>Auf der Startseite <strong>Verbinden</strong> tippen. Der Chip <strong>Daum</strong> wird grün, sobald die Verbindung steht.</li>
+<li>Der Chip <strong>BT</strong> wird grün, sobald eine Trainings-App verbunden ist.</li>
+<li>Die <strong>Uhr startet mit dem ersten Tritt</strong> – vorher steht über der Zeit „WARTET AUF DEN ERSTEN TRITT“ (im Querformat „WARTET AUF 1. TRITT“) und es wird noch nichts aufgezeichnet. Du kannst also in Ruhe <em>Verbinden</em> tippen und erst später losfahren.</li>
+<li>Die Diagramm-Karte zeigt <strong>Leistung</strong> (gelb) und <strong>Kadenz</strong> (blau) oben, <strong>Puls</strong> (rot) unten. Mit dem Finger nach rechts wischen blättert zurück, <strong>Doppeltipp</strong> springt wieder auf live.</li>
+<li><strong>Auto-Pause:</strong> Das Schild <strong>⏸ Auto-Pause</strong> in der Dauer-Karte schaltet sie ein (grün) oder aus (grau). Eingeschaltet hält die Uhr an, wenn du länger als 5 Sekunden nicht trittst – das Schild zeigt dann gelb <strong>PAUSE</strong>, die Zeit wird gelb. Pausen zählen nicht in Dauer, Durchschnitte, Zonenzeit und FIT-Datei.</li>
+<li>Fertig? <strong>Stopp</strong> tippen – danach erscheint die <strong>Zusammenfassung</strong> (Dauer, Strecke, Leistung, Normalized Power, Arbeit in kJ, Puls, Zeit in Pulszonen).</li>
+<li>In der Zusammenfassung: <strong>Training teilen (FIT) …</strong>, <strong>An … senden (LocalSend)</strong> und – wenn eingestellt – <strong>Per E-Mail</strong>. Die Zusammenfassung bleibt beim Teilen offen.</li>
+</ol>
+<p><strong>So liest du das Diagramm:</strong>
+- Die Skalen passen sich automatisch an: <strong>Leistung</strong> (Skala links), <strong>Kadenz</strong> (eigene blaue Skala rechts) und <strong>Puls</strong> füllen jeweils rund <strong>80 %</strong> ihrer Fläche – auch kleine Unterschiede sind gut sichtbar. Wenn sich die Werte ändern, gleitet die Skala weich mit.
+- Kurzes Anfahren und Ausrollen (0 W, 0 U/min) und einzelne Ausreißer verzerren die Skala nicht.
+- Die <strong>Kadenz</strong> liegt halbtransparent <strong>vor</strong> der Leistung und ist im Diagramm über 5 Sekunden geglättet. Die Zahl in der Kachel und die FIT-Datei bleiben ungeglättet.</p>
+<p>Bricht die Verbindung zum Daum ab (Adapter kurz aus, außer Reichweite), wird der Chip <strong>Daum</strong> gelb und DaumBridge verbindet sich selbst neu. Das Training läuft weiter.</p>
+<h2 id="5-querformat">5. Querformat</h2>
+<p>Handy quer drehen – das Training läuft einfach weiter.</p>
+<p align="center">
+<img src="bilder/09_quer_training.png" width="720" alt="Querformat">
+</p>
+
+<ul>
+<li><strong>Links</strong> eine schmale Spalte mit allen Werten übereinander in großen, fetten Zahlen: Dauer, Leistung (mit % FTP), Puls, Kadenz (mit Ø), Tempo (mit Ø), Strecke.</li>
+<li><strong>Rechts</strong> das große Diagramm (vier Fünftel der Breite) mit den <strong>Pulszonen als farbigen Bändern</strong> hinter dem Puls. Ein Punkt markiert die aktuelle Position, das Diagramm läuft mit.</li>
+<li><strong>Zoomen</strong> mit zwei Fingern (1 bis 30 Minuten), <strong>wischen</strong> blättert zurück, <strong>Doppeltipp</strong> beendet Zoom und Zurückblättern. Ein grünes Schild oben rechts zeigt, wenn gezoomt oder zurückgeblättert ist.</li>
+<li><strong>Puls-Kachel:</strong> färbt sich in der aktuellen Pulszone und zeigt deren Namen (z. B. „Z2 · FETTVERBRENNUNG“). Der Puls steht ohne „bpm“, damit die Zahl groß bleibt. Daneben das <strong>♥</strong> im Pulstakt und die <strong>Batterie</strong> des Gurts (nur als Farbe).</li>
+<li><strong>Quadratische Knöpfe:</strong> <strong>Auto-Pause</strong> (in der Dauer-Kachel) und <strong>Zonen</strong> (in der Puls-Kachel) – <em>Zonen</em> blendet den Streifen <strong>Zeit in Pulszonen</strong> unten ein oder aus; ohne Streifen wird das Diagramm größer.</li>
+<li><strong>Zeit in Pulszonen</strong> nutzt immer die ganze Breite und zeigt die Anteile an der bisher gefahrenen Zeit; rechts steht die Fahrzeit. Beim Zoomen bleibt der Streifen unverändert.</li>
+<li>Hochkant drehen = zurück zur normalen Ansicht.</li>
+</ul>
+<h2 id="6-gespeicherte-trainings">6. Gespeicherte Trainings</h2>
+<p>Jedes Training ab 30 Sekunden bleibt auf dem Handy gespeichert – bis du es löschst oder die App deinstallierst.</p>
+<p><strong>Menü ☰ → Trainings</strong> listet alle Fahrten (neueste oben) mit Datum, Dauer, Strecke, Ø-Leistung, Ø-Puls und Fahrer. Bereits geteilte Trainings haben ein <strong>✓</strong> mit der App, an die geteilt wurde. Ein Training antippen bietet:</p>
+<table>
+<thead>
+<tr>
+<th>Eintrag</th>
+<th>Was passiert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Diagramm ansehen</strong></td>
+<td>öffnet das Training im Querformat (siehe unten)</td>
+</tr>
+<tr>
+<td><strong>Teilen …</strong></td>
+<td>Teilen-Menü von Android: Telegram, Google Drive, Dropbox, Synology, MaxUp …</td>
+</tr>
+<tr>
+<td><strong>An … senden</strong></td>
+<td>per LocalSend ans iPhone; ist noch kein Gerät gewählt: <strong>An iPhone senden – Ziel wählen</strong></td>
+</tr>
+<tr>
+<td><strong>Per E-Mail</strong></td>
+<td>nur wenn eine Adresse eingestellt ist</td>
+</tr>
+<tr>
+<td><strong>Löschen</strong> (rot)</td>
+<td>mit Rückfrage, lässt sich nicht rückgängig machen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aufräumen</strong> (rot, unter der Liste) löscht mehrere auf einmal: älter als 3 Monate, älter als 1 Jahr, alle bereits geteilten oder alle – immer mit Rückfrage und Hinweis, wenn noch nicht geteilte dabei sind.</p>
+<h3 id="diagramm-ansehen">Diagramm ansehen</h3>
+<p>Das Training öffnet sich in der gewohnten <strong>Querformat-Ansicht</strong> – das Handy dreht sich dafür automatisch quer:</p>
+<ul>
+<li><strong>Links:</strong> Dauer mit <strong>◀ Zurück</strong>, <strong>Ø-Leistung</strong>, <strong>Ø-Puls</strong>, <strong>Ø-Kadenz</strong>, <strong>Ø-Tempo</strong> jeweils mit Maximalwert, und die Strecke. Die Puls-Kachel hat die Farbe der Zone, in die der Durchschnittspuls fällt.</li>
+<li><strong>Rechts:</strong> Leistung, Kadenz und Puls über das <strong>ganze Training</strong>, mit Auto-Zoom und Pulszonen-Bändern. Oben steht ein Schild mit Datum und Uhrzeit.</li>
+<li><strong>Unten:</strong> Zeit in Pulszonen fürs ganze Training (Knopf <strong>Zonen</strong> blendet ihn aus).</li>
+<li>Zwei Finger = zoomen, wischen = blättern, Doppeltipp = wieder das ganze Training.</li>
+<li>Die Pulszonen kommen vom Fahrer, der das Training gefahren ist. Das funktioniert auch mit älteren Trainings, weil alles direkt aus der gespeicherten FIT-Datei gelesen wird.</li>
+</ul>
+<h2 id="7-trainings-weitergeben">7. Trainings weitergeben</h2>
+<p>Die FIT-Datei enthält Leistung, Kadenz, Puls, Tempo und Strecke <strong>Sekunde für Sekunde</strong> – MaxUp, Strava, Garmin Connect, Intervals.icu, TrainingPeaks &amp; Co. zeichnen daraus beim Import ihre eigenen Diagramme.</p>
+<h3 id="ans-iphone-localsend">Ans iPhone (LocalSend)</h3>
+<p>DaumBridge schickt Trainings direkt an ein Gerät im selben WLAN, auf dem die kostenlose App <strong>LocalSend</strong> läuft – z. B. ein iPhone. Auf dem Android-Handy ist keine zusätzliche App nötig.</p>
+<ol>
+<li>Auf dem iPhone <strong>LocalSend</strong> aus dem App Store installieren, öffnen und „Lokales Netzwerk“ erlauben. Tipp: in LocalSend <strong>Schnellspeichern</strong> einschalten, dann ist kein Annehmen nötig.</li>
+<li>In DaumBridge: <strong>Einstellungen → An das iPhone (LocalSend) → Ziel-Gerät</strong> – DaumBridge sucht im WLAN, iPhone antippen. Alternativ direkt beim Senden: Ist noch kein Ziel gewählt, steht dort <strong>An iPhone senden – Ziel wählen</strong> und öffnet dieselbe Geräteauswahl.</li>
+<li><strong>Nach dem Training senden</strong> eingeschaltet: Beim Stopp geht die FIT-Datei automatisch ans iPhone. Die Zusammenfassung zeigt „Sende …“, „✓ gesendet“ oder einen Hinweis, falls das iPhone nicht erreichbar war.</li>
+<li>Auf dem iPhone liegt die Datei in der <strong>Dateien</strong>-App im Ordner LocalSend – antippen, teilen, z. B. an MaxUp.</li>
+</ol>
+<p>LocalSend muss auf dem Empfänger <strong>geöffnet</strong> sein, wenn gesendet wird. Das Ziel-Gerät wird <strong>pro Handy</strong> gespeichert – fahren mehrere mit eigenem Handy, richtet jeder es einmal ein. Klappt das Senden nicht (vor allem von älteren Handys mit Android 7): in LocalSend am iPhone unter Einstellungen <strong>Verschlüsselung</strong> ausschalten.</p>
+<h3 id="per-e-mail">Per E-Mail</h3>
+<p><strong>Einstellungen → Per E-Mail → E-Mail-Adresse</strong> eintragen. Dann gibt es in der Zusammenfassung und unter Menü ☰ → <em>Trainings</em> den Eintrag <strong>Per E-Mail</strong>: Die Mail-App öffnet sich mit Empfänger, Betreff, Kennzahlen und der FIT-Datei im Anhang – nur noch <strong>Senden</strong> tippen. Mit <strong>Nach dem Training öffnen</strong> geht die fertige Mail beim Stopp von selbst auf.</p>
+<h3 id="teilen">Teilen</h3>
+<p><strong>Training teilen (FIT) …</strong> bzw. <strong>Teilen …</strong> öffnet das Teilen-Menü von Android – jede App, die Dateien annimmt (Telegram, Google Drive, Dropbox, Synology Drive, MaxUp …).</p>
+<h2 id="8-mit-der-trainings-app-verbinden">8. Mit der Trainings-App verbinden</h2>
+<p>DaumBridge erscheint in der Trainings-App als Smart-Trainer mit dem Namen <strong>DaumBridge</strong> (änderbar unter <em>Einstellungen → Erweitert → Bluetooth-Name</em>). Manche Apps hängen eine Nummer an, z. B. „DaumBridge-4874“ – das ist richtig so.</p>
+<h3 id="zwift">Zwift</h3>
+<p><em>Gepaarte Geräte</em> → bei <strong>Leistung</strong>, <strong>Trittfrequenz</strong> und <strong>Steuerbarer Trainer</strong> jeweils <strong>DaumBridge</strong> wählen.</p>
+<h3 id="mywhoosh">MyWhoosh</h3>
+<p><em>Geräte verbinden</em> → <strong>Smart Trainer</strong> → <strong>DaumBridge</strong>. Trittfrequenz kommt automatisch mit.</p>
+<h3 id="apple-tv">Apple TV</h3>
+<p>Wie bei Zwift. Hinweis: Apple TV verbindet höchstens <strong>zwei Bluetooth-Geräte</strong> gleichzeitig (Fernbedienung zählt mit). Den Pulsgurt deshalb über DaumBridge laufen lassen (siehe unten) – dann reicht eine Verbindung.</p>
+<h3 id="puls-in-der-trainings-app">Puls in der Trainings-App</h3>
+<p>Kommt der Puls über DaumBridge, in der Trainings-App bei <strong>Herzfrequenz</strong> ebenfalls <strong>DaumBridge</strong> wählen.</p>
+<h2 id="9-pulsgurt-optional">9. Pulsgurt (optional)</h2>
+<p>DaumBridge verbindet sich selbst mit einem Bluetooth-Pulsgurt (z. B. Polar H9/H10, Garmin, Wahoo), zeigt den Puls an und gibt ihn an die Trainings-App weiter.</p>
+<ol>
+<li>Den Gurt anlegen (Kontakte leicht befeuchten), damit er sendet.</li>
+<li>DaumBridge → <em>Einstellungen → Geräte → Pulsgurt</em> → <strong>Pulsgurt suchen</strong> → Gurt antippen.</li>
+</ol>
+<p><strong>Trennen:</strong> <em>Einstellungen → Geräte → Pulsgurt</em> → <strong>Pulsgurt trennen</strong> (roter Knopf) oder oben auf die Chips tippen → <em>Verbindungen</em> → <strong>Pulsgurt trennen</strong>. Der Gurt ist dann sofort frei für Uhr oder andere Geräte.</p>
+<p>Koppeln in den Android-Einstellungen ist nicht nötig – viele Gurte lehnen das sogar ab („Kopplung abgelehnt“). Bis Android 11 fragt Android für die Suche einmal nach dem <strong>Standort</strong> und der Standort muss eingeschaltet sein; DaumBridge nutzt ihn nicht.</p>
+<p>Sobald die App offen ist, verbindet sie sich mit dem Gurt – der Puls steht schon <strong>vor dem Start</strong> in der Kachel. Ist die App im Hintergrund und läuft kein Training, trennt sie den Gurt nach 20 Sekunden wieder.</p>
+<p><strong>Herz und Akku:</strong> Das <strong>♥</strong> in der Puls-Kachel ist <strong>rot</strong> und schlägt im Takt deines Pulses, sobald Werte kommen, <strong>gelb</strong>, solange der Gurt gesucht wird, und <strong>grau</strong>, wenn kein Gurt verbunden ist. Der Chip <strong>Puls</strong> oben zeigt dasselbe (grün/gelb/grau). Eine senkrechte <strong>Batterie</strong> zeigt den Akkustand des Gurts – grün, unter 20 % gelb, unter 10 % rot; unter 15 % erscheint beim Verbinden einmal ein Hinweis. Gurte, die keinen Akkustand melden, zeigen keine Batterie.</p>
+<p><strong>Puls nie vom Daum nehmen:</strong> Dieser Schalter unter <em>Einstellungen → Geräte</em> ist <strong>ab Werk an</strong>. Der ungenaue Pulsempfänger im Daum wird dann ignoriert, der Puls kommt nur vom Bluetooth-Gurt; ohne Gurt bleibt die Puls-Kachel leer. Nur wer ohne Gurt trotzdem den Daum-Puls möchte, schaltet ihn aus.</p>
+<p>Offensichtliche Messfehler (z. B. 199 bpm im Sitzen bei schlechtem Hautkontakt oder sprunghafte Ausreißer) filtert DaumBridge heraus. Springt der Puls trotzdem stark: Elektroden anfeuchten, Gurt enger stellen, Batterie prüfen.</p>
+<p>Wichtig: Viele Gurte (z. B. <strong>Polar H9</strong>) erlauben nur <strong>eine</strong> Bluetooth-Verbindung. Ist der Gurt schon mit Laptop, Uhr oder Trainings-App verbunden, bekommt DaumBridge keine Werte – dort also trennen.</p>
+<h2 id="10-fahrerprofile">10. Fahrerprofile</h2>
+<p>Fahren mehrere Personen, bekommt jede ein eigenes Profil mit Geburtsdatum, Gewicht, FTP, Pulsgurt, Pulszonen und Simulatorstärke.</p>
+<ul>
+<li><em>Einstellungen → Fahrer</em> → <strong>+ Neu</strong> legt ein Profil an.</li>
+<li>Auf ein Profil tippen wählt es aus; das aktive Profil nochmal antippen → <strong>umbenennen</strong> oder <strong>löschen</strong>.</li>
+<li><strong>Profil ›</strong> öffnet eine eigene Seite mit Name, Geburtsdatum, Geschlecht, Gewicht und FTP.</li>
+<li>Auf der Startseite steht der aktive Fahrer bei der <strong>Dauer</strong>. Antippen wechselt den Fahrer (wenn kein Training läuft).</li>
+</ul>
+<p>Werte stellst du mit <strong>Drehrädern</strong> ein – keine Tastatur nötig:</p>
+<p align="center">
+<img src="bilder/03_drehrad.png" width="230" alt="Drehrad">
+</p>
+
+<h2 id="11-pulszonen-und-zonenfarben">11. Pulszonen und Zonenfarben</h2>
+<p align="center">
+<img src="bilder/04_pulszonen.png" width="230" alt="Pulszonen">
+</p>
+
+<p><em>Einstellungen → Pulszonen</em> zeigt Ruhepuls, Maximalpuls und die fünf Zonen:</p>
+<table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>Farbe</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Erholung</td>
+<td>blau</td>
+<td>Grundlage, Regeneration</td>
+</tr>
+<tr>
+<td>Fettverbrennung</td>
+<td>grün</td>
+<td>lange, ruhige Ausfahrten</td>
+</tr>
+<tr>
+<td>Aerob</td>
+<td>gelbgrün</td>
+<td>verbessert die Ausdauer</td>
+</tr>
+<tr>
+<td>Anaerob</td>
+<td>gelb</td>
+<td>hohe Intensität, Intervalle</td>
+</tr>
+<tr>
+<td>Roter Bereich</td>
+<td>rot</td>
+<td>Maximalbelastung, nur sehr kurz</td>
+</tr>
+</tbody>
+</table>
+<p>Unterhalb der Erholungszone ist <strong>grau</strong>.</p>
+<ul>
+<li><strong>Berechnung – zwei Methoden</strong> (umschaltbar, die Zonen rechnen sofort neu):</li>
+<li><strong>Mit Ruhepuls (Karvonen):</strong> Untergrenzen = Ruhepuls + 50 / 60 / 70 / 80 / 90 % der Pulsreserve (Maximalpuls − Ruhepuls). Berücksichtigt die Fitness – am besten, wenn du deinen Ruhepuls kennst (morgens im Liegen messen).</li>
+<li><strong>% vom Max.:</strong> Untergrenzen = 70,5 / 76,5 / 82 / 88 / 94 % vom Maximalpuls. Einfach, braucht nur den Maximalpuls.</li>
+<li><em>Welche Methode? ›</em> auf der Zonen-Seite erklärt beide.</li>
+<li>Änderst du Ruhe- oder Maximalpuls, werden die Zonen nach der gewählten Methode neu berechnet.</li>
+<li><strong>Automatisch berechnen:</strong> berechnet die Zonen nach der gewählten Methode. Ist ein Geburtsdatum hinterlegt, schlägt DaumBridge einen Maximalpuls aus dem Alter vor.</li>
+<li><strong>Selbst einstellen:</strong> Jeden Wert antippen und per Drehrad ändern. Ein gemessener Maximalpuls (Leistungstest, Pulsuhr) ist genauer als die Schätzung.</li>
+</ul>
+<p>Beim Fahren färben sich die Kacheln <strong>Puls</strong> und <strong>Leistung</strong> nach Zone. Die Leistungszonen richten sich nach der <strong>FTP</strong> im Profil. Der Streifen <strong>Zeit in Pulszonen</strong> nutzt immer die ganze Breite und zeigt die Anteile der Zonen an der bisher gefahrenen Zeit.</p>
+<h2 id="12-smart-erg-und-sim">12. Smart, ERG und SIM</h2>
+<ul>
+<li><strong>Smart EIN:</strong> Die Trainings-App steuert den Daum – im <strong>ERG</strong>-Modus gibt sie Watt vor, im <strong>SIM</strong>-Modus Steigungen. Der Drehknopf am Daum wird dann überstimmt. Die Kachel <strong>Modus</strong> zeigt, was gerade gilt.</li>
+<li><strong>Smart AUS:</strong> DaumBridge misst nur; die Leistung stellst du am Daum selbst ein.</li>
+<li><strong>Simulatorstärke</strong> (<em>Erweitert</em>): 100 % = Steigungen wie in der App, 50 % = halb so steil. Achtung: Zwift hat einen eigenen Regler „Trainer-Schwierigkeit“ – beide wirken zusammen.</li>
+<li><strong>Fahrradtyp</strong> (Rennrad, MTB, Trekking, Zeitfahr) bestimmt Roll- und Luftwiderstand, falls die App keine eigenen Werte schickt.</li>
+</ul>
+<h2 id="13-einstellungen-im-überblick">13. Einstellungen im Überblick</h2>
+<p align="center">
+<img src="bilder/02_einstellungen.png" width="230" alt="Einstellungen">
+<img src="bilder/08_einstellungen_teilen.png" width="230" alt="Einstellungen: Weitergeben">
+<img src="bilder/05_erweitert.png" width="230" alt="Erweiterte Einstellungen">
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Bereich</th>
+<th>Einstellungen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fahrer</strong></td>
+<td>Profile wählen, anlegen (+ Neu), umbenennen, löschen; <em>Profil ›</em> (Name, Geburtsdatum, Geschlecht, Gewicht, FTP); <em>Pulszonen ›</em></td>
+</tr>
+<tr>
+<td><strong>Geräte</strong></td>
+<td>Daum-Adapter, Pulsgurt (suchen, wählen, trennen), <strong>Puls nie vom Daum nehmen</strong> (ab Werk an), Neues Gerät koppeln</td>
+</tr>
+<tr>
+<td><strong>Trainer</strong></td>
+<td><strong>Smart</strong> ein/aus, <strong>Fahrradtyp</strong></td>
+</tr>
+<tr>
+<td><strong>Training</strong></td>
+<td><strong>Auto-Pause</strong></td>
+</tr>
+<tr>
+<td><strong>An das iPhone (LocalSend)</strong></td>
+<td>Ziel-Gerät, Nach dem Training senden, Gerätename (so heißt DaumBridge in LocalSend)</td>
+</tr>
+<tr>
+<td><strong>Per E-Mail</strong></td>
+<td>E-Mail-Adresse, Nach dem Training öffnen</td>
+</tr>
+<tr>
+<td><strong>Erweitert</strong></td>
+<td>Simulatorstärke, maximale und minimale Leistung, Fahrradgewicht, Radumfang (für das Tempo, Standard 2100 mm), Bluetooth-Name, alte Daum-Firmware, Bildschirm anlassen, Abfrage-Intervall, Protokoll, <em>Auf Standard zurücksetzen</em> (Profile und Geräte bleiben erhalten)</td>
+</tr>
+<tr>
+<td><strong>App</strong></td>
+<td>Nach Update suchen, Über DaumBridge</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Probleme? → <a href="faq.html">Häufige Fragen und Fehlerbehebung</a> · Alle Änderungen: <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md" target="_blank" rel="noopener">Versionen</a></p>
+<p class="dl"><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ DaumBridge herunterladen</a></p>
+</article>
+</main>
+<footer>DaumBridge · Wing-Art · kostenlos, ohne Werbung, ohne Konto</footer>
+</body>
+</html>

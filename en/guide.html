@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DaumBridge – User guide</title>
+<meta name="description" content="User guide for DaumBridge: connect a Daum ergometer to Zwift, MyWhoosh and others via Bluetooth.">
+<link rel="alternate" hreflang="de" href="../anleitung.html">
+<style>
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .top{max-width:880px;margin:0 auto;padding:14px 16px 0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .top a.home{color:var(--text);text-decoration:none;font-weight:700;font-size:17px}
+  .top a.home span{color:var(--green)}
+  .lang a{display:inline-block;background:var(--card);border:2px solid var(--btn);color:var(--text);text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:600;font-size:15px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  article{background:var(--card);border-radius:18px;padding:8px 22px 20px;margin:12px 0}
+  h1{font-size:26px;margin:16px 0 4px}
+  h2{font-size:21px;margin:28px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:20px 0 6px}
+  a{color:var(--green)}
+  img{max-width:100%;height:auto;border-radius:14px;border:1px solid var(--line);vertical-align:top;margin:4px}
+  p[align=center]{text-align:center}
+  ul,ol{padding-left:22px} li{margin:3px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0;display:block;overflow-x:auto}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  blockquote{margin:10px 0;padding:8px 14px;border-left:4px solid var(--btn);background:var(--bg);border-radius:8px}
+  code{font-family:ui-monospace,Consolas,monospace;font-size:14px;background:var(--bg);padding:1px 5px;border-radius:5px}
+  hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+  .dl{text-align:center;margin:18px 0 4px}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:11px 22px;border-radius:14px;font-weight:600}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="home" href="index.html">← <span>DaumBridge</span></a>
+  <div class="lang"><a href="../anleitung.html" lang="de">🇩🇪 Deutsch</a></div>
+</div>
+<main>
+<article>
+<h1 id="daumbridge--user-guide">DaumBridge – User guide</h1>
+<p>Version 0.9.23. The app itself is in German; German labels are shown in <em>italics</em> or <strong>bold</strong> with a translation where helpful.</p>
+<p><strong>Contents:</strong> <a href="#1-install">1. Install</a> · <a href="#2-pair-the-daum-adapter-once">2. Pair the Daum adapter</a> · <a href="#3-home-screen">3. Home screen</a> · <a href="#4-riding">4. Riding</a> · <a href="#5-landscape">5. Landscape</a> · <a href="#6-saved-rides">6. Saved rides</a> · <a href="#7-sharing-rides">7. Sharing rides</a> · <a href="#8-connect-your-training-app">8. Connect your training app</a> · <a href="#9-heart-rate-strap-optional">9. Heart rate strap</a> · <a href="#10-rider-profiles">10. Rider profiles</a> · <a href="#11-heart-rate-zones-and-zone-colours">11. Heart rate zones</a> · <a href="#12-smart-erg-and-sim">12. Smart, ERG and SIM</a> · <a href="#13-settings-overview">13. Settings overview</a></p>
+<h2 id="1-install">1. Install</h2>
+<ol>
+<li>On your Android phone <a href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk" target="_blank" rel="noopener">download DaumBridge.apk</a> (or from <a href="https://github.com/MAXimator70/daumbridge/releases" target="_blank" rel="noopener">Releases</a>).</li>
+<li>Open the file. The first time, Android asks whether the browser (or file manager) may install apps → <strong>allow</strong>, go back, <strong>Install</strong>.</li>
+<li>On first launch DaumBridge asks for <strong>Bluetooth</strong> (“Nearby devices”) and <strong>Notifications</strong> → allow both. Nothing works without Bluetooth; the notification shows that a ride is running.</li>
+</ol>
+<p><strong>Updates:</strong> DaumBridge announces new versions itself. Manually: menu ☰ → <strong>Nach Update suchen</strong> (check for updates). Settings, profiles and rides are kept when updating.</p>
+<blockquote>
+<p>If older phones show “Google Play Store has stopped” while installing, that's the Play Store's security check, not DaumBridge – see the <a href="faq.html#installation">FAQ</a>.</p>
+</blockquote>
+<h2 id="2-pair-the-daum-adapter-once">2. Pair the Daum adapter (once)</h2>
+<p>No original Daum adapter? A standard Bluetooth RS232 adapter works too – see <a href="https://github.com/MAXimator70/daumbridge/blob/main/docs/en/ADAPTER.md" target="_blank" rel="noopener">Bluetooth adapter</a>.</p>
+<ol>
+<li>Switch on the Daum – the Bluetooth adapter must be plugged into the Daum.</li>
+<li>On the phone open <strong>Android settings → Bluetooth</strong> (or in DaumBridge: <em>Einstellungen → Geräte → Neues Gerät koppeln</em> – Settings → Devices → Pair new device).</li>
+<li>Tap the adapter in the list (usually named like <code>Daum_BT_…</code>).</li>
+<li><strong>PIN:</strong> if Android asks, it's the 4-digit number printed on the adapter. Some adapters pair without a PIN – that's normal.</li>
+<li>Back in DaumBridge: <strong>menu ☰ → Einstellungen → Geräte → Daum-Adapter</strong> and pick the adapter.</li>
+</ol>
+<h2 id="3-home-screen">3. Home screen</h2>
+<p align="center">
+<img src="../bilder/01_start_dunkel.png" width="230" alt="Home screen dark">
+<img src="../bilder/07_start_hell.png" width="230" alt="Home screen light">
+<img src="../bilder/06_menue.png" width="230" alt="Menu">
+</p>
+
+<ul>
+<li><strong>Top left ☾ / ☀</strong> switches between dark and light.</li>
+<li><strong>Chips in the middle:</strong> <strong>Daum</strong> (connection to the ergometer), <strong>BT</strong> (connected training apps; the number shows how many) and <strong>Puls</strong> (heart rate strap). Grey = off, yellow = searching/connecting, green = connected. Tapping one opens the <strong>Verbindungen</strong> (connections) window with all details.</li>
+<li><strong>Menu ☰ top right:</strong> <em>Einstellungen</em> (settings), <strong>Trainings</strong> (saved rides), <em>Protokoll</em> (log), <em>Nach Update suchen</em> (check for updates), <em>Info</em>.</li>
+<li><strong>Chart card:</strong> while riding it shows power, cadence and heart rate of the last 10 minutes (see <a href="#4-riding">Riding</a>). A single tap flips the card to the logo and back.</li>
+<li><strong>Duration card:</strong> riding time, followed by the active rider (“DAUER · name”) – tap to switch rider while no ride is running. Top right the <strong>⏸ Auto-Pause</strong> switch.</li>
+<li><strong>Tiles:</strong> grade (<em>Steigung</em>), mode (<em>Modus</em>: free/ERG/SIM), cadence (<em>Kadenz</em>), speed (<em>Tempo</em>), distance (<em>Strecke</em>), heart rate (<em>Puls</em>) and power (<em>Leistung</em>), each with average (Ø) and maximum.</li>
+<li><strong>Zeit in Pulszonen</strong> (time in heart-rate zones): bar with each zone's share of the time ridden so far.</li>
+<li><strong>Bottom:</strong> <strong>Smart ist EIN/AUS</strong> (smart on/off, see <a href="#12-smart-erg-and-sim">Smart, ERG and SIM</a>) and <strong>Verbinden</strong> (connect), during a ride <strong>Stopp</strong>.</li>
+</ul>
+<h2 id="4-riding">4. Riding</h2>
+<ol>
+<li>Tap <strong>Verbinden</strong> (connect) on the home screen. The <strong>Daum</strong> chip turns green once connected.</li>
+<li>The <strong>BT</strong> chip turns green once a training app is connected.</li>
+<li>The <strong>clock starts with your first pedal stroke</strong> – until then the duration shows “WARTET AUF DEN ERSTEN TRITT” (waiting for the first pedal stroke) and nothing is recorded. So you can tap <em>Verbinden</em> and get going later.</li>
+<li>The chart card shows <strong>power</strong> (yellow) and <strong>cadence</strong> (blue) at the top, <strong>heart rate</strong> (red) below. Swipe right to scroll back, <strong>double-tap</strong> returns to live.</li>
+<li><strong>Auto-pause:</strong> the <strong>⏸ Auto-Pause</strong> pill in the duration card turns it on (green) or off (grey). When on, the clock stops if you don't pedal for more than 5 seconds – the pill shows yellow <strong>PAUSE</strong> and the time turns yellow. Pauses don't count towards duration, averages, zone time or the FIT file.</li>
+<li>Done? Tap <strong>Stopp</strong> – the <strong>summary</strong> appears (duration, distance, speed, power, normalized power, work in kJ, heart rate, time in zones).</li>
+<li>In the summary: <strong>Training teilen (FIT) …</strong> (share), <strong>An … senden (LocalSend)</strong> and – if set up – <strong>Per E-Mail</strong>. The summary stays open while sharing.</li>
+</ol>
+<p><strong>Reading the chart:</strong>
+- The scales adjust automatically: <strong>power</strong> (left scale), <strong>cadence</strong> (its own blue scale on the right) and <strong>heart rate</strong> each fill about <strong>80 %</strong> of their area, so even small changes are visible. When the values change, the scale glides smoothly.
+- Short starts and stops (0 W, 0 rpm) and single outliers don't distort the scale.
+- <strong>Cadence</strong> is drawn semi-transparent <strong>in front of</strong> power and smoothed over 5 seconds in the chart. The number in the tile and the FIT file stay unsmoothed.</p>
+<p>If the connection to the Daum drops (adapter switched off, out of range), the <strong>Daum</strong> chip turns yellow and DaumBridge reconnects by itself. The ride keeps going.</p>
+<h2 id="5-landscape">5. Landscape</h2>
+<p>Turn the phone sideways – the ride simply continues.</p>
+<p align="center">
+<img src="../bilder/09_quer_training.png" width="720" alt="Landscape">
+</p>
+
+<ul>
+<li><strong>Left:</strong> a narrow column with all values stacked in large bold numbers: duration, power (with % FTP), heart rate, cadence (with average), speed (with average), distance.</li>
+<li><strong>Right:</strong> the large chart (four fifths of the width) with the <strong>heart-rate zones as coloured bands</strong> behind the heart rate. A dot marks the current position; the chart scrolls along.</li>
+<li><strong>Zoom</strong> with two fingers (1 to 30 minutes), <strong>swipe</strong> to scroll back, <strong>double-tap</strong> ends zoom and scrolling. A green label at the top right shows when zoomed or scrolled.</li>
+<li><strong>Heart-rate tile:</strong> takes on the colour of the current zone and shows its name (e.g. “Z2 · FETTVERBRENNUNG”). Heart rate is shown without “bpm” so the number stays large. Next to it the <strong>♥</strong> beating with your pulse and the strap <strong>battery</strong> (colour only).</li>
+<li><strong>Square buttons:</strong> <strong>Auto-Pause</strong> (in the duration tile) and <strong>Zonen</strong> (in the heart-rate tile) – <em>Zonen</em> shows or hides the <strong>Zeit in Pulszonen</strong> bar at the bottom; without it the chart gets bigger.</li>
+<li><strong>Zeit in Pulszonen</strong> always uses the full width and shows each zone's share of the time ridden so far; the riding time is shown on the right. It doesn't change when zooming.</li>
+<li>Turn upright = back to the normal view.</li>
+</ul>
+<h2 id="6-saved-rides">6. Saved rides</h2>
+<p>Every ride of 30 seconds or more stays saved on the phone – until you delete it or uninstall the app.</p>
+<p><strong>Menu ☰ → Trainings</strong> lists all rides (newest first) with date, duration, distance, average power, average heart rate and rider. Rides already shared show a <strong>✓</strong> with the app they were shared to. Tap a ride for:</p>
+<table>
+<thead>
+<tr>
+<th>Entry</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Diagramm ansehen</strong> (view chart)</td>
+<td>opens the ride in landscape (see below)</td>
+</tr>
+<tr>
+<td><strong>Teilen …</strong> (share)</td>
+<td>Android share menu: Telegram, Google Drive, Dropbox, Synology, MaxUp …</td>
+</tr>
+<tr>
+<td><strong>An … senden</strong> (send to …)</td>
+<td>via LocalSend to the iPhone; if no device is chosen yet: <strong>An iPhone senden – Ziel wählen</strong> (choose target)</td>
+</tr>
+<tr>
+<td><strong>Per E-Mail</strong></td>
+<td>only if an address is set</td>
+</tr>
+<tr>
+<td><strong>Löschen</strong> (delete, red)</td>
+<td>asks first, cannot be undone</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aufräumen</strong> (clean up, red, below the list) deletes several at once: older than 3 months, older than 1 year, all already shared, or all – always asking first and warning if unshared rides are included.</p>
+<h3 id="view-chart">View chart</h3>
+<p>The ride opens in the familiar <strong>landscape view</strong> – the phone switches to landscape automatically:</p>
+<ul>
+<li><strong>Left:</strong> duration with <strong>◀ Zurück</strong> (back), <strong>average power</strong>, <strong>heart rate</strong>, <strong>cadence</strong> and <strong>speed</strong>, each with its maximum, and the distance. The heart-rate tile takes the colour of the zone the average falls into.</li>
+<li><strong>Right:</strong> power, cadence and heart rate over the <strong>whole ride</strong>, with auto-zoom and zone bands. A label at the top shows date and time.</li>
+<li><strong>Bottom:</strong> time in heart-rate zones for the whole ride (the <strong>Zonen</strong> button hides it).</li>
+<li>Two fingers = zoom, swipe = scroll, double-tap = whole ride again.</li>
+<li>The zones are taken from the rider who did the ride. This also works for older rides because everything is read straight from the saved FIT file.</li>
+</ul>
+<h2 id="7-sharing-rides">7. Sharing rides</h2>
+<p>The FIT file contains power, cadence, heart rate, speed and distance <strong>second by second</strong> – MaxUp, Strava, Garmin Connect, Intervals.icu, TrainingPeaks and others draw their own charts from it on import.</p>
+<h3 id="to-an-iphone-localsend">To an iPhone (LocalSend)</h3>
+<p>DaumBridge sends rides straight to a device on the same Wi-Fi running the free app <strong>LocalSend</strong> – e.g. an iPhone. No extra app is needed on the Android phone.</p>
+<ol>
+<li>On the iPhone install <strong>LocalSend</strong> from the App Store, open it and allow “Local Network”. Tip: turn on <strong>Quick Save</strong> in LocalSend so no accepting is needed.</li>
+<li>In DaumBridge: <strong>Settings → An das iPhone (LocalSend) → Ziel-Gerät</strong> (target device) – DaumBridge searches the Wi-Fi, tap your iPhone. Or right when sending: if no target is chosen yet, the entry reads <strong>An iPhone senden – Ziel wählen</strong> and opens the same device picker.</li>
+<li>With <strong>Nach dem Training senden</strong> (send after the ride) on, the FIT file goes to the iPhone automatically on stop. The summary shows sending, “✓ gesendet” (sent) or a hint if the iPhone wasn't reachable.</li>
+<li>On the iPhone the file is in the <strong>Files</strong> app in the LocalSend folder – tap it, share, e.g. to MaxUp.</li>
+</ol>
+<p>LocalSend has to be <strong>open</strong> on the receiving device while sending. The target device is stored <strong>per phone</strong> – if several people ride with their own phones, each sets it up once. If sending fails (especially from older phones with Android 7): on the iPhone, turn off <strong>Encryption</strong> in the LocalSend settings.</p>
+<h3 id="by-e-mail">By e-mail</h3>
+<p>Enter an address under <strong>Settings → Per E-Mail → E-Mail-Adresse</strong>. The summary and menu ☰ → <em>Trainings</em> then offer <strong>Per E-Mail</strong>: your mail app opens with recipient, subject, key figures and the FIT file attached – just tap <strong>Send</strong>. With <strong>Nach dem Training öffnen</strong> (open after the ride) the mail opens by itself on stop.</p>
+<h3 id="share">Share</h3>
+<p><strong>Training teilen (FIT) …</strong> or <strong>Teilen …</strong> opens the Android share menu – any app that accepts files (Telegram, Google Drive, Dropbox, Synology Drive, MaxUp …).</p>
+<h2 id="8-connect-your-training-app">8. Connect your training app</h2>
+<p>DaumBridge appears in the training app as a smart trainer named <strong>DaumBridge</strong> (change it under <em>Einstellungen → Erweitert → Bluetooth-Name</em>). Some apps add a number, e.g. “DaumBridge-4874” – that's fine.</p>
+<h3 id="zwift">Zwift</h3>
+<p><em>Paired Devices</em> → choose <strong>DaumBridge</strong> for <strong>Power</strong>, <strong>Cadence</strong> and <strong>Controllable</strong>.</p>
+<h3 id="mywhoosh">MyWhoosh</h3>
+<p><em>Connect devices</em> → <strong>Smart Trainer</strong> → <strong>DaumBridge</strong>. Cadence comes along automatically.</p>
+<h3 id="apple-tv">Apple TV</h3>
+<p>As with Zwift. Note: Apple TV connects at most <strong>two Bluetooth devices</strong> at once (the remote counts). So let the heart rate strap run through DaumBridge (see below) – then one connection is enough.</p>
+<h3 id="heart-rate-in-the-training-app">Heart rate in the training app</h3>
+<p>If heart rate comes via DaumBridge, choose <strong>DaumBridge</strong> for <strong>Heart Rate</strong> in the training app as well.</p>
+<h2 id="9-heart-rate-strap-optional">9. Heart rate strap (optional)</h2>
+<p>DaumBridge connects to a Bluetooth heart rate strap itself (e.g. Polar H9/H10, Garmin, Wahoo), shows the heart rate and passes it on to the training app.</p>
+<ol>
+<li>Put on the strap (moisten the contacts slightly) so it starts sending.</li>
+<li>DaumBridge → <em>Einstellungen → Geräte → Pulsgurt</em> → <strong>Pulsgurt suchen</strong> (search) → tap the strap.</li>
+</ol>
+<p><strong>Disconnect:</strong> <em>Einstellungen → Geräte → Pulsgurt</em> → <strong>Pulsgurt trennen</strong> (red button), or tap the chips at the top → <em>Verbindungen</em> → <strong>Pulsgurt trennen</strong>. The strap is then free for your watch or other devices.</p>
+<p>Pairing in Android settings isn't needed – many straps even refuse it (“pairing rejected”). Up to Android 11, Android asks once for <strong>location</strong> permission for the search and location must be switched on; DaumBridge doesn't use it.</p>
+<p>As soon as the app is open it connects to the strap – the heart rate shows in the tile <strong>before you start</strong>. If the app is in the background and no ride is running, it disconnects the strap after 20 seconds.</p>
+<p><strong>Heart and battery:</strong> the <strong>♥</strong> in the heart-rate tile is <strong>red</strong> and beats in time with your pulse once values arrive, <strong>yellow</strong> while the strap is being searched for, and <strong>grey</strong> when no strap is connected. The <strong>Puls</strong> chip at the top shows the same (green/yellow/grey). A vertical <strong>battery</strong> shows the strap's charge – green, yellow below 20 %, red below 10 %; below 15 % a one-time hint appears on connecting. Straps that don't report their battery show no battery.</p>
+<p><strong>Puls nie vom Daum nehmen</strong> (never take heart rate from the Daum): this switch under <em>Einstellungen → Geräte</em> is <strong>on by default</strong>. The Daum's inaccurate heart rate receiver is ignored and heart rate comes only from the Bluetooth strap; without a strap the heart-rate tile stays empty. Only if you have no strap and still want the Daum's value, turn it off.</p>
+<p>Obvious measuring errors (e.g. 199 bpm while sitting due to poor skin contact, or sudden spikes) are filtered out. If the heart rate still jumps a lot: moisten the electrodes, tighten the strap, check the battery.</p>
+<p>Important: many straps (e.g. <strong>Polar H9</strong>) allow only <strong>one</strong> Bluetooth connection. If the strap is already connected to a laptop, watch or the training app, DaumBridge gets no values – disconnect it there.</p>
+<h2 id="10-rider-profiles">10. Rider profiles</h2>
+<p>If several people ride, each gets their own profile with date of birth, weight, FTP, heart rate strap, heart rate zones and simulator strength.</p>
+<ul>
+<li><em>Einstellungen → Fahrer</em> (riders) → <strong>+ Neu</strong> creates a profile.</li>
+<li>Tap a profile to select it; tap the active profile again → <strong>rename</strong> or <strong>delete</strong>.</li>
+<li><strong>Profil ›</strong> opens a page with name, date of birth, sex, weight and FTP.</li>
+<li>On the home screen the active rider is shown with the <strong>duration</strong>. Tap it to switch riders (when no ride is running).</li>
+</ul>
+<p>Values are set with <strong>scroll wheels</strong> – no keyboard needed:</p>
+<p align="center">
+<img src="../bilder/03_drehrad.png" width="230" alt="Scroll wheel">
+</p>
+
+<h2 id="11-heart-rate-zones-and-zone-colours">11. Heart rate zones and zone colours</h2>
+<p align="center">
+<img src="../bilder/04_pulszonen.png" width="230" alt="Heart rate zones">
+</p>
+
+<p><em>Einstellungen → Pulszonen</em> shows resting heart rate, maximum heart rate and the five zones:</p>
+<table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>Colour</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Erholung (recovery)</td>
+<td>blue</td>
+<td>base, regeneration</td>
+</tr>
+<tr>
+<td>Fettverbrennung (fat burning)</td>
+<td>green</td>
+<td>long, easy rides</td>
+</tr>
+<tr>
+<td>Aerob (aerobic)</td>
+<td>yellow-green</td>
+<td>improves endurance</td>
+</tr>
+<tr>
+<td>Anaerob (anaerobic)</td>
+<td>yellow</td>
+<td>high intensity, intervals</td>
+</tr>
+<tr>
+<td>Roter Bereich (red zone)</td>
+<td>red</td>
+<td>maximum effort, very short only</td>
+</tr>
+</tbody>
+</table>
+<p>Below the recovery zone is <strong>grey</strong>.</p>
+<ul>
+<li><strong>Calculation – two methods</strong> (switchable, zones recalculate instantly):</li>
+<li><strong>Mit Ruhepuls (Karvonen, with resting HR):</strong> lower limits = resting HR + 50 / 60 / 70 / 80 / 90 % of the heart rate reserve (max HR − resting HR). Takes fitness into account – best if you know your resting heart rate (measure in the morning lying down).</li>
+<li><strong>% vom Max. (% of max):</strong> lower limits = 70.5 / 76.5 / 82 / 88 / 94 % of max heart rate. Simple, needs only the max heart rate.</li>
+<li><em>Welche Methode? ›</em> (which method?) on the zones page explains both.</li>
+<li>If you change resting or max heart rate, the zones are recalculated with the selected method.</li>
+<li><strong>Automatisch berechnen</strong> (calculate automatically): calculates the zones with the selected method. If a date of birth is set, DaumBridge suggests a max heart rate from your age.</li>
+<li><strong>Set them yourself:</strong> tap any value and change it with the scroll wheel. A measured max heart rate (performance test, heart rate watch) is more accurate than the estimate.</li>
+</ul>
+<p>While riding, the <strong>Puls</strong> (heart rate) and <strong>Leistung</strong> (power) tiles change colour by zone. Power zones are based on the <strong>FTP</strong> in your profile. The <strong>Zeit in Pulszonen</strong> bar always uses the full width and shows each zone's share of the time ridden so far.</p>
+<h2 id="12-smart-erg-and-sim">12. Smart, ERG and SIM</h2>
+<ul>
+<li><strong>Smart EIN (on):</strong> the training app controls the Daum – in <strong>ERG</strong> mode it sets watts, in <strong>SIM</strong> mode gradients. The knob on the Daum is overridden. The <strong>Modus</strong> tile shows what's active.</li>
+<li><strong>Smart AUS (off):</strong> DaumBridge only measures; you set the resistance on the Daum yourself.</li>
+<li><strong>Simulatorstärke</strong> (simulator strength, under <em>Erweitert</em>): 100 % = gradients as in the app, 50 % = half as steep. Note: Zwift has its own “Trainer Difficulty” slider – both act together.</li>
+<li><strong>Fahrradtyp</strong> (bike type: road, MTB, trekking, time trial) sets rolling and air resistance if the app doesn't send its own values.</li>
+</ul>
+<h2 id="13-settings-overview">13. Settings overview</h2>
+<p align="center">
+<img src="../bilder/02_einstellungen.png" width="230" alt="Settings">
+<img src="../bilder/08_einstellungen_teilen.png" width="230" alt="Settings: sharing">
+<img src="../bilder/05_erweitert.png" width="230" alt="Advanced settings">
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Settings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fahrer</strong> (riders)</td>
+<td>select, create (+ Neu), rename, delete profiles; <em>Profil ›</em> (name, date of birth, sex, weight, FTP); <em>Pulszonen ›</em></td>
+</tr>
+<tr>
+<td><strong>Geräte</strong> (devices)</td>
+<td>Daum adapter, heart rate strap (search, choose, disconnect), <strong>Puls nie vom Daum nehmen</strong> (on by default), pair new device</td>
+</tr>
+<tr>
+<td><strong>Trainer</strong></td>
+<td><strong>Smart</strong> on/off, <strong>Fahrradtyp</strong> (bike type)</td>
+</tr>
+<tr>
+<td><strong>Training</strong></td>
+<td><strong>Auto-Pause</strong></td>
+</tr>
+<tr>
+<td><strong>An das iPhone (LocalSend)</strong></td>
+<td>target device, send after the ride, device name (how DaumBridge appears in LocalSend)</td>
+</tr>
+<tr>
+<td><strong>Per E-Mail</strong></td>
+<td>e-mail address, open after the ride</td>
+</tr>
+<tr>
+<td><strong>Erweitert</strong> (advanced)</td>
+<td>simulator strength, maximum and minimum power, bike weight, wheel circumference (for speed, default 2100 mm), Bluetooth name, old Daum firmware, keep screen on, polling interval, log, <em>Auf Standard zurücksetzen</em> (reset to defaults – profiles and devices are kept)</td>
+</tr>
+<tr>
+<td><strong>App</strong></td>
+<td>check for updates, about DaumBridge</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Problems? → <a href="faq.html">FAQ and troubleshooting</a> · All changes: <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md" target="_blank" rel="noopener">Versions</a></p>
+<p class="dl"><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ Download DaumBridge</a></p>
+</article>
+</main>
+<footer>DaumBridge · Wing-Art · free, no ads, no account</footer>
+</body>
+</html>

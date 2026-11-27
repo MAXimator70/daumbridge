@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DaumBridge – FAQ</title>
+<meta name="description" content="Frequently asked questions about DaumBridge.">
+<link rel="alternate" hreflang="de" href="../faq.html">
+<style>
+  :root{--bg:#eef1f5;--card:#fff;--text:#14181d;--muted:#5f6b7a;--green:#4e9a12;--btn:#5bae14;--line:#dde3ea}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#1a2028;--text:#f2f5f8;--muted:#8b97a6;--green:#6cc21e;--btn:#6cc21e;--line:#232b35}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .top{max-width:880px;margin:0 auto;padding:14px 16px 0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .top a.home{color:var(--text);text-decoration:none;font-weight:700;font-size:17px}
+  .top a.home span{color:var(--green)}
+  .lang a{display:inline-block;background:var(--card);border:2px solid var(--btn);color:var(--text);text-decoration:none;border-radius:999px;padding:7px 16px;font-weight:600;font-size:15px}
+  main{max-width:880px;margin:0 auto;padding:8px 16px 32px}
+  article{background:var(--card);border-radius:18px;padding:8px 22px 20px;margin:12px 0}
+  h1{font-size:26px;margin:16px 0 4px}
+  h2{font-size:21px;margin:28px 0 8px;padding-top:8px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:20px 0 6px}
+  a{color:var(--green)}
+  img{max-width:100%;height:auto;border-radius:14px;border:1px solid var(--line);vertical-align:top;margin:4px}
+  p[align=center]{text-align:center}
+  ul,ol{padding-left:22px} li{margin:3px 0}
+  table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0;display:block;overflow-x:auto}
+  td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px}
+  blockquote{margin:10px 0;padding:8px 14px;border-left:4px solid var(--btn);background:var(--bg);border-radius:8px}
+  code{font-family:ui-monospace,Consolas,monospace;font-size:14px;background:var(--bg);padding:1px 5px;border-radius:5px}
+  hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+  .dl{text-align:center;margin:18px 0 4px}
+  .btn{display:inline-block;background:var(--btn);color:#0f1318;text-decoration:none;padding:11px 22px;border-radius:14px;font-weight:600}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:8px 16px 28px}
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="home" href="index.html">← <span>DaumBridge</span></a>
+  <div class="lang"><a href="../faq.html" lang="de">🇩🇪 Deutsch</a></div>
+</div>
+<main>
+<article>
+<h1 id="daumbridge--faq-and-troubleshooting">DaumBridge – FAQ and troubleshooting</h1>
+<h2 id="general">General</h2>
+<p><strong>Does DaumBridge run on iPhone?</strong>
+No. The blue Daum adapter uses classic Bluetooth (serial connection). Apple only lets apps access that for Apple-certified (MFi) devices – the Daum adapter isn't one. DaumBridge therefore needs an Android phone. The training app itself can run on iPhone, iPad, Apple TV, Mac or PC.</p>
+<p><strong>Which Daum ergometers are supported?</strong>
+Developed and tested with the <strong>Daum 8008 TRS 3</strong>. Other Daum models with the same serial protocol may work – feedback is welcome.</p>
+<p><strong>The original Daum Bluetooth adapter is sold out – what now?</strong>
+A standard Bluetooth RS232 adapter with <strong>classic Bluetooth (SPP)</strong> and a <strong>DB9 connector</strong> works too. What to look for (no BLE version, 9600 baud, connector, null modem): <a href="https://github.com/MAXimator70/daumbridge/blob/main/docs/en/ADAPTER.md" target="_blank" rel="noopener">Bluetooth adapters</a>.</p>
+<p><strong>Does DaumBridge cost anything?</strong>
+No. No subscription, no ads, no account.</p>
+<p><strong>Is the app available in English?</strong>
+Not yet – the app is in German. This documentation explains all menus in English.</p>
+<p><strong>Why does it say "Smart" and not "ERG"?</strong>
+Smart is the umbrella term: with <em>Smart ist EIN</em> (smart on) the training app may control the Daum – in ERG mode (fixed watts) or SIM mode (slope), depending on the workout. The <strong>Modus</strong> (mode) tile shows which one is active.</p>
+<p><strong>"Nach Update suchen" (check for update) doesn't work on an older phone (Android 7.0).</strong>
+Up to version 0.9.7, DaumBridge on Android 7.0 (e.g. Galaxy S6) didn't trust GitHub's certificate. Fixed in 0.9.8 – install the new version once via browser or from a PC, after that the update check works again.</p>
+<h2 id="installation">Installation</h2>
+<p><strong>Installing shows “Google Play Store has stopped”.</strong>
+That isn't DaumBridge: when you install an APK, <em>Google Play Protect</em> (part of the Play Store) checks the file, and on older phones that check sometimes crashes. Usually the install still completes – after “Close app”, check the version under menu ☰ → <em>Nach Update suchen</em> (check for updates). Otherwise install again. If that doesn't help: <em>Android settings → Apps → Google Play Store → Storage → Clear cache</em>, or – if you don't use the Play Store at all – <strong>Disable</strong> it there (you can <strong>Enable</strong> it again any time, nothing is deleted).</p>
+<p><strong>Do updates delete my settings or rides?</strong>
+No. An update only replaces the app; profiles, settings and saved rides are kept.</p>
+<h2 id="connecting">Connecting</h2>
+<p><strong>Android didn't ask for a PIN when pairing – is that wrong?</strong>
+No. Some adapters pair without a PIN. If Android asks, it's the 4-digit number on the adapter.</p>
+<p><strong>The "Daum" chip doesn't turn green.</strong>
+- Is the Daum switched on and the adapter plugged in?
+- Is the adapter paired in the Android Bluetooth settings and selected in DaumBridge under <em>Geräte</em> (devices)?
+- Is the adapter still connected to another device (old phone, PC)? Disconnect it there.
+- Switch the phone's Bluetooth off and on, then tap <strong>Verbinden</strong> (connect) again.</p>
+<p><strong>The training app can't find "DaumBridge".</strong>
+- Is a ride running in DaumBridge (stop button visible)? DaumBridge only broadcasts while a ride is running.
+- Is the <strong>BT</strong> chip green?
+- In the training app, search for a <strong>smart trainer / controllable trainer</strong>, not a power meter.
+- Laptop: is Bluetooth switched on? Some PCs need a USB Bluetooth dongle.</p>
+<p><strong>The training app shows the trainer as "DaumBridge-4874".</strong>
+Some apps (e.g. MyWhoosh) add their own number. That's normal.</p>
+<p><strong>Does DaumBridge change my phone's Bluetooth name?</strong>
+Yes, but only during a ride – Android advertises the trainer under the phone's name. After the ride (and after a crash, on the next start) the phone gets its old name back.</p>
+<h2 id="heart-rate">Heart rate</h2>
+<p><strong>DaumBridge shows a far too high heart rate.</strong>
+The Daum's built-in heart rate receiver is often inaccurate. With a Bluetooth heart rate strap (<em>Einstellungen → Geräte → Pulsgurt</em>) DaumBridge only uses the strap's value. DaumBridge ignores the Daum's heart rate entirely: the switch <em>Einstellungen → Geräte → Puls nie vom Daum nehmen</em> (never take heart rate from the Daum) is on by default. Only if you have no strap and still want the Daum's value, turn it off.</p>
+<p><strong>The heart rate jumps up and down although I'm sitting still.</strong>
+Usually poor skin contact of the strap: moisten the electrodes, wear the strap tighter right below the chest, avoid synthetic shirts, check the battery. Since 0.9.7 DaumBridge filters gross outliers (above max heart rate, sudden spikes).</p>
+<p><strong>Android says "pairing rejected" for the heart rate strap.</strong>
+That's normal – many straps can't be paired. Use <em>Pulsgurt suchen</em> (search strap) in DaumBridge instead.</p>
+<p><strong>The heart rate strap doesn't connect.</strong>
+- Put on the strap and moisten the contacts – without skin contact it doesn't send.
+- Many straps (e.g. Polar H9) allow only <strong>one</strong> connection. If it's connected to a laptop, watch or training app, disconnect it there.
+- In DaumBridge go to <em>Einstellungen → Geräte → Pulsgurt</em> and tap <strong>Pulsgurt suchen</strong> (search strap) – pairing in Android is not needed.
+- If no values arrive for 20 seconds, DaumBridge reconnects by itself.</p>
+<p><strong>The "Zeit in Pulszonen" bar stays empty.</strong>
+It only fills while riding and only when heart rate data arrives. The text next to it says why it's empty ("kein Puls" = no heart rate, "füllt sich beim Fahren" = fills while riding).</p>
+<p><strong>Are my heart rate zones right?</strong>
+The automatic calculation estimates max heart rate from age – for many people the real value differs by 10 beats or more. Better: measure your max heart rate (fitness test, sports watch) and enter it. Heart rate zones are not medical advice.</p>
+<h2 id="riding">Riding</h2>
+<p><strong>Turning the knob on the Daum doesn't change the resistance.</strong>
+With <em>Smart ist EIN</em> the training app controls the Daum and overrides the knob. For free riding choose <em>Smart ist AUS</em>.</p>
+<p><strong>Climbs are too hard.</strong>
+Lower <em>Einstellungen → Erweitert → Simulatorstärke</em> (e.g. 50–70 %). Or lower Zwift's "trainer difficulty" – but not both by a lot, or it doubles up.</p>
+<p><strong>The phone turns off during a ride.</strong>
+Switch on <em>Einstellungen → Erweitert → Bildschirm anlassen</em> (keep screen on). On some phones, also exclude DaumBridge from battery optimisation in the Android settings.</p>
+<h2 id="reporting-a-problem">Reporting a problem</h2>
+<ol>
+<li>Menu ☰ → <strong><em>Protokoll</em></strong> (log) → <strong><em>Teilen</em></strong> (share), e.g. by e-mail or messenger.</li>
+<li>Briefly describe what happened and which phone and training app you used.</li>
+</ol>
+<p>If DaumBridge crashes, it shows a crash report on the next start, which you can share too.</p>
+<p><strong>How do I get my rides onto an iPhone (e.g. into MaxUp)?</strong>
+Easiest with <strong>LocalSend</strong>: install the free LocalSend app on the iPhone and open it, then pick the iPhone in DaumBridge under Settings → <em>An das iPhone (LocalSend)</em>. From then on every ride goes to the iPhone over Wi-Fi automatically when you stop (Files app → LocalSend). Alternatively <strong>by e-mail</strong> (Settings → <em>Per E-Mail</em>). Bluetooth won't work – iPhones don't accept files from Android phones over Bluetooth.</p>
+<p><strong>On one phone the “An … senden” entry is missing / it says “Ziel wählen”.</strong>
+The LocalSend target device is stored <strong>per phone</strong>. On a phone where none has been chosen yet, the entry reads <strong>An iPhone senden – Ziel wählen</strong> (send to iPhone – choose target): tap it, pick the iPhone (with LocalSend open) – the ride is sent and the target remembered. Or set it beforehand under <em>Settings → An das iPhone (LocalSend) → Ziel-Gerät</em>.</p>
+<p><strong>Can I look at an old ride again?</strong>
+Yes: menu ☰ → <em>Trainings</em> → tap the ride → <strong>Diagramm ansehen</strong> (view chart). The ride opens in landscape with averages and maximums on the left, the chart of the whole ride on the right and the time in heart-rate zones below. Zoom with two fingers, double-tap shows everything again.</p>
+<p><strong>Is the chart included in the FIT file?</strong>
+The data is – power, cadence, heart rate, speed and distance second by second. The picture itself isn't: MaxUp, Strava, Garmin Connect and others draw their own charts on import. The target app calculates heart-rate zones from its own settings.</p>
+<p><strong>LocalSend can't find my iPhone.</strong>
+LocalSend has to be open on the iPhone, “Local Network” must be allowed (iPhone Settings → LocalSend), and both devices must be on the same Wi-Fi. Guest networks and routers that isolate devices from each other stop them from seeing each other.</p>
+<p><strong>LocalSend finds the iPhone but nothing arrives (“Handshake failed” in the log).</strong>
+Older Android phones sometimes can't set up the encrypted connection to LocalSend on the iPhone. Fix: on the iPhone, in LocalSend under <strong>Settings</strong>, turn <strong>Encryption</strong> off. DaumBridge detects this by itself and then sends unencrypted – fine on your own Wi-Fi. The iPhone asks whether to accept the file.</p>
+<p><strong>Why does the duration show 0:00:00 although I tapped Verbinden (connect)?</strong>
+The clock only starts with your first pedal stroke. With <strong>auto-pause</strong> (pill at the top right of the duration card) it also stops when you don't pedal for more than 5 seconds.</p>
+<p class="dl"><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ Download DaumBridge</a></p>
+</article>
+</main>
+<footer>DaumBridge · Wing-Art · free, no ads, no account</footer>
+</body>
+</html>
