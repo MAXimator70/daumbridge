@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Nur Handy + Bluetooth-Adapter</b> · 🔌 <b>kein Kabel</b> · 🧰 <b>kein Raspberry Pi, kein Basteln</b></p>
 
 <p align="center">
-<b>Aktuelle Version: 0.9.22 (Build 48)</b> – Vorabversion (Beta)<br>
+<b>Aktuelle Version: 0.9.23 (Build 49)</b> – Vorabversion (Beta)<br>
 Android 7 oder neuer · kostenlos · ohne Werbung · ohne Konto
 </p>
 
@@ -34,7 +34,7 @@ Andere Lösungen für ältere Daum-Ergometer brauchen ein **USB-Seriell-Kabel** 
 |---|---|---|
 | Verbindung zum Daum | **kabellos per Bluetooth-Adapter** | USB-RS232-Kabel, oft mit OTG-Adapter |
 | Zusätzliche Hardware | **keine** – nur der Bluetooth-Adapter am Daum | Kabel, teils Raspberry Pi |
-| Einrichtung | App installieren, Adapter koppeln, Start | Kabel, Treiber, teils Linux-Kenntnisse |
+| Einrichtung | App installieren, Adapter koppeln, Verbinden | Kabel, Treiber, teils Linux-Kenntnisse |
 | Handy am Ergometer | **frei platzierbar**, z. B. am Lenker oder auf dem Tisch | hängt am Kabel |
 | Kosten | **kostenlos** | unterschiedlich |
 
@@ -50,21 +50,25 @@ Der originale Daum-Adapter ist vergriffen? Ein handelsüblicher [Bluetooth-RS232
 
 - **Smart-Trainer per Bluetooth FTMS** – ERG-Modus (Watt-Vorgabe), Steigungssimulation (SIM) und Widerstand
 - **Sendet** Leistung, Trittfrequenz, Tempo und Puls an die Trainings-App
-- **Bluetooth-Pulsgurt** (z. B. Polar H9/H10, Garmin, Wahoo) – DaumBridge liest den Gurt und reicht den Puls weiter
+- **Bluetooth-Pulsgurt** (z. B. Polar H9/H10, Garmin, Wahoo) – DaumBridge liest den Gurt und reicht den Puls weiter; Herz im Pulstakt, Akkustand des Gurts. Der ungenaue Pulsempfänger im Daum wird ab Werk ignoriert
+- **Live-Diagramm** mit **Auto-Zoom**: Leistung, Kadenz (eigene Skala rechts) und Puls füllen je rund 80 % ihrer Fläche; zurückblättern per Wischen, Doppeltipp = live
+- **Querformat** – Handy quer drehen: links eine schmale Spalte mit Dauer, Leistung, Puls, Kadenz, Tempo und Strecke in großen, fetten Zahlen, rechts das große Diagramm mit Pulszonen als Farbbändern. Zoomen mit zwei Fingern (1–30 min). Puls-Kachel in der Farbe der aktuellen Zone, quadratische Knöpfe für **Auto-Pause** und **Zonen**
+- **Gespeicherte Trainings ansehen** – jedes Training im Querformat mit Durchschnitts- und Maximalwerten, Diagramm übers ganze Training und Zeit in Pulszonen
 - **Fahrerprofile** – Geburtsdatum, Gewicht, FTP, Pulsgurt und Pulszonen pro Person
-- **Pulszonen** – automatisch aus dem Maximalpuls berechnet oder selbst eingestellt
-- **Zonenfarben** – Puls- und Leistungskachel färben sich nach Zone, ein Streifen zeigt die Zeit in den Pulszonen
-- **Live-Diagramm** – Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls; zurückblättern per Wischen, Doppeltipp = live
-- **Querformat** – Handy quer drehen: links eine schmale Spalte mit Dauer, Leistung, Puls, Kadenz, Tempo und Strecke in großen, fetten Zahlen; rechts das große Diagramm (vier Fünftel der Breite) mit Pulszonen als Farbbändern und mitlaufendem Punkt. Zoomen mit zwei Fingern, Wischen blättert zurück, Doppeltipp = live. Die Puls-Kachel färbt sich in der aktuellen Zone und zeigt ihren Namen, daneben Herz und Akku des Gurts. Quadratische Knöpfe für **Auto-Pause** und den Streifen **Zeit in Pulszonen**. Hochkant drehen = zurück, das Training läuft weiter
-- **Uhr ab dem ersten Tritt, Auto-Pause** – Pausen zählen nicht mit, Schalter direkt in der Dauer-Karte
-- **Trainings ans iPhone** – per LocalSend übers WLAN (automatisch nach jedem Training) oder per E-Mail
+- **Pulszonen** – mit Ruhepuls (Karvonen) oder % vom Maximalpuls, automatisch oder selbst eingestellt; Zonenfarben und Streifen **Zeit in Pulszonen** (anteilig auf die gefahrene Zeit)
+- **Uhr ab dem ersten Tritt, Auto-Pause** – Pausen zählen nicht mit
+- **Trainings ans iPhone** per **LocalSend** übers WLAN (auch automatisch nach jedem Training), **per E-Mail** oder über **Teilen** (Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …) als **FIT-Datei**
 - **Zusammenfassung** nach dem Training (Dauer, Strecke, Leistung, Normalized Power, kJ, Puls, Zonen)
-- **Training teilen als FIT-Datei** – an Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …; alle Trainings bleiben auf dem Handy gespeichert (Menü ☰ → Trainings)
 - **Verbindet sich selbst neu**, wenn der Daum-Adapter oder der Pulsgurt kurz weg ist
 - **Simulatorstärke** – Steigungen auf Wunsch abschwächen
-- **Hell und dunkel**, Bedienung mit Drehrädern statt Tastatur
-- **Updates** meldet die App selbst
+- **Hell und dunkel**, Bedienung mit Drehrädern statt Tastatur, **Updates** meldet die App selbst
 
+<p align="center">
+<img src="bilder/09_quer_training.png" width="720" alt="Querformat">
+</p>
+<p align="center">
+<img src="bilder/10_quer_pulszonen.png" width="720" alt="Gespeichertes Training im Querformat">
+</p>
 <p align="center">
 <img src="bilder/02_einstellungen.png" width="240" alt="Einstellungen">
 <img src="bilder/04_pulszonen.png" width="240" alt="Pulszonen">

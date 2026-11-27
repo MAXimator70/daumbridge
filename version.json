@@ -1,6 +1,6 @@
 {
-  "version": "0.9.22",
-  "build": 48,
+  "version": "0.9.23",
+  "build": 49,
   "url": "https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk",
-  "notes": "- Gespeicherte Trainings in der Querformat-Ansicht\n- Zeit in Pulszonen anteilig auf die gefahrene Zeit"
+  "notes": "- LocalSend: Ziel direkt beim Senden wählen\n- Diagramm-Skalen ohne Verzerrung durch Anfahren/Ausrollen\n- Dokumentation mit neuen Screenshots"
 }

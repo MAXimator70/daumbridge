@@ -25,6 +25,14 @@ Smart is the umbrella term: with *Smart ist EIN* (smart on) the training app may
 **"Nach Update suchen" (check for update) doesn't work on an older phone (Android 7.0).**
 Up to version 0.9.7, DaumBridge on Android 7.0 (e.g. Galaxy S6) didn't trust GitHub's certificate. Fixed in 0.9.8 – install the new version once via browser or from a PC, after that the update check works again.
 
+## Installation
+
+**Installing shows “Google Play Store has stopped”.**
+That isn't DaumBridge: when you install an APK, *Google Play Protect* (part of the Play Store) checks the file, and on older phones that check sometimes crashes. Usually the install still completes – after “Close app”, check the version under menu ☰ → *Nach Update suchen* (check for updates). Otherwise install again. If that doesn't help: *Android settings → Apps → Google Play Store → Storage → Clear cache*, or – if you don't use the Play Store at all – **Disable** it there (you can **Enable** it again any time, nothing is deleted).
+
+**Do updates delete my settings or rides?**
+No. An update only replaces the app; profiles, settings and saved rides are kept.
+
 ## Connecting
 
 **Android didn't ask for a PIN when pairing – is that wrong?**
@@ -92,12 +100,21 @@ If DaumBridge crashes, it shows a crash report on the next start, which you can 
 **How do I get my rides onto an iPhone (e.g. into MaxUp)?**
 Easiest with **LocalSend**: install the free LocalSend app on the iPhone and open it, then pick the iPhone in DaumBridge under Settings → *An das iPhone (LocalSend)*. From then on every ride goes to the iPhone over Wi-Fi automatically when you stop (Files app → LocalSend). Alternatively **by e-mail** (Settings → *Per E-Mail*). Bluetooth won't work – iPhones don't accept files from Android phones over Bluetooth.
 
+**On one phone the “An … senden” entry is missing / it says “Ziel wählen”.**
+The LocalSend target device is stored **per phone**. On a phone where none has been chosen yet, the entry reads **An iPhone senden – Ziel wählen** (send to iPhone – choose target): tap it, pick the iPhone (with LocalSend open) – the ride is sent and the target remembered. Or set it beforehand under *Settings → An das iPhone (LocalSend) → Ziel-Gerät*.
+
+**Can I look at an old ride again?**
+Yes: menu ☰ → *Trainings* → tap the ride → **Diagramm ansehen** (view chart). The ride opens in landscape with averages and maximums on the left, the chart of the whole ride on the right and the time in heart-rate zones below. Zoom with two fingers, double-tap shows everything again.
+
+**Is the chart included in the FIT file?**
+The data is – power, cadence, heart rate, speed and distance second by second. The picture itself isn't: MaxUp, Strava, Garmin Connect and others draw their own charts on import. The target app calculates heart-rate zones from its own settings.
+
 **LocalSend can't find my iPhone.**
 LocalSend has to be open on the iPhone, “Local Network” must be allowed (iPhone Settings → LocalSend), and both devices must be on the same Wi-Fi. Guest networks and routers that isolate devices from each other stop them from seeing each other.
 
 **LocalSend finds the iPhone but nothing arrives (“Handshake failed” in the log).**
 Older Android phones sometimes can't set up the encrypted connection to LocalSend on the iPhone. Fix: on the iPhone, in LocalSend under **Settings**, turn **Encryption** off. DaumBridge detects this by itself and then sends unencrypted – fine on your own Wi-Fi. The iPhone asks whether to accept the file.
 
-**Why does the duration show 0:00:00 although I pressed Start?**
+**Why does the duration show 0:00:00 although I tapped Verbinden (connect)?**
 The clock only starts with your first pedal stroke. With **auto-pause** (pill at the top right of the duration card) it also stops when you don't pedal for more than 5 seconds.
 

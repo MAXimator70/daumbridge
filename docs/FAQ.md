@@ -22,6 +22,14 @@ Smart ist der Oberbegriff: Bei *Smart EIN* darf die Trainings-App den Daum steue
 **„Nach Update suchen“ geht auf einem älteren Handy (Android 7.0) nicht.**
 Bis Version 0.9.7 kannte DaumBridge auf Android 7.0 (z. B. Galaxy S6) das Zertifikat von GitHub nicht. Ab 0.9.8 behoben – einmalig die neue Version per Browser oder vom PC installieren, danach klappt die Update-Suche wieder.
 
+## Installation
+
+**Beim Installieren kommt „Google Play Store angehalten“.**
+Das kommt nicht von DaumBridge: Beim Installieren einer APK prüft *Google Play Protect* (Teil des Play Stores) die Datei, und auf älteren Handys stürzt diese Prüfung manchmal ab. Meist läuft die Installation trotzdem durch – nach „App schließen“ unter Menü ☰ → *Nach Update suchen* die Version prüfen. Sonst nochmal installieren. Hilft das nicht: *Android-Einstellungen → Apps → Google Play Store → Speicher → Cache leeren*, oder – wenn der Play Store gar nicht genutzt wird – dort **Deaktivieren** (lässt sich jederzeit wieder **Aktivieren**, gelöscht wird nichts).
+
+**Gehen bei einem Update meine Einstellungen oder Trainings verloren?**
+Nein. Ein Update überschreibt nur die App; Profile, Einstellungen und gespeicherte Trainings bleiben.
+
 ## Verbinden
 
 **Android fragt beim Koppeln keine PIN ab – ist das falsch?**
@@ -92,12 +100,21 @@ Stürzt DaumBridge ab, zeigt die App beim nächsten Start einen Absturzbericht, 
 **Wie kommen meine Trainings aufs iPhone (z. B. in MaxUp)?**
 Am einfachsten mit **LocalSend**: auf dem iPhone die kostenlose App LocalSend installieren und öffnen, in DaumBridge unter Einstellungen → *An das iPhone (LocalSend)* das iPhone wählen. Danach geht jedes Training beim Stopp automatisch übers WLAN ans iPhone (Dateien-App → LocalSend). Alternativ **per E-Mail** (Einstellungen → *Per E-Mail*). Per Bluetooth geht es nicht – das iPhone nimmt von Android-Handys keine Dateien per Bluetooth an.
 
+**Bei einem Handy fehlt der Eintrag „An … senden“ / es steht „Ziel wählen“.**
+Das Ziel-Gerät für LocalSend wird **pro Handy** gespeichert. Auf einem Handy, auf dem noch keins gewählt wurde, steht **An iPhone senden – Ziel wählen**: antippen, iPhone (mit geöffnetem LocalSend) auswählen – danach wird gesendet und das Ziel gemerkt. Oder vorab unter *Einstellungen → An das iPhone (LocalSend) → Ziel-Gerät*.
+
+**Kann ich ein altes Training nochmal ansehen?**
+Ja: Menü ☰ → *Trainings* → Training antippen → **Diagramm ansehen**. Das Training öffnet sich im Querformat mit Durchschnitts- und Maximalwerten links, dem Diagramm über das ganze Training rechts und der Zeit in Pulszonen unten. Zoomen mit zwei Fingern, Doppeltipp zeigt wieder alles.
+
+**Wird das Diagramm in der FIT-Datei mitgeschickt?**
+Die Daten ja – Leistung, Kadenz, Puls, Tempo und Strecke Sekunde für Sekunde. Das Bild selbst nicht: MaxUp, Strava, Garmin Connect & Co. zeichnen ihre Diagramme beim Import selbst. Die Pulszonen rechnet die Ziel-App nach ihren eigenen Einstellungen.
+
 **LocalSend findet mein iPhone nicht.**
 LocalSend muss am iPhone geöffnet sein, „Lokales Netzwerk“ muss erlaubt sein (iPhone-Einstellungen → LocalSend), und beide Geräte müssen im selben WLAN sein. Gast-WLANs und Router mit „Geräte voneinander abschirmen“ verhindern, dass sich die Geräte sehen.
 
 **LocalSend findet das iPhone, aber es kommt nichts an („Handshake failed“ im Protokoll).**
 Ältere Android-Handys bekommen die verschlüsselte Verbindung zu LocalSend auf dem iPhone manchmal nicht aufgebaut. Abhilfe: am iPhone in LocalSend unter **Einstellungen** die **Verschlüsselung** ausschalten. DaumBridge erkennt das selbst und sendet dann unverschlüsselt – im eigenen WLAN unbedenklich. Am iPhone erscheint beim Empfang eine Frage, ob du die Datei annehmen willst.
 
-**Warum zeigt die Dauer 0:00:00, obwohl ich Start gedrückt habe?**
+**Warum zeigt die Dauer 0:00:00, obwohl ich Verbinden getippt habe?**
 Die Uhr startet erst mit dem ersten Tritt. Mit **Auto-Pause** (Schild oben rechts in der Dauer-Karte) hält sie außerdem an, wenn du länger als 5 Sekunden nicht trittst.
 

@@ -51,7 +51,7 @@
 <main>
 <section class="center">
   <p><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ DaumBridge herunterladen</a></p>
-  <p class="muted">Version 0.9.22 – Vorabversion (Beta) · <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md">Alle Versionen</a></p>
+  <p class="muted">Version 0.9.23 – Vorabversion (Beta) · <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md">Alle Versionen</a></p>
 </section>
 
 <section>
@@ -61,9 +61,13 @@
   ganz normaler <b>Bluetooth-Smart-Trainer (FTMS)</b> – mit ERG-Modus und Steigungssimulation.</p>
   <div class="flow">Daum 8008 → Daum-Bluetooth-Adapter → Android-Handy mit DaumBridge → Bluetooth FTMS → Zwift / MyWhoosh / Apple TV / PC</div>
   <div class="shots">
+    <img src="bilder/09_quer_training.png" alt="Querformat" loading="lazy">
+    <img src="bilder/10_quer_pulszonen.png" alt="Gespeichertes Training im Querformat" loading="lazy">
     <img src="bilder/01_start_dunkel.png" alt="Startseite dunkel" loading="lazy">
     <img src="bilder/06_menue.png" alt="Menü" loading="lazy">
     <img src="bilder/02_einstellungen.png" alt="Einstellungen" loading="lazy">
+    <img src="bilder/08_einstellungen_teilen.png" alt="Einstellungen: Weitergeben" loading="lazy">
+    <img src="bilder/05_erweitert.png" alt="Erweiterte Einstellungen" loading="lazy">
     <img src="bilder/04_pulszonen.png" alt="Pulszonen" loading="lazy">
     <img src="bilder/03_drehrad.png" alt="Auswahl per Drehrad" loading="lazy">
     <img src="bilder/07_start_hell.png" alt="Startseite hell" loading="lazy">
@@ -77,7 +81,7 @@
     <tr><th></th><th>DaumBridge</th><th>übliche Alternativen</th></tr>
     <tr><td>Verbindung zum Daum</td><td class="hi">kabellos per Bluetooth-Adapter</td><td>USB-RS232-Kabel, oft mit OTG-Adapter</td></tr>
     <tr><td>Zusätzliche Hardware</td><td class="hi">keine – nur der Adapter am Daum</td><td>Kabel, teils Raspberry Pi</td></tr>
-    <tr><td>Einrichtung</td><td class="hi">installieren, koppeln, Start</td><td>Kabel, Treiber, teils Linux</td></tr>
+    <tr><td>Einrichtung</td><td class="hi">installieren, koppeln, Verbinden</td><td>Kabel, Treiber, teils Linux</td></tr>
     <tr><td>Handy</td><td class="hi">frei platzierbar</td><td>hängt am Kabel</td></tr>
     <tr><td>Kosten</td><td class="hi">kostenlos</td><td>unterschiedlich</td></tr>
   </table>
@@ -89,14 +93,15 @@
   <ul class="f">
     <li>Smart-Trainer per Bluetooth FTMS: ERG, Steigungssimulation, Widerstand</li>
     <li>Sendet Leistung, Trittfrequenz, Tempo und Puls</li>
-    <li>Bluetooth-Pulsgurt (z. B. Polar H9) – Puls wird weitergereicht</li>
+    <li>Bluetooth-Pulsgurt (z. B. Polar H9) – Puls wird weitergereicht; der ungenaue Puls vom Daum wird ab Werk ignoriert</li>
+    <li>Live-Diagramm mit <b>Auto-Zoom</b>: Leistung, Kadenz (eigene Skala rechts) und Puls füllen je rund 80 % der Höhe</li>
+    <li><b>Querformat:</b> links eine schmale Spalte mit Dauer, Leistung, Puls, Kadenz, Tempo und Strecke in großen Zahlen, rechts das große Diagramm mit Pulszonen. Zoomen mit zwei Fingern, Wischen blättert zurück, Doppeltipp = live</li>
+    <li><b>Gespeicherte Trainings ansehen</b> – im Querformat mit Durchschnitts- und Maximalwerten und Zeit in Pulszonen</li>
     <li>Fahrerprofile mit Pulszonen, Zonenfarben und Streifen „Zeit in Pulszonen“</li>
-    <li>Live-Diagramm: Logo antippen, es dreht sich und zeigt Leistung, Kadenz und Puls</li>
-    <li><b>Querformat:</b> Handy quer drehen – links eine schmale Spalte mit Dauer, Leistung, Puls, Kadenz, Tempo und Strecke in großen Zahlen, rechts das große Diagramm mit Pulszonen. Zoomen mit zwei Fingern, Wischen blättert zurück, Doppeltipp = live. Puls-Kachel in der Farbe der aktuellen Zone, Knöpfe für Auto-Pause und Zonen-Streifen</li>
     <li>Dauer startet beim ersten Tritt, Auto-Pause hält die Uhr an, wenn du nicht trittst</li>
     <li>Akkustand des Pulsgurts, Herz schlägt im Takt deines Pulses</li>
     <li>Zusammenfassung nach dem Training</li>
-    <li>Training als FIT-Datei teilen (Telegram, Drive, Dropbox, MaxUp, Strava …), per E-Mail oder automatisch per LocalSend ans iPhone</li>
+    <li>Training als FIT-Datei teilen (Telegram, Drive, Dropbox, MaxUp, Strava …), per E-Mail oder per LocalSend ans iPhone</li>
     <li>Verbindet sich selbst neu, wenn Adapter oder Gurt kurz weg sind</li>
     <li>Hell und dunkel, Bedienung mit Drehrädern, Updates in der App</li>
   </ul>

@@ -51,7 +51,7 @@
 <main>
 <section class="center">
   <p><a class="btn" href="https://raw.githubusercontent.com/MAXimator70/daumbridge/main/DaumBridge.apk">⬇ Download DaumBridge</a></p>
-  <p class="muted">Version 0.9.22 – pre-release (beta) · <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md">Version history</a> (German)</p>
+  <p class="muted">Version 0.9.23 – pre-release (beta) · <a href="https://github.com/MAXimator70/daumbridge/blob/main/Versionen.md">Version history</a> (German)</p>
   <p class="muted">The app itself is in German – the <a href="https://github.com/MAXimator70/daumbridge/blob/main/docs/en/GUIDE.md">English guide</a> explains every menu.</p>
 </section>
 
@@ -62,9 +62,13 @@
   a regular <b>Bluetooth smart trainer (FTMS)</b> – with ERG mode and slope simulation.</p>
   <div class="flow">Daum 8008 → Daum Bluetooth adapter → Android phone with DaumBridge → Bluetooth FTMS → Zwift / MyWhoosh / Apple TV / PC</div>
   <div class="shots">
+    <img src="../bilder/09_quer_training.png" alt="Landscape" loading="lazy">
+    <img src="../bilder/10_quer_pulszonen.png" alt="Saved ride in landscape" loading="lazy">
     <img src="../bilder/01_start_dunkel.png" alt="Main screen, dark" loading="lazy">
     <img src="../bilder/06_menue.png" alt="Menu" loading="lazy">
     <img src="../bilder/02_einstellungen.png" alt="Settings" loading="lazy">
+    <img src="../bilder/08_einstellungen_teilen.png" alt="Settings: sharing" loading="lazy">
+    <img src="../bilder/05_erweitert.png" alt="Advanced settings" loading="lazy">
     <img src="../bilder/04_pulszonen.png" alt="Heart rate zones" loading="lazy">
     <img src="../bilder/03_drehrad.png" alt="Scroll wheel picker" loading="lazy">
     <img src="../bilder/07_start_hell.png" alt="Main screen, light" loading="lazy">
@@ -78,7 +82,7 @@
     <tr><th></th><th>DaumBridge</th><th>typical alternatives</th></tr>
     <tr><td>Connection to the Daum</td><td class="hi">wireless via Bluetooth adapter</td><td>USB-RS232 cable, often with OTG adapter</td></tr>
     <tr><td>Extra hardware</td><td class="hi">none – just the adapter on the Daum</td><td>cable, sometimes a Raspberry Pi</td></tr>
-    <tr><td>Setup</td><td class="hi">install, pair, start</td><td>cable, drivers, sometimes Linux</td></tr>
+    <tr><td>Setup</td><td class="hi">install, pair, connect</td><td>cable, drivers, sometimes Linux</td></tr>
     <tr><td>Phone</td><td class="hi">place it anywhere</td><td>tied to the cable</td></tr>
     <tr><td>Cost</td><td class="hi">free</td><td>varies</td></tr>
   </table>
@@ -90,16 +94,17 @@
   <ul class="f">
     <li>Smart trainer via Bluetooth FTMS: ERG, slope simulation, resistance</li>
     <li>Sends power, cadence, speed and heart rate</li>
-    <li>Bluetooth heart rate strap (e.g. Polar H9) – heart rate is passed on</li>
-    <li>Rider profiles with heart rate zones, zone colours and a "time in zones" bar</li>
-    <li>Live chart: tap the logo, it flips over and shows power, cadence and heart rate</li>
+    <li>Bluetooth heart rate strap (e.g. Polar H9) – heart rate is passed on; the Daum's inaccurate heart rate is ignored by default</li>
+    <li>Live chart with <b>auto-zoom</b>: power, cadence (own scale on the right) and heart rate each fill about 80 % of the height</li>
+    <li><b>Landscape:</b> a narrow column with duration, power, heart rate, cadence, speed and distance in large numbers on the left, the large chart with heart-rate zones on the right. Pinch to zoom, swipe to scroll back, double-tap = live</li>
+    <li><b>View saved rides</b> – in landscape with averages, maximums and time in heart-rate zones</li>
+    <li>Rider profiles with heart rate zones, zone colours and a “time in zones” bar</li>
+    <li>Clock starts with the first pedal stroke, auto-pause stops it when you stop pedalling</li>
+    <li>Strap battery level, heart beating with your pulse</li>
     <li>Summary after each ride</li>
-    <li><b>Landscape:</b> turn the phone sideways – on the left a narrow column with duration, power, heart rate, cadence, speed and distance in large numbers, on the right the large chart with heart-rate zones. Pinch to zoom, swipe to scroll back, double-tap = live. Heart-rate tile in the colour of the current zone, buttons for auto-pause and the zone bar</li>
-    <li>Duration starts with the first pedal stroke, auto-pause stops the clock when you stop pedalling</li>
-    <li>Heart-rate strap battery level, heart beats in time with your pulse</li>
-    <li>Share rides as FIT files (Telegram, Drive, Dropbox, MaxUp, Strava …), by e-mail or automatically to an iPhone via LocalSend</li>
+    <li>Share rides as FIT files (Telegram, Drive, Dropbox, MaxUp, Strava …), by e-mail or via LocalSend to your iPhone</li>
     <li>Reconnects automatically if the adapter or strap drops out</li>
-    <li>Light and dark mode, scroll wheel input, in-app updates</li>
+    <li>Light and dark mode, scroll wheels, in-app updates</li>
   </ul>
 </section>
 

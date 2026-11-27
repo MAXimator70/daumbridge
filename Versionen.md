@@ -1,5 +1,12 @@
 # Versionen
 
+## 0.9.23 (Build 49) - 27.11.2026
+- LocalSend-Eintrag immer sichtbar: ohne gewähltes Ziel steht dort "An iPhone senden - Ziel wählen" und öffnet direkt die Geräteauswahl (in der Zusammenfassung und unter Trainings)
+- Diagramm-Skalen ignorieren Stillstand (0 W / 0 U/min) und die äußersten 2 % der Werte, damit Anfahren und Ausrollen die Skala nicht verzerren
+- Ansicht gespeicherter Trainings nutzt den ganzen Bildschirm wie das Querformat beim Fahren
+- Pulsgurt-Auswahl: "Kein Pulsgurt" ohne den veralteten Zusatz "(Puls vom Daum)"
+- Dokumentation komplett überarbeitet: neue Screenshots (auch Querformat und gespeicherte Trainings), Anleitung mit Inhaltsverzeichnis und Einstellungs-Übersicht, neue FAQ zu Installation, LocalSend und alten Trainings
+
 ## 0.9.22 (Build 48) - 25.11.2026
 - Gespeicherte Trainings oeffnen sich in der gewohnten Querformat-Ansicht (Werte links mit Durchschnitt und Maximum, Diagramm rechts, Zeit in Pulszonen unten)
 - Streifen "Zeit in Pulszonen" immer anteilig auf die bisher gefahrene Zeit statt fest auf 60 Minuten

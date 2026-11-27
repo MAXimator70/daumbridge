@@ -7,7 +7,7 @@
 <p align="center">📱 <b>Just a phone + Bluetooth adapter</b> · 🔌 <b>no cables</b> · 🧰 <b>no Raspberry Pi, no tinkering</b></p>
 
 <p align="center">
-<b>Current version: 0.9.22 (Build 48)</b> – pre-release (beta)<br>
+<b>Current version: 0.9.23 (Build 49)</b> – pre-release (beta)<br>
 Android 7 or newer · free · no ads · no account
 </p>
 
@@ -34,7 +34,7 @@ Other solutions for older Daum ergometers need a **USB serial cable** on the pho
 |---|---|---|
 | Connection to the Daum | **wireless via Bluetooth adapter** | USB-RS232 cable, often with OTG adapter |
 | Extra hardware | **none** – just the Bluetooth adapter on the Daum | cable, sometimes a Raspberry Pi |
-| Setup | install app, pair adapter, start | cable, drivers, sometimes Linux skills |
+| Setup | install app, pair adapter, connect | cable, drivers, sometimes Linux skills |
 | Phone placement | **anywhere**, e.g. on the handlebar or a table | tied to the cable |
 | Cost | **free** | varies |
 
@@ -50,21 +50,25 @@ The original Daum adapter is sold out? A standard [Bluetooth RS232 adapter](docs
 
 - **Smart trainer via Bluetooth FTMS** – ERG mode (target watts), slope simulation (SIM) and resistance
 - **Sends** power, cadence, speed and heart rate to your training app
-- **Bluetooth heart rate strap** (e.g. Polar H9/H10, Garmin, Wahoo) – DaumBridge reads the strap and passes the heart rate on
+- **Bluetooth heart rate strap** (e.g. Polar H9/H10, Garmin, Wahoo) – DaumBridge reads the strap and passes the heart rate on; heart beating with your pulse, strap battery level. The Daum's inaccurate heart rate receiver is ignored by default
+- **Live chart** with **auto-zoom**: power, cadence (own scale on the right) and heart rate each fill about 80 % of their area; swipe to scroll back, double-tap = live
+- **Landscape** – turn the phone sideways: on the left a narrow column with duration, power, heart rate, cadence, speed and distance in large bold numbers, on the right the large chart with heart-rate zones as coloured bands. Pinch to zoom (1–30 min). Heart-rate tile in the colour of the current zone, square buttons for **auto-pause** and **zones**
+- **View saved rides** – every ride in landscape with averages and maximums, chart of the whole ride and time in heart-rate zones
 - **Rider profiles** – date of birth, weight, FTP, heart rate strap and heart rate zones per person
-- **Heart rate zones** – calculated from your max heart rate or set manually
-- **Zone colours** – heart rate and power tiles change colour by zone, a bar shows your time in each heart rate zone
-- **Live chart** – tap the logo, it flips over and shows power, cadence and heart rate; swipe to scroll back, double-tap = live
-- **Landscape** – turn the phone sideways: on the left a narrow column with duration, power, heart rate, cadence, speed and distance in large bold numbers; on the right the large chart (four fifths of the width) with heart-rate zones as coloured bands and a moving dot. Pinch to zoom, swipe to scroll back, double-tap = live. The heart-rate tile takes on the colour of the current zone and shows its name, next to it the heart and the strap battery. Square buttons for **auto-pause** and the **time in heart-rate zones** bar. Turn upright = back, the ride keeps going
-- **Clock starts with the first pedal stroke, auto-pause** – pauses don't count, toggle right in the duration card
-- **Rides to your iPhone** – via LocalSend over Wi-Fi (automatically after every ride) or by e-mail
+- **Heart rate zones** – with resting heart rate (Karvonen) or % of max, automatic or set manually; zone colours and a **time in zones** bar (proportional to the time ridden)
+- **Clock starts with the first pedal stroke, auto-pause** – pauses don't count
+- **Rides to your iPhone** via **LocalSend** over Wi-Fi (also automatically after every ride), **by e-mail** or via **share** (Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …) as a **FIT file**
 - **Summary** after each ride (duration, distance, power, Normalized Power, kJ, heart rate, zones)
-- **Share rides as FIT files** – to Telegram, Google Drive, Dropbox, Synology, MaxUp, Strava …; all rides stay saved on the phone (menu ☰ → Trainings)
 - **Reconnects automatically** if the Daum adapter or the heart rate strap drops out
 - **Simulator strength** – make climbs feel easier if you like
-- **Light and dark mode**, scroll wheels instead of keyboard input
-- **Updates** – the app tells you when a new version is available
+- **Light and dark mode**, scroll wheels instead of keyboard input, **updates** announced by the app
 
+<p align="center">
+<img src="bilder/09_quer_training.png" width="720" alt="Landscape">
+</p>
+<p align="center">
+<img src="bilder/10_quer_pulszonen.png" width="720" alt="Saved ride in landscape">
+</p>
 <p align="center">
 <img src="bilder/02_einstellungen.png" width="240" alt="Settings">
 <img src="bilder/04_pulszonen.png" width="240" alt="Heart rate zones">
